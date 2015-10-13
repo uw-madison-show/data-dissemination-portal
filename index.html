@@ -12,11 +12,17 @@
     <!-- CDN fallbacks to local copies -->
     <script>
       if (!window.jQuery) {
-        document.write('<script src="/js/jquery-2.1.4.min.js"><\/script>')
+        document.write('<script src="./js/jquery-2.1.4.min.js"><\/script>')
       } else {
+        var bootstrap_css = false;
         $.each(document.styleSheets, function(i,sheet){
-          alert(sheet.href)
-          // $('<link rel="stylesheet" type="text/css" href="path/to/local/jquery.mobile-1.0b3.min.css" />').appendTo('head');
+          // alert(sheet.href)
+          if (sheet.href == "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css") {
+            bootstrap_css = true;
+          }
+          if (!bootstrap_css) {
+            $('<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.js" />').appendTo('head');
+          }
         })
       }
       

@@ -1,8 +1,31 @@
 <html>
   <head>
-    <title>Untitled</title>
+    <title>SHOW Data</title>
+
+    <!-- jQuery -->
+    <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+    
+    <!-- Bootstrap -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    
+    <!-- CDN fallbacks to local copies -->
+    <script>
+      if (!window.jQuery) {
+        document.write('<script src="/js/jquery-2.1.4.min.js"><\/script>')
+      } else {
+        $.each(document.styleSheets, function(i,sheet){
+          alert(sheet.href)
+          // $('<link rel="stylesheet" type="text/css" href="path/to/local/jquery.mobile-1.0b3.min.css" />').appendTo('head');
+        })
+      }
+      
+      if (!window.jQuery.fn.modal) {
+        document.write('<script src="/js/bootstrap.min.js"><\/script>')
+      }
+    </script>
   </head>
   <body>
-
+    <h1>hello world</h1>
   </body>
 </html>

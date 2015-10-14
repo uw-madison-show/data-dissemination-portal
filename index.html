@@ -40,9 +40,9 @@
         var bootstrap_css = false;
         $.each(document.styleSheets, function(i,sheet){
           // alert(sheet.href)
-          var pat = new RegExp("maxcdn\.bootstrapcdn\.com/.+/bootstrap.+\.css")
+          var pat = new RegExp("maxcdn\.bootstrapcdn\.com/.+/bootstrap.+\.css");
           //if (sheet.href == "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css") {
-          alert(pat + " " + " " + pat.test(sheet.href))
+          alert(pat + " " + " " + pat.test(sheet.href));
           if (pat.test(sheet.href)) {
             bootstrap_css = true;
           }
@@ -54,7 +54,7 @@
       }
       
       if (!window.jQuery.fn.modal) {
-        document.write('<script src="/js/bootstrap.min.js"><\/script>')
+        document.write('<script src="/js/bootstrap.min.js"><\/script>');
       }
     </script>
   </head>

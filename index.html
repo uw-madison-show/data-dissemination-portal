@@ -1,6 +1,29 @@
-<html>
+<!DOCTYPE html>
+<html lang="en" class=" is-copy-enabled">
   <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Area for data dissemination from the Survey of the Health of Wisconsin (SHOW).">
+    <meta name="author" content="Survey of the Health of Wisconsin">
+
+
     <title>SHOW Data</title>
+
+
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+
+    <!-- Icons -->
+    <link rel="fluid-icon" href="" title="SHOW">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient>
+    <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
 
     <!-- jQuery -->
     <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
@@ -17,8 +40,12 @@
         var bootstrap_css = false;
         $.each(document.styleSheets, function(i,sheet){
           // alert(sheet.href)
-          if (sheet.href == "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css") {
+          var pat = new RegExp("maxcdn\.bootstrapcdn\.com/.+/bootstrap.+\.css");
+          //if (sheet.href == "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css") {
+          alert(pat + " " + " " + pat.test(sheet.href));
+          if (pat.test(sheet.href)) {
             bootstrap_css = true;
+          }
           }
           if (!bootstrap_css) {
             $('<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.js" />').appendTo('head');
@@ -27,11 +54,50 @@
       }
       
       if (!window.jQuery.fn.modal) {
-        document.write('<script src="/js/bootstrap.min.js"><\/script>')
+        document.write('<script src="/js/bootstrap.min.js"><\/script>');
       }
     </script>
   </head>
-  <body>
-    <h1>hello world</h1>
+  <body id="page-top" class="index">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">skip to</a>
+
+    <header>
+    <nav role="navigation" class="navbar navbar-sm navbar-default navbar-fixed-top">
+
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <span class="navbar-brand">SHOW Data Dissemination</span>
+      </div>
+
+      <!-- Collection of nav links and other content for toggling -->
+      <div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class=""><a href="#">Home</a></li>
+          <li class=""><a href="/charts">Charts</a></li>
+          <li class=""><a href="/codebooks">Codebooks</a></li>
+          <li class=""><a href="/documents">Documentation</a></li>
+          <li class=""><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="cookies" class="alert alert-dismissable alert-warning hidden-print" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <p>
+        We use cookies on your computer to help make this website better. More details can be found in our <a class="simpleLink" href="/documents/privacy">privacy policy</a>
+      </p>
+    </div>
+
+  </header>
+
+    <h1>hello worlds</h1>
   </body>
 </html>

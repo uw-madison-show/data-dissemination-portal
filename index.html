@@ -46,11 +46,10 @@
           if (pat.test(sheet.href)) {
             bootstrap_css = true;
           }
-          }
-          if (!bootstrap_css) {
-            $('<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.js" />').appendTo('head');
-          }
-        })
+        });
+        if (!bootstrap_css) {
+          $('<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.js" />').appendTo('head');
+        }
       }
       
       if (!window.jQuery.fn.modal) {

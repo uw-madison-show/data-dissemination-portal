@@ -54,6 +54,27 @@
         document.write('<script src="/js/bootstrap.min.js"><\/script>');
       }
     </script>
+
+    <style type="text/css">
+      .col-fixed-240{
+          width:240px;
+          background:red;
+          position:fixed;
+          height:100%;
+      }
+
+      .col-fixed-160{
+          margin-left:240px;
+          width:160px;
+          background:blue;
+          position:fixed;
+          height:100%;
+      }
+
+      .col-offset-400{
+          padding-left:415px;
+      }
+    </style>
   </head>
   <body id="page-top" class="index">
     <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">skip to</a>
@@ -85,6 +106,19 @@
       </nav>
 
     </header>
+
+    <div class="container">
+    <div class="row">
+        <div class="col-fixed-240">Fixed 240px</div>
+        <div class="col-fixed-160">Fixed 160px</div>
+        <div class="col-md-12 col-offset-400">
+            <div class="row">
+            Standard grid system content here
+            </div>
+        </div>
+    </div>
+</div>
+
 
     
     

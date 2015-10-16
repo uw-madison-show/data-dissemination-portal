@@ -22,11 +22,18 @@ module.exports = function(grunt) {
           keepalive: true
         }
       }
+    },
+    open: {
+      all: {
+        // Gets the port from the connect configuration
+        path: 'http://localhost:<%= connect.all.options.port%>'
+      }
     }
   });
 
   // Creates the `server` task
-  grunt.registerTask('server',[
+  grunt.registerTask('serve',[
+    'open',
     'connect'
   ]);
 };

@@ -65,20 +65,21 @@
           position:fixed;
           height:100%;
       }
-
       .col-fixed-160{
           margin-left:240px;
           width:160px;
-          background:blue;
+          background:lightgray;
           position:fixed;
           height:100%;
       }
       .col-offset-400{
           padding-left:415px;
       }
-      #codebook-iframe{
-        height:900px;
-        width: 100%;
+      .embed-full {
+        position: relative;
+        padding-bottom: 100%;
+        padding-top: 15px;
+        height: 0;
       }
     </style>
   </head>
@@ -115,7 +116,7 @@
 
 
     <div class="container-fluid" style="height:100%;">
-    <div class="row">
+    <div class="row" style="height:100%;">
         <div class="col-fixed-240">
           <ul>
             <li>Fixed 240px</li>
@@ -130,8 +131,8 @@
         </div>
         <div class="col-md-12 col-offset-400">
             <div class="row">
-              <div class="col-md-12">
-                <iframe id="codebook-iframe" src="./instruments/CHRONIC_DER_2014.html">Your browser does not support iFrames.</iframe>
+              <div class="embed-responsive embed-full">
+                <iframe id="codebook-iframe" class="embed-responsive-item" src="./instruments/CHRONIC_DER_2014.html">Your browser does not support iFrames.</iframe>
               </div>
             </div>
         </div>

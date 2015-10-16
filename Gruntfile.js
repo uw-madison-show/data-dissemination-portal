@@ -12,28 +12,73 @@ module.exports = function(grunt) {
 
     // grunt-contrib-connect will serve the files of the project
     // on specified port and hostname
-    connect: {
-      all: {
-        options:{
-          port: 9000,
-          hostname: "0.0.0.0",
-          // Prevents Grunt to close just after the task (starting the server) completes
-          // This will be removed later as `watch` will take care of that
-          keepalive: true
+     connect: {
+      options: {
+        port: 9000,
+        open: true,
+        livereload: 35729,
+        // Change this to '0.0.0.0' to access the server from outside
+        hostname: 'localhost'
+      },
+      livereload: {
+        options: {
+          middleware: function(connect) {
+            return [
+              connect.static('.tmp'),
+              connect().use('/bower_components', connect.static('./bower_components')),
+              connect.static('/')
+            ];
+          }
         }
       }
     },
+
+
+    // grunt-open will open your browser at the project's URL
     open: {
       all: {
         // Gets the port from the connect configuration
         path: 'http://localhost:<%= connect.all.options.port%>'
       }
+    },
+
+    // Add vendor prefixed styles
+    autoprefixer: {
+      options: {
+        browsers: ['> 1%', 'last 2 versions', 'Firefox ESR', 'Opera 12.1']
+      },
+      dist: {
+        files: [{
+          expand: true,
+          cwd: '.tmp/styles/',
+          src: '{,*/}*.css',
+          dest: '.tmp/styles/'
+        }]
+      }
+    },
+
+    watch: {
+      livereload: {
+        options: {
+          livereload: true
+        },
+        files: [
+          '/{,*/}*.html',
+          '/{,*/}*.css',
+          '/{,*/}*.js'
+        ] 
+      }
     }
   });
 
-  // Creates the `server` task
-  grunt.registerTask('serve',[
-    'open',
-    'connect'
-  ]);
+  // Creates the `serve` task
+  grunt.registerTask('serve', 'start the server and preview your app', 
+                     function (target) {
+    grunt.task.run([
+      'concurrent:server',
+      'autoprefixer',
+      'connect:livereload',
+      'watch'
+    ]);
+  });
 };

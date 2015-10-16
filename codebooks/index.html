@@ -74,6 +74,7 @@
       }
       .col-offset-400{
           padding-left:415px;
+          z-index: -99;
       }
       .embed-full {
         position: relative;
@@ -115,32 +116,51 @@
 
 
 
-    <div class="container-fluid" style="height:100%;">
-    <div class="row" style="height:100%;">
-        <div class="col-fixed-240">
-          <ul>
-            <li>Fixed 240px</li>
-            <li>item two</li>
-          </ul>
-        </div>
-        <div class="col-fixed-160">
-          <ul>
-            <li>fixed theis</li>
-            <li>item four</li>
-          </ul>
-        </div>
-        <div class="col-md-12 col-offset-400">
-            <div class="row">
-              <div class="embed-responsive embed-full">
-                <iframe id="codebook-iframe" class="embed-responsive-item" src="./instruments/CHRONIC_DER_2014.html">Your browser does not support iFrames.</iframe>
-              </div>
+    <div class="container-fluid">
+    <div class="row">
+      <div class="col-fixed-240">
+        <ul id="instrument-list">
+          <li class="instrument-list-item">
+            <a href="#"
+               id="CHRONIC"
+               data-codebooks="{instr:'CHRONIC', title: 'Chronic Health Conditions', raw: [2008_2009, 2010, 2011, 2012, 2013, 2014], derived: [2008_2009, 2010, 2011, 2012, 2013, 2014]}"
+               class="instrument-list-item-link"
+               title="Chronic disease instrument measures 7 leading chronic diseases."
+               >Chronic Disease</a>
+          </li>
+          <li>item two</li>
+        </ul>
+      </div>
+      <div class="col-fixed-160">
+        <ul id="codebook-list">
+        </ul>
+      </div>
+      <div class="col-md-12 col-offset-400">
+          <div class="row">
+            <div class="embed-responsive embed-full">
+              <iframe id="codebook-iframe" class="embed-responsive-item" src="./instruments/CHRONIC_DER_2014.html">Your browser does not support iFrames.</iframe>
             </div>
-        </div>
+          </div>
+      </div>
     </div>
-</div>
+    </div>
 
+  <script type="text/javascript">
+    $(document).ready( function() {
+      console.log('hello world');
 
-    
-    
+      var instrumentClicked = function(e) 
+      {
+        console.log('function ready');
+        e.preventDefault();
+        console.log($(this).data("codebooks"));
+        // take the data element and turn it into buttons/links that will populate the iframe
+      }
+
+      // listeners
+      $('a.instrument-list-item-link').click( instrumentClicked );
+    }); // end document ready
+  </script>
   </body>
+
 </html>

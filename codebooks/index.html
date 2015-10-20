@@ -152,15 +152,32 @@
         cb = $(this).data("codebooks");
         console.log(cb);
         
-        // $('#codebook-list').empty();
+        $('#codebook-list').empty();
 
-        $.each( cb, function(key, value) {
+        $.each( cb, function(key, this_codebook) {
           console.log( key );
-          console.log( value );
+          console.log( this_codebook );
+          
+          var cb_year = this_codebook.instr.toUpperCase() + '_' + this_codebook.year;
+
           $('#codebook-list').append(
-            $('<li>)').append('boo')
-          );
-        });
+            $('<li>)').addClass('codebook-list-item').append(
+              $('<a>').attr('href', '#')
+                      .attr('id', cb_year)
+                      .attr('class', 'codebook-list-item-link')
+                      .text(cb_year)
+          ));
+        }); // end for each over cb
+
+      loadListeners();
+      }
+
+      var codebookClicked = function(e)
+      {
+        console.log($(this));
+        e.preventDefault();
+
+        $('#codebook-iframe').attr('src', './instruments/' + this.id + '.html');
 
       }
 
@@ -168,6 +185,7 @@
       var loadListeners = function ()
       {
         $('a.instrument-list-item-link').click( instrumentClicked );
+        $('a.codebook-list-item-link').click( codebookClicked );
       }
 
       // on load 

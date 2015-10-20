@@ -57,33 +57,71 @@
 
     <style type="text/css">
       body {
-        padding-top: 51px;
+        
       }
-      .col-fixed-240{
-          width:240px;
+      .container-fluid{
+        
+      }
+      .full-page{
+        position: fixed;
+        top: 50px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: auto;
+        width: 100%;
+      }
+      .row-fill{
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        width: inherit;
+        overflow: auto;
+      }
+      .col-fixed-1{
+          position: fixed;
+          top: 50px;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          width: 300px;
+          height: inherit;
           background:lightblue;
-          position:fixed;
-          height:100%;
           overflow-y: scroll;
+          overflow-x: hidden;
       }
-      .col-fixed-160{
-          margin-left:240px;
-          width:160px;
+      .col-fixed-2{
+          position: fixed;
+          top: 50px;
+          left: 300px;
+          right: 0;
+          bottom: 0;
+          width: 300px;
+          height: inherit;
           background:lightgray;
-          position:fixed;
-          height:100%;
+          overflow-y: scroll;
+          overflow-x: hidden;
       }
-      .col-offset-400{
-          margin-left:412px;
+      .col-fixed-3{
+          position: fixed;
+          top: 50px;
+          left: 600px;
+          right: 0;
+          bottom: 0;
+          height: inherit;
+          overflow: hidden;
+          padding: 5px;
       }
       .embed-full{
-        position: relative;
-        padding-bottom: 95%;
-        padding-top: 15px;
-        height: 0;
+        height: 100%;
+        overflow: auto;
       }
       #codebook-iframe{
-        overflow: scroll;
+        height: 98%;
+        width: inherit;
       }
     </style>
   </head>
@@ -120,19 +158,19 @@
 
 
     <div class="container-fluid">
-    <div class="row">
-      <div class="col-fixed-240">
+    <div class="row full-page" >
+      <div class="col-fixed-1">
         <ul id="instrument-list">
         </ul>
       </div>
-      <div class="col-fixed-160">
+      <div class="col-fixed-2">
         <ul id="codebook-list">
         </ul>
       </div>
-      <div class="col-md-12 col-offset-400">
-          <div class="row">
-            <div class="embed-responsive embed-full">
-              <iframe id="codebook-iframe" class="embed-responsive-item" src="./instruments/CHRONIC_DER_2014.html">Your browser does not support iFrames.</iframe>
+      <div class="col-fixed-3">
+          <div class="row row-fill">
+            <div class="col-xs-12 embed-full">
+              <iframe id="codebook-iframe">Your browser does not support iFrames.</iframe>
             </div>
           </div>
       </div>

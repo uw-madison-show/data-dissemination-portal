@@ -31,7 +31,7 @@
     <!-- Bootstrap -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
-    
+
     <!-- CDN fallbacks to local copies -->
     <script>
       if (!window.jQuery) {
@@ -64,6 +64,7 @@
           background:lightblue;
           position:fixed;
           height:100%;
+          overflow-y: scroll;
       }
       .col-fixed-160{
           margin-left:240px;
@@ -73,14 +74,16 @@
           height:100%;
       }
       .col-offset-400{
-          padding-left:415px;
-          z-index: -99;
+          margin-left:412px;
       }
-      .embed-full {
+      .embed-full{
         position: relative;
-        padding-bottom: 100%;
+        padding-bottom: 95%;
         padding-top: 15px;
         height: 0;
+      }
+      #codebook-iframe{
+        overflow: scroll;
       }
     </style>
   </head>
@@ -120,15 +123,6 @@
     <div class="row">
       <div class="col-fixed-240">
         <ul id="instrument-list">
-          <li class="instrument-list-item">
-            <a href="#"
-               id="CHRONIC"
-               data-codebooks="{instr:'CHRONIC', title: 'Chronic Health Conditions', raw: [2008_2009, 2010, 2011, 2012, 2013, 2014], derived: [2008_2009, 2010, 2011, 2012, 2013, 2014]}"
-               class="instrument-list-item-link"
-               title="Chronic disease instrument measures 7 leading chronic diseases."
-               >Chronic Disease</a>
-          </li>
-          <li>item two</li>
         </ul>
       </div>
       <div class="col-fixed-160">
@@ -149,16 +143,50 @@
     $(document).ready( function() {
       console.log('hello world');
 
+
+      // functions
       var instrumentClicked = function(e) 
       {
         console.log('function ready');
         e.preventDefault();
-        console.log($(this).data("codebooks"));
-        // take the data element and turn it into buttons/links that will populate the iframe
+        cb = $(this).data("codebooks");
+        console.log(cb);
+        
+        // $('#codebook-list').empty();
+
+        $.each( cb, function(key, value) {
+          console.log( key );
+          console.log( value );
+          $('#codebook-list').append(
+            $('<li>)').append('boo')
+          );
+        });
+
       }
 
-      // listeners
-      $('a.instrument-list-item-link').click( instrumentClicked );
+      // listeners are in a function due to loading json via ajax
+      var loadListeners = function ()
+      {
+        $('a.instrument-list-item-link').click( instrumentClicked );
+      }
+
+      // on load 
+      $.getJSON( 'codebook_menu.json' , function( instruments ) {
+        // make the menu items
+        $.each( instruments, function(key, value) {
+          // console.log( key );
+          // console.log( value );
+          $('#instrument-list').append(
+            $('<li>').addClass('instrument-list-item').append(
+              $('<a>').attr('href', '#')
+                      .attr('id', key)
+                      .attr('data-codebooks', JSON.stringify(value))
+                      .attr('class', 'instrument-list-item-link')
+                      .text(key)
+          ));
+        });
+      }).done( loadListeners );
+
     }); // end document ready
   </script>
   </body>

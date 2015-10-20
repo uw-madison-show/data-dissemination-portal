@@ -31,7 +31,7 @@
     <!-- Bootstrap -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
-    
+
     <!-- CDN fallbacks to local copies -->
     <script>
       if (!window.jQuery) {
@@ -57,30 +57,71 @@
 
     <style type="text/css">
       body {
-        padding-top: 51px;
+        
       }
-      .col-fixed-240{
-          width:240px;
-          background:lightblue;
-          position:fixed;
-          height:100%;
+      .container-fluid{
+        
       }
-      .col-fixed-160{
-          margin-left:240px;
-          width:160px;
-          background:lightgray;
-          position:fixed;
-          height:100%;
+      .full-page{
+        position: fixed;
+        top: 50px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: auto;
+        width: 100%;
       }
-      .col-offset-400{
-          padding-left:415px;
-          z-index: -99;
-      }
-      .embed-full {
+      .row-fill{
         position: relative;
-        padding-bottom: 100%;
-        padding-top: 15px;
-        height: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        width: inherit;
+        overflow: auto;
+      }
+      .col-fixed-1{
+          position: fixed;
+          top: 50px;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          width: 300px;
+          height: inherit;
+          background:lightblue;
+          overflow-y: scroll;
+          overflow-x: hidden;
+      }
+      .col-fixed-2{
+          position: fixed;
+          top: 50px;
+          left: 300px;
+          right: 0;
+          bottom: 0;
+          width: 300px;
+          height: inherit;
+          background:lightgray;
+          overflow-y: scroll;
+          overflow-x: hidden;
+      }
+      .col-fixed-3{
+          position: fixed;
+          top: 50px;
+          left: 600px;
+          right: 0;
+          bottom: 0;
+          height: inherit;
+          overflow: hidden;
+          padding: 5px;
+      }
+      .embed-full{
+        height: 100%;
+        overflow: auto;
+      }
+      #codebook-iframe{
+        height: 98%;
+        width: inherit;
       }
     </style>
   </head>
@@ -117,28 +158,19 @@
 
 
     <div class="container-fluid">
-    <div class="row">
-      <div class="col-fixed-240">
+    <div class="row full-page" >
+      <div class="col-fixed-1">
         <ul id="instrument-list">
-          <li class="instrument-list-item">
-            <a href="#"
-               id="CHRONIC"
-               data-codebooks="{instr:'CHRONIC', title: 'Chronic Health Conditions', raw: [2008_2009, 2010, 2011, 2012, 2013, 2014], derived: [2008_2009, 2010, 2011, 2012, 2013, 2014]}"
-               class="instrument-list-item-link"
-               title="Chronic disease instrument measures 7 leading chronic diseases."
-               >Chronic Disease</a>
-          </li>
-          <li>item two</li>
         </ul>
       </div>
-      <div class="col-fixed-160">
+      <div class="col-fixed-2">
         <ul id="codebook-list">
         </ul>
       </div>
-      <div class="col-md-12 col-offset-400">
-          <div class="row">
-            <div class="embed-responsive embed-full">
-              <iframe id="codebook-iframe" class="embed-responsive-item" src="./instruments/CHRONIC_DER_2014.html">Your browser does not support iFrames.</iframe>
+      <div class="col-fixed-3">
+          <div class="row row-fill">
+            <div class="col-xs-12 embed-full">
+              <iframe id="codebook-iframe">Your browser does not support iFrames.</iframe>
             </div>
           </div>
       </div>
@@ -149,16 +181,68 @@
     $(document).ready( function() {
       console.log('hello world');
 
+
+      // functions
       var instrumentClicked = function(e) 
       {
         console.log('function ready');
         e.preventDefault();
-        console.log($(this).data("codebooks"));
-        // take the data element and turn it into buttons/links that will populate the iframe
+        cb = $(this).data("codebooks");
+        console.log(cb);
+        
+        $('#codebook-list').empty();
+
+        $.each( cb, function(key, this_codebook) {
+          console.log( key );
+          console.log( this_codebook );
+          
+          var cb_year = this_codebook.instr.toUpperCase() + '_' + this_codebook.year;
+
+          $('#codebook-list').append(
+            $('<li>)').addClass('codebook-list-item').append(
+              $('<a>').attr('href', '#')
+                      .attr('id', cb_year)
+                      .attr('class', 'codebook-list-item-link')
+                      .text(cb_year)
+          ));
+        }); // end for each over cb
+
+      loadListeners();
       }
 
-      // listeners
-      $('a.instrument-list-item-link').click( instrumentClicked );
+      var codebookClicked = function(e)
+      {
+        console.log($(this));
+        e.preventDefault();
+
+        $('#codebook-iframe').attr('src', './instruments/' + this.id + '.html');
+
+      }
+
+      // listeners are in a function due to loading json via ajax
+      var loadListeners = function ()
+      {
+        $('a.instrument-list-item-link').click( instrumentClicked );
+        $('a.codebook-list-item-link').click( codebookClicked );
+      }
+
+      // on load 
+      $.getJSON( 'codebook_menu.json' , function( instruments ) {
+        // make the menu items
+        $.each( instruments, function(key, value) {
+          // console.log( key );
+          // console.log( value );
+          $('#instrument-list').append(
+            $('<li>').addClass('instrument-list-item').append(
+              $('<a>').attr('href', '#')
+                      .attr('id', key)
+                      .attr('data-codebooks', JSON.stringify(value))
+                      .attr('class', 'instrument-list-item-link')
+                      .text(key)
+          ));
+        });
+      }).done( loadListeners );
+
     }); // end document ready
   </script>
   </body>

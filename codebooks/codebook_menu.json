@@ -1,0 +1,3024 @@
+{
+  "Accelerometry":[
+    {
+      "instr":"ACC",
+      "year":"2014",
+      "title":"Accelerometry (ACC)",
+      "subject":"Accelerometry participation"
+    },
+    {
+      "instr":"ACM",
+      "year":"2014",
+      "title":"Accelerometry for minors (ACM)",
+      "subject":"Accelerometry participation for minors"
+    },
+    {
+      "instr":"ACTA",
+      "year":"2014",
+      "title":"Accelerometry Derived Output",
+      "subject":"Accelerometry"
+    }
+  ],
+  "Alcohol":[
+    {
+      "instr":"ALQ",
+      "year":"2010",
+      "title":"History of drinking alcoholic beverage (ALQ)",
+      "subject":"Alcohol use"
+    },
+    {
+      "instr":"ALQ",
+      "year":"2011",
+      "title":"History of drinking alcoholic beverage (ALQ)",
+      "subject":"Alcohol use"
+    },
+    {
+      "instr":"ALQ",
+      "year":"2012",
+      "title":"History of drinking alcoholic beverage (ALQ)",
+      "subject":"Alcohol use"
+    },
+    {
+      "instr":"ALQ",
+      "year":"2013",
+      "title":"History of drinking alcoholic beverage (ALQ)",
+      "subject":"Alcohol use"
+    },
+    {
+      "instr":"ALQ",
+      "year":"2014",
+      "title":"History of drinking alcoholic beverage (ALQ)",
+      "subject":"Alcohol Use"
+    },
+    {
+      "instr":"ALQ_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - Alcohol (ALQ_DER)",
+      "subject":"Alcohol Use"
+    },
+    {
+      "instr":"ALQ_DER",
+      "year":"2010",
+      "title":"Derived Variables - Alcohol (ALQ_DER)",
+      "subject":"Alcohol Use"
+    },
+    {
+      "instr":"ALQ_DER",
+      "year":"2011",
+      "title":"Derived Variables - Alcohol (ALQ_DER)",
+      "subject":"Alcohol Use"
+    },
+    {
+      "instr":"ALQ_DER",
+      "year":"2012",
+      "title":"Derived Variables - Alcohol (ALQ_DER)",
+      "subject":"Alcohol Use"
+    },
+    {
+      "instr":"ALQ_DER",
+      "year":"2013",
+      "title":"Derived Variables - Alcohol (ALQ_DER)",
+      "subject":"Alcohol Use"
+    },
+    {
+      "instr":"ALQ_DER",
+      "year":"2014",
+      "title":"Derived Variables - Alcohol (ALQ_DER)",
+      "subject":"Alcohol Use"
+    }
+  ],
+  "Bioimpedance":[
+    {
+      "instr":"BIA",
+      "year":"2008_2009",
+      "title":"Bioimpedance Analysis (BIA)",
+      "subject":"Bioimpedance Analysis"
+    },
+    {
+      "instr":"BIA",
+      "year":"2010",
+      "title":"Bioimpedance Analysis (BIA)",
+      "subject":"Bioimpedance Analysis"
+    },
+    {
+      "instr":"BIA",
+      "year":"2011",
+      "title":"Bioimpedance Analysis (BIA)",
+      "subject":"Bioimpedance Analysis"
+    },
+    {
+      "instr":"BIA",
+      "year":"2012",
+      "title":"Bioimpedance Analysis (BIA)",
+      "subject":"Bioimpedance Analysis"
+    },
+    {
+      "instr":"BIA",
+      "year":"2013",
+      "title":"Bioimpedance Analysis (BIA)",
+      "subject":"Bioimpedance Analysis"
+    }
+  ],
+  "Body Measures":[
+    {
+      "instr":"ANT",
+      "year":"2008_2009",
+      "title":"Anthropometry & Blood Pressure (WHQ/ANT/BP)",
+      "subject":"Anthropometry & Blood pressure"
+    },
+    {
+      "instr":"ANT",
+      "year":"2010",
+      "title":"Anthropometry & Blood Pressure (WHQ/ANT/BP)",
+      "subject":"Anthropometry & Blood pressure"
+    },
+    {
+      "instr":"ANT",
+      "year":"2011",
+      "title":"Anthropometry & Blood Pressure (WHQ/ANT/BP)",
+      "subject":"Anthropometry & Blood pressure"
+    },
+    {
+      "instr":"ANT",
+      "year":"2012",
+      "title":"Anthropometry & Blood Pressure (WHQ/ANT/BP)",
+      "subject":"Anthropometry & Blood pressure"
+    },
+    {
+      "instr":"ANT",
+      "year":"2013",
+      "title":"Anthropometry & Blood Pressure (WHQ/ANT/BP)",
+      "subject":"Anthropometry & Blood pressure"
+    },
+    {
+      "instr":"ANT",
+      "year":"2014",
+      "title":"Anthropometry & Blood Pressure (WHQ/ANT/BP)",
+      "subject":"Anthropometry & Blood pressure"
+    },
+    {
+      "instr":"ANT_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - Anthropometry & Blood Pressure (ANT_DER)",
+      "subject":"Anthropometry & Blood Pressure"
+    },
+    {
+      "instr":"ANT_DER",
+      "year":"2010",
+      "title":"Derived Variables - Anthropometry & Blood Pressure (ANT_DER)",
+      "subject":"Anthropometry & Blood Pressure"
+    },
+    {
+      "instr":"ANT_DER",
+      "year":"2011",
+      "title":"Derived Variables - Anthropometry & Blood Pressure (ANT_DER)",
+      "subject":"Anthropometry & Blood Pressure"
+    },
+    {
+      "instr":"ANT_DER",
+      "year":"2012",
+      "title":"Derived Variables - Anthropometry & Blood Pressure (ANT_DER)",
+      "subject":"Anthropometry & Blood Pressure"
+    },
+    {
+      "instr":"ANT_DER",
+      "year":"2013",
+      "title":"Derived Variables - Anthropometry & Blood Pressure (ANT_DER)",
+      "subject":"Anthropometry & Blood Pressure"
+    },
+    {
+      "instr":"ANT_DER",
+      "year":"2014",
+      "title":"Derived Variables - Anthropometry & Blood Pressure (ANT_DER)",
+      "subject":"Anthropometry & Blood Pressure"
+    },
+    {
+      "instr":"PMM",
+      "year":"2014",
+      "title":"Physical Measurments in Minors (PMM)",
+      "subject":"Anthropometry, blood pressure & spirometry testing"
+    },
+    {
+      "instr":"PMM_DER",
+      "year":"2014",
+      "title":"Derived Variables - Physical Measurments in Minors (PMM_DER)",
+      "subject":"Anthropometry, blood pressure & spirometry testing"
+    }
+  ],
+  "Built Environment":[
+    {
+      "instr":"SBE",
+      "year":"2009",
+      "title":"Wisconsin Assessment of the Social and Built Environment",
+      "subject":"Social and Built Environment"
+    },
+    {
+      "instr":"SBE",
+      "year":"2010",
+      "title":"Wisconsin Assessment of the Social and Built Environment",
+      "subject":"Social and Built Environment"
+    },
+    {
+      "instr":"SBE_DER",
+      "year":"2009",
+      "title":"Wisconsin Assessment of the Social and Built Environment (SBE_DER)",
+      "subject":"Social and Built Environment"
+    },
+    {
+      "instr":"SBE_DER",
+      "year":"2010",
+      "title":"Wisconsin Assessment of the Social and Built Environment (SBE_DER)",
+      "subject":"Social and Built Environment"
+    }
+  ],
+  "Cardiovascular":[
+    {
+      "instr":"CVH_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - Cardiovascular Health",
+      "subject":"Cardiovascular Health Index"
+    },
+    {
+      "instr":"CVH_DER",
+      "year":"2010",
+      "title":"Derived Variables - Cardiovascular Health",
+      "subject":"Cardiovascular Health Index"
+    },
+    {
+      "instr":"CVH_DER",
+      "year":"2011",
+      "title":"Derived Variables - Cardiovascular Health",
+      "subject":"Cardiovascular Health Index"
+    },
+    {
+      "instr":"CVH_DER",
+      "year":"2012",
+      "title":"Derived Variables - Cardiovascular Health",
+      "subject":"Cardiovascular Health Index"
+    },
+    {
+      "instr":"CVH_DER",
+      "year":"2013",
+      "title":"Derived Variables - Cardiovascular Health",
+      "subject":"Cardiovascular Health Index"
+    }
+  ],
+  "Caregiving":[
+    {
+      "instr":"CGQ",
+      "year":"2008-2009",
+      "title":"Caregiving (CGQ)",
+      "subject":"Caregiving Experience"
+    },
+    {
+      "instr":"CGQ",
+      "year":"2010",
+      "title":"Caregiving (CGQ)",
+      "subject":"Caregiving Experience"
+    },
+    {
+      "instr":"CGQ",
+      "year":"2011",
+      "title":"Caregiving (CGQ)",
+      "subject":"Caregiving Experience"
+    },
+    {
+      "instr":"CGQ",
+      "year":"2012",
+      "title":"Caregiving (CGQ)",
+      "subject":"Caregiving Experience"
+    },
+    {
+      "instr":"CGQ",
+      "year":"2013",
+      "title":"Caregiving (CGQ)",
+      "subject":"Caregiving Experience"
+    }
+  ],
+  "Chronic Health":[
+    {
+      "instr":"CHRONIC",
+      "year":"2008_2009",
+      "title":"Devived Variables - Chronic Health Conditions",
+      "subject":"Self-reported Chronic Health Conditions"
+    },
+    {
+      "instr":"CHRONIC",
+      "year":"2010",
+      "title":"Devived Variables - Chronic Health Conditions",
+      "subject":"Self-reported Chronic Health Conditions"
+    },
+    {
+      "instr":"CHRONIC",
+      "year":"2011",
+      "title":"Devived Variables - Chronic Health Conditions",
+      "subject":"Self-reported Chronic Health Conditions"
+    },
+    {
+      "instr":"CHRONIC",
+      "year":"2012",
+      "title":"Devived Variables - Chronic Health Conditions",
+      "subject":"Self-reported Chronic Health Conditions"
+    },
+    {
+      "instr":"CHRONIC_DER",
+      "year":"2013",
+      "title":"Derived Variables - Chronic Health Conditions",
+      "subject":"Self-reported Chronic Health Conditions"
+    },
+    {
+      "instr":"CHRONIC_DER",
+      "year":"2014",
+      "title":"Derived Variables - Chronic Health Conditions",
+      "subject":"Self-reported Chronic Health Conditions"
+    }
+  ],
+  "Cognitive Function":[
+    {
+      "instr":"COG",
+      "year":"2008_2009",
+      "title":"Cognitive (COG)",
+      "subject":"Cognitive Memory"
+    },
+    {
+      "instr":"COG",
+      "year":"2010",
+      "title":"Cognitive (COG)",
+      "subject":"Cognitive Memory"
+    },
+    {
+      "instr":"COG",
+      "year":"2011",
+      "title":"Cognitive (COG)",
+      "subject":"Cognitive Memory"
+    },
+    {
+      "instr":"COG",
+      "year":"2012",
+      "title":"Cognitive (COG)",
+      "subject":"Cognitive Memory"
+    },
+    {
+      "instr":"COG",
+      "year":"2013",
+      "title":"Cognitive (COG)",
+      "subject":"Cognitive Memory"
+    },
+    {
+      "instr":"COG",
+      "year":"2014",
+      "title":"Cognitive (COG)",
+      "subject":"Cognitive Memory"
+    }
+  ],
+  "Consent":[
+    {
+      "instr":"CON2",
+      "year":"2012",
+      "title":"Consent (CONS)",
+      "subject":"Consent Form"
+    },
+    {
+      "instr":"CON2",
+      "year":"2013",
+      "title":"Consent (CONS)",
+      "subject":"Consent Form"
+    },
+    {
+      "instr":"CON2",
+      "year":"2014",
+      "title":"Consent (CONS)",
+      "subject":"Consent Form"
+    },
+    {
+      "instr":"CONS",
+      "year":"2008_2009",
+      "title":"Consent (CONS)",
+      "subject":"Consent Form"
+    },
+    {
+      "instr":"CONS",
+      "year":"2010",
+      "title":"Consent (CONS)",
+      "subject":"Consent Form"
+    },
+    {
+      "instr":"CONS",
+      "year":"2011",
+      "title":"Consent (CONS)",
+      "subject":"Consent Form"
+    },
+    {
+      "instr":"CONS",
+      "year":"2012",
+      "title":"Consent (CONS)",
+      "subject":"Consent Form"
+    },
+    {
+      "instr":"CONS",
+      "year":"2013",
+      "title":"Consent (CONS)",
+      "subject":"Consent Form"
+    },
+    {
+      "instr":"CONS",
+      "year":"2014",
+      "title":"Consent (CONS)",
+      "subject":"Consent Form"
+    },
+    {
+      "instr":"CONS_M",
+      "year":"2014",
+      "title":"Minor Consent (CONS_M)",
+      "subject":"Consent form for minors"
+    }
+  ],
+  "Contraception":[
+    {
+      "instr":"FPC",
+      "year":"2008_2009",
+      "title":"Contraception (FPC)",
+      "subject":"Contraception Use"
+    },
+    {
+      "instr":"FPC",
+      "year":"2010",
+      "title":"Contraception (FPC)",
+      "subject":"Contraception Use"
+    },
+    {
+      "instr":"FPC",
+      "year":"2011",
+      "title":"Contraception (FPC)",
+      "subject":"Contraception Use"
+    },
+    {
+      "instr":"FPC",
+      "year":"2012",
+      "title":"Contraception (FPC)",
+      "subject":"Contraception Use"
+    },
+    {
+      "instr":"FPC",
+      "year":"2013",
+      "title":"Contraception (FPC)",
+      "subject":"Contraception Use"
+    }
+  ],
+  "County":[
+    {
+      "instr":"WOOD",
+      "year":"2014",
+      "title":"Wood County - Supplemental Questions",
+      "subject":"Wood County Residents"
+    }
+  ],
+  "Demographics":[
+    {
+      "instr":"DMQ",
+      "year":"2008_2009",
+      "title":"Demographics (DMQ)",
+      "subject":"Demographics"
+    },
+    {
+      "instr":"DMQ",
+      "year":"2010",
+      "title":"Demographics (DMQ)",
+      "subject":"Demographics"
+    },
+    {
+      "instr":"DMQ",
+      "year":"2011",
+      "title":"Demographics (DMQ)",
+      "subject":"Demographics"
+    },
+    {
+      "instr":"DMQ",
+      "year":"2012",
+      "title":"Demographics (DMQ)",
+      "subject":"Demographics"
+    },
+    {
+      "instr":"DMQ",
+      "year":"2013",
+      "title":"Demographics (DMQ)",
+      "subject":"Demographics"
+    },
+    {
+      "instr":"DMQ",
+      "year":"2014",
+      "title":"Demographics (DMQ)",
+      "subject":"Demographics"
+    },
+    {
+      "instr":"DMQ_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - Demographics (DMQ_DER)",
+      "subject":"Demographics"
+    },
+    {
+      "instr":"DMQ_DER",
+      "year":"2010",
+      "title":"Derived Variables - Demographics (DMQ_DER)",
+      "subject":"Demographics"
+    },
+    {
+      "instr":"DMQ_DER",
+      "year":"2011",
+      "title":"Derived Variables - Demographics (DMQ_DER)",
+      "subject":"Demographics"
+    },
+    {
+      "instr":"DMQ_DER",
+      "year":"2012",
+      "title":"Derived Variables - Demographics (DMQ_DER)",
+      "subject":"Demographics"
+    },
+    {
+      "instr":"DMQ_DER",
+      "year":"2013",
+      "title":"Derived Variables - Demographics (DMQ_DER)",
+      "subject":"Demographics"
+    },
+    {
+      "instr":"DMQ_DER",
+      "year":"2014",
+      "title":"Derived Variables - Demographics (DMQ_DER)",
+      "subject":"Demographics"
+    }
+  ],
+  "Depression":[
+    {
+      "instr":"PHQ",
+      "year":"2010",
+      "title":"Depression Diagnostic and Severity Measure (PHQ-8)",
+      "subject":"Depression"
+    },
+    {
+      "instr":"PHQ",
+      "year":"2011",
+      "title":"Depression Diagnostic and Severity Measure (PHQ-8)",
+      "subject":"Depression"
+    },
+    {
+      "instr":"PHQ",
+      "year":"2012",
+      "title":"Depression Diagnostic and Severity Measure (PHQ-8)",
+      "subject":"Depression"
+    },
+    {
+      "instr":"PHQ",
+      "year":"2013",
+      "title":"Depression Diagnostic and Severity Measure (PHQ-8)",
+      "subject":"Depression"
+    },
+    {
+      "instr":"PHQ",
+      "year":"2014",
+      "title":"Depression Screener (PHQ-2)",
+      "subject":"Depression"
+    },
+    {
+      "instr":"PHQ_DER",
+      "year":"2010",
+      "title":"Derived Variables - Depression Diagnostic and Severity Measure (PHQ_DER)",
+      "subject":"Depression"
+    },
+    {
+      "instr":"PHQ_DER",
+      "year":"2011",
+      "title":"Derived Variables - Depression Diagnostic and Severity Measure (PHQ_DER)",
+      "subject":"Depression"
+    },
+    {
+      "instr":"PHQ_DER",
+      "year":"2012",
+      "title":"Derived Variables - Depression Diagnostic and Severity Measure (PHQ_DER)",
+      "subject":"Depression"
+    },
+    {
+      "instr":"PHQ_DER",
+      "year":"2013",
+      "title":"Derived Variables - Depression Diagnostic and Severity Measure (PHQ_DER)",
+      "subject":"Depression"
+    },
+    {
+      "instr":"PHQ_DER",
+      "year":"2014",
+      "title":"Derived Variables - Depression Screener (PHQ_DER)",
+      "subject":"Depression"
+    }
+  ],
+  "Diabetes":[
+    {
+      "instr":"DIAB_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - Diabetes",
+      "subject":"Diabetes diagnosis, awareness, treatment and control"
+    },
+    {
+      "instr":"DIAB_DER",
+      "year":"2010",
+      "title":"Derived Variables - Diabetes",
+      "subject":"Diabetes diagnosis, awareness, treatment and control"
+    },
+    {
+      "instr":"DIAB_DER",
+      "year":"2011",
+      "title":"Derived Variables - Diabetes",
+      "subject":"Diabetes diagnosis, awareness, treatment and control"
+    },
+    {
+      "instr":"DIAB_DER",
+      "year":"2012",
+      "title":"Derived Variables - Diabetes",
+      "subject":"Diabetes diagnosis, awareness, treatment and control"
+    },
+    {
+      "instr":"DIAB_DER",
+      "year":"2013",
+      "title":"Derived Variables - Diabetes",
+      "subject":"Diabetes diagnosis, awareness, treatment and control"
+    },
+    {
+      "instr":"DIAB_DER",
+      "year":"2014",
+      "title":"Derived Variables - Diabetes",
+      "subject":"Diabetes diagnosis, awareness, treatment and control"
+    }
+  ],
+  "Diet":[
+    {
+      "instr":"DIQ",
+      "year":"2008_2009",
+      "title":"Diet (DIQ)",
+      "subject":"Diet"
+    },
+    {
+      "instr":"DIQ",
+      "year":"2010",
+      "title":"Diet (DIQ)",
+      "subject":"Diet"
+    },
+    {
+      "instr":"DIQ",
+      "year":"2011",
+      "title":"Diet (DIQ)",
+      "subject":"Diet"
+    },
+    {
+      "instr":"DIQ",
+      "year":"2012",
+      "title":"Diet (DIQ)",
+      "subject":"Diet"
+    },
+    {
+      "instr":"DIQ",
+      "year":"2013",
+      "title":"Diet (DIQ)",
+      "subject":"Diet"
+    },
+    {
+      "instr":"DIQ",
+      "year":"2014",
+      "title":"Diet (DIQ)",
+      "subject":"Diet"
+    },
+    {
+      "instr":"DIQ_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - Diet",
+      "subject":"Diet"
+    },
+    {
+      "instr":"DIQ_DER",
+      "year":"2010",
+      "title":"Derived Variables - Diet",
+      "subject":"Diet"
+    },
+    {
+      "instr":"DIQ_DER",
+      "year":"2011",
+      "title":"Derived Variables - Diet",
+      "subject":"Diet"
+    },
+    {
+      "instr":"DIQ_DER",
+      "year":"2012",
+      "title":"Derived Variables - Diet",
+      "subject":"Diet"
+    },
+    {
+      "instr":"DIQ_DER",
+      "year":"2013",
+      "title":"Derived Variables - Diet",
+      "subject":"Diet"
+    },
+    {
+      "instr":"DIQ_DER",
+      "year":"2014",
+      "title":"Derived Variables - Diet",
+      "subject":"Diet"
+    },
+    {
+      "instr":"DQM",
+      "year":"2014",
+      "title":"Diet for Minors (DMQ)",
+      "subject":"Diet"
+    },
+    {
+      "instr":"DQM_DER",
+      "year":"2014",
+      "title":"Derived Variables - Diet for Minors",
+      "subject":"Diet"
+    }
+  ],
+  "Discrimination":[
+    {
+      "instr":"DSC",
+      "year":"2014",
+      "title":"Discrimination (DSC)",
+      "subject":"Discrimination"
+    },
+    {
+      "instr":"DSC_DER",
+      "year":"2014",
+      "title":"Derived Variables - Discrimination (DSC)",
+      "subject":"Discrimination"
+    },
+    {
+      "instr":"QG",
+      "year":"2008_2009",
+      "title":"Discrimination (QG)",
+      "subject":"Discrimination"
+    },
+    {
+      "instr":"QG",
+      "year":"2010",
+      "title":"Discrimination (QG)",
+      "subject":"Discrimination"
+    },
+    {
+      "instr":"QG",
+      "year":"2011",
+      "title":"Discrimination (QG)",
+      "subject":"Discrimination"
+    },
+    {
+      "instr":"QG",
+      "year":"2012",
+      "title":"Discrimination (QG)",
+      "subject":"Discrimination"
+    },
+    {
+      "instr":"QG",
+      "year":"2013",
+      "title":"Discrimination (QG)",
+      "subject":"Discrimination"
+    },
+    {
+      "instr":"QG_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - Discrimination (QG)",
+      "subject":"Discrimination"
+    },
+    {
+      "instr":"QG_DER",
+      "year":"2010",
+      "title":"Derived Variables - Discrimination (QG)",
+      "subject":"Discrimination Analysis"
+    },
+    {
+      "instr":"QG_DER",
+      "year":"2011",
+      "title":"Derived Variables - Discrimination (QG)",
+      "subject":"Discrimination Analysis"
+    },
+    {
+      "instr":"QG_DER",
+      "year":"2012",
+      "title":"Derived Variables - Discrimination (QG)",
+      "subject":"Discrimination Analysis"
+    },
+    {
+      "instr":"QG_DER",
+      "year":"2013",
+      "title":"Derived Variables - Discrimination (QG)",
+      "subject":"Discrimination"
+    }
+  ],
+  "Eating":[
+    {
+      "instr":"FOOD",
+      "year":"2014",
+      "title":"Dietary Screener questionnaire",
+      "subject":"Food frequency in the past month"
+    },
+    {
+      "instr":"FOOD_DER",
+      "year":"2014",
+      "title":"Derived variables - Food",
+      "subject":"Food frequency in the past month"
+    },
+    {
+      "instr":"QI",
+      "year":"2008_2009",
+      "title":"Foods You Eat (QI)",
+      "subject":"Diet"
+    },
+    {
+      "instr":"QI",
+      "year":"2010",
+      "title":"Foods You Eat (QI)",
+      "subject":"Diet"
+    },
+    {
+      "instr":"QI",
+      "year":"2011",
+      "title":"Foods You Eat (QI)",
+      "subject":"Diet"
+    },
+    {
+      "instr":"QI",
+      "year":"2012",
+      "title":"Foods You Eat (QI)",
+      "subject":"Diet"
+    },
+    {
+      "instr":"QI",
+      "year":"2013",
+      "title":"Foods You Eat (QI)",
+      "subject":"Diet"
+    },
+    {
+      "instr":"QI_DER",
+      "year":"2008_2009",
+      "title":"Derived Varaibles - Foods You Eat (QI)",
+      "subject":"Nutrient Analysis"
+    },
+    {
+      "instr":"QI_DER",
+      "year":"2010",
+      "title":"Derived Varaibles - Foods You Eat (QI)",
+      "subject":"Nutrient Analysis"
+    },
+    {
+      "instr":"QI_DER",
+      "year":"2011",
+      "title":"Derived Varaibles - Foods You Eat (QI)",
+      "subject":"Nutrient Analysis"
+    },
+    {
+      "instr":"QI_DER",
+      "year":"2012",
+      "title":"Derived Varaibles - Foods You Eat (QI)",
+      "subject":"Nutrient Analysis"
+    },
+    {
+      "instr":"QI_DER",
+      "year":"2013",
+      "title":"Derived Variables - Foods You Eat (QI)",
+      "subject":"Nutrient Analysis"
+    }
+  ],
+  "Economic Hardship":[
+    {
+      "instr":"EHI",
+      "year":"2008_2009",
+      "title":"Economic Hardship Index (EHI)",
+      "subject":"Economic Hardship Index"
+    },
+    {
+      "instr":"EHI",
+      "year":"2010",
+      "title":"Economic Hardship Index (EHI)",
+      "subject":"Economic Hardship Index"
+    },
+    {
+      "instr":"EHI",
+      "year":"2011",
+      "title":"Economic Hardship Index (EHI)",
+      "subject":"Economic Hardship Index"
+    },
+    {
+      "instr":"EHI",
+      "year":"2012",
+      "title":"Economic Hardship Index (EHI)",
+      "subject":"Economic Hardship Index"
+    },
+    {
+      "instr":"EHI",
+      "year":"2013",
+      "title":"Economic Hardship Index (EHI)",
+      "subject":"Economic Hardship Index"
+    },
+    {
+      "instr":"EHIv2",
+      "year":"2014",
+      "title":"Economic Hardship Index (EHI)",
+      "subject":"Economic Hardship Index"
+    }
+  ],
+  "Food Insecurity":[
+    {
+      "instr":"FSQ",
+      "year":"2008_2009",
+      "title":"Food Security (FSQ)",
+      "subject":"Food Security"
+    },
+    {
+      "instr":"FSQ",
+      "year":"2010",
+      "title":"Food Security (FSQ)",
+      "subject":"Food Security"
+    },
+    {
+      "instr":"FSQ",
+      "year":"2011",
+      "title":"Food Security (FSQ)",
+      "subject":"Food Security"
+    },
+    {
+      "instr":"FSQ",
+      "year":"2012",
+      "title":"Food Security (FSQ)",
+      "subject":"Food Security"
+    },
+    {
+      "instr":"FSQ",
+      "year":"2013",
+      "title":"Food Security (FSQ)",
+      "subject":"Food Security"
+    },
+    {
+      "instr":"FSQ",
+      "year":"2014",
+      "title":"Food Security (FSQ)",
+      "subject":"Food Security"
+    },
+    {
+      "instr":"FSQ_Der",
+      "year":"2008_2009",
+      "title":"Derived Variables - Food Security (FSQ_DER)",
+      "subject":"Food Security"
+    },
+    {
+      "instr":"FSQ_Der",
+      "year":"2010",
+      "title":"Derived Variables - Food Security (FSQ_DER)",
+      "subject":"Food Security"
+    },
+    {
+      "instr":"FSQ_DER",
+      "year":"2011",
+      "title":"Derived Variables - Food Security (FSQ_DER)",
+      "subject":"Food Security"
+    },
+    {
+      "instr":"FSQ_Der",
+      "year":"2012",
+      "title":"Derived Variables - Food Security (FSQ_DER)",
+      "subject":"Food Security"
+    },
+    {
+      "instr":"FSQ_DER",
+      "year":"2013",
+      "title":"Derived Variables - Food Security (FSQ_DER)",
+      "subject":"Food Security"
+    },
+    {
+      "instr":"FSQ_DER",
+      "year":"2014",
+      "title":"Derived Variables - Food Security (FSQ_DER)",
+      "subject":"Food Security"
+    }
+  ],
+  "Foreclosures":[
+    {
+      "instr":"FOR_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - Foreclosures (FOR)",
+      "subject":"Foreclosure rates"
+    },
+    {
+      "instr":"FOR_DER",
+      "year":"2010",
+      "title":"Derived Variables - Foreclosures (FOR)",
+      "subject":"Foreclosure rates"
+    },
+    {
+      "instr":"FOR_DER",
+      "year":"2011",
+      "title":"Derived Variables - Foreclosures (FOR)",
+      "subject":"Foreclosure rates"
+    },
+    {
+      "instr":"FOR_DER",
+      "year":"2012",
+      "title":"Derived Variables - Foreclosures (FOR)",
+      "subject":"Foreclosure rates"
+    },
+    {
+      "instr":"FOR_DER",
+      "year":"2013",
+      "title":"Derived Variables - Foreclosures (FOR)",
+      "subject":"Foreclosure rates"
+    }
+  ],
+  "Framingham Risk":[
+    {
+      "instr":"FHR_DER",
+      "year":"2008_2009",
+      "title":"Framingham Coronary Heart Disease Risk (FHR)",
+      "subject":"Coronary heart disease"
+    },
+    {
+      "instr":"FHR_DER",
+      "year":"2010",
+      "title":"Framingham Coronary Heart Disease Risk (FHR)",
+      "subject":"Coronary heart disease"
+    },
+    {
+      "instr":"FHR_DER",
+      "year":"2011",
+      "title":"Framingham Coronary Heart Disease Risk (FHR)",
+      "subject":"Coronary heart disease"
+    },
+    {
+      "instr":"FHR_DER",
+      "year":"2012",
+      "title":"Framingham Coronary Heart Disease Risk (FHR)",
+      "subject":"Coronary heart disease"
+    },
+    {
+      "instr":"FHR_DER",
+      "year":"2013",
+      "title":"Framingham Coronary Heart Disease Risk (FHR)",
+      "subject":"Coronary heart disease"
+    },
+    {
+      "instr":"FHR_DER",
+      "year":"2014",
+      "title":"Framingham Coronary Heart Disease Risk (FHR)",
+      "subject":"Coronary heart disease"
+    }
+  ],
+  "Geography":[
+    {
+      "instr":"GEO_DER",
+      "year":"2008",
+      "title":"Derived Variables - Geography (GEO_DER)",
+      "subject":"Geography"
+    },
+    {
+      "instr":"GEO_DER",
+      "year":"2009",
+      "title":"Derived Variables - Geography (GEO_DER)",
+      "subject":"Geography"
+    },
+    {
+      "instr":"GEO_DER",
+      "year":"2010",
+      "title":"Derived Variables - Geography (GEO_DER)",
+      "subject":"Geography"
+    },
+    {
+      "instr":"GEO_DER",
+      "year":"2011",
+      "title":"Derived Variables - Geography (GEO_DER)",
+      "subject":"Geography"
+    },
+    {
+      "instr":"GEO_DER",
+      "year":"2012",
+      "title":"Derived Variables - Geography (GEO_DER)",
+      "subject":"Geography"
+    },
+    {
+      "instr":"GEO_DER",
+      "year":"2013",
+      "title":"Derived Variables - Geography (GEO_DER)",
+      "subject":"Geography"
+    },
+    {
+      "instr":"GEO_DER",
+      "year":"2014",
+      "title":"Derived Variables - Geography (GEO_DER)",
+      "subject":"Geography"
+    }
+  ],
+  "Groundwater":[
+    {
+      "instr":"GW14",
+      "year":"2014",
+      "title":"Groundwater Ancillary Study",
+      "subject":"Private well water ancillary study"
+    },
+    {
+      "instr":"GW14_DER",
+      "year":"2014",
+      "title":"Groundwater Ancillary Study Derived",
+      "subject":"Private well water ancillary study derived variables"
+    }
+  ],
+  "Health":[
+    {
+      "instr":"HFM",
+      "year":"2014",
+      "title":"Health and Functioning in Minors (HFM)",
+      "subject":"Health and Functioning"
+    },
+    {
+      "instr":"HFM_DER",
+      "year":"2014",
+      "title":"Derived Variables - Health and Functioning in Minors (HFM_DER)",
+      "subject":"Health and Functioning"
+    },
+    {
+      "instr":"HHQ",
+      "year":"2014",
+      "title":"Health History (HHQ)",
+      "subject":"Individual and family history of health conditions"
+    },
+    {
+      "instr":"HHQ_DER",
+      "year":"2014",
+      "title":"Derived Variables - Health History (HHQ_DER)",
+      "subject":"Individual and family history of health conditions"
+    },
+    {
+      "instr":"HHQ1",
+      "year":"2008_2009",
+      "title":" Health History 1 (HHQ1)",
+      "subject":"History of Health conditions"
+    },
+    {
+      "instr":"HHQ1",
+      "year":"2010",
+      "title":"Health History 1 (HHQ1)",
+      "subject":"History of Health conditions"
+    },
+    {
+      "instr":"HHQ1",
+      "year":"2011",
+      "title":"Health History 1 (HHQ1)",
+      "subject":"History of Health conditions"
+    },
+    {
+      "instr":"HHQ1",
+      "year":"2012",
+      "title":"Health History 1 (HHQ1)",
+      "subject":"History of Health conditions"
+    },
+    {
+      "instr":"HHQ1",
+      "year":"2013",
+      "title":"Health History 1 (HHQ1)",
+      "subject":"History of Health conditions"
+    },
+    {
+      "instr":"HHQ1_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - Health History 1 (HHQ1_DER)",
+      "subject":"History of Health conditions"
+    },
+    {
+      "instr":"HHQ1_DER",
+      "year":"2010",
+      "title":"Derived Variables - Health History 1 (HHQ1_DER)",
+      "subject":"History of Health conditions"
+    },
+    {
+      "instr":"HHQ1_DER",
+      "year":"2011",
+      "title":"Derived Variables - Health History 1 (HHQ1_DER)",
+      "subject":"History of Health conditions"
+    },
+    {
+      "instr":"HHQ1_DER",
+      "year":"2012",
+      "title":"Derived Variables - Health History 1 (HHQ1_DER)",
+      "subject":"History of Health conditions"
+    },
+    {
+      "instr":"HHQ1_DER",
+      "year":"2013",
+      "title":"Derived Variables - Health History 1 (HHQ1_DER)",
+      "subject":"History of Health conditions"
+    },
+    {
+      "instr":"HHQ2",
+      "year":"2008_2009",
+      "title":"Health History 2 (HHQ2)",
+      "subject":"Individual and family history of health conditions"
+    },
+    {
+      "instr":"HHQ2",
+      "year":"2010",
+      "title":" Health History 2 (HHQ2)",
+      "subject":"Individual and family history of health conditions"
+    },
+    {
+      "instr":"HHQ2",
+      "year":"2011",
+      "title":"Health History 2 (HHQ2)",
+      "subject":"Individual and family history of health conditions"
+    },
+    {
+      "instr":"HHQ2",
+      "year":"2012",
+      "title":"Health History 2",
+      "subject":"Individual and family history of health conditions"
+    },
+    {
+      "instr":"HHQ2",
+      "year":"2013",
+      "title":"Health History 2",
+      "subject":"Individual and family history of health conditions"
+    },
+    {
+      "instr":"HHQ2_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - Health History 2 (HHQ2)",
+      "subject":" Individual and family history of health conditions"
+    },
+    {
+      "instr":"HHQ2_DER",
+      "year":"2010",
+      "title":"Derived Variables - Health History 2 (HHQ2)",
+      "subject":"Individual and family history of health conditions"
+    },
+    {
+      "instr":"HHQ2_DER",
+      "year":"2011",
+      "title":"Derived Variables - Health History 2 (HHQ2)",
+      "subject":"Individual and family history of health conditions"
+    },
+    {
+      "instr":"HHQ2_DER",
+      "year":"2012",
+      "title":"Derived Variables - Health History 2 (HHQ2)",
+      "subject":"Individual and family history of health conditions"
+    },
+    {
+      "instr":"HHQ2_DER",
+      "year":"2013",
+      "title":"Derived Variables - Health History 2 (HHQ2)",
+      "subject":"Individual and family history of health conditions"
+    },
+    {
+      "instr":"QA",
+      "year":"2008_2009",
+      "title":"Your Health (QA)",
+      "subject":"General Health Status, including Physical and Mental Component"
+    },
+    {
+      "instr":"QA",
+      "year":"2010",
+      "title":"Your Health (QA)",
+      "subject":"General Health Status, including Physical and Mental Component"
+    },
+    {
+      "instr":"QA",
+      "year":"2011",
+      "title":"Your Health (QA)",
+      "subject":"General Health Status, including Physical and Mental Component "
+    },
+    {
+      "instr":"QA",
+      "year":"2012",
+      "title":"Your Health (QA)",
+      "subject":"General Health Status, including Physical and Mental Component"
+    },
+    {
+      "instr":"QA",
+      "year":"2013",
+      "title":"Your Health (QA)",
+      "subject":"General Health Status, including Physical and Mental Component"
+    },
+    {
+      "instr":"QA_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - Your Health (QA_DER)",
+      "subject":"General Health Status, including Physical and Mental Component"
+    },
+    {
+      "instr":"QA_DER",
+      "year":"2010",
+      "title":"Derived Variables - Your Health (QA_DER)",
+      "subject":"General Health Status, including Physical and Mental Component"
+    },
+    {
+      "instr":"QA_DER",
+      "year":"2011",
+      "title":"Derived Variables - Your Health (QA_DER)",
+      "subject":"General Health Status, including Physical and Mental Component"
+    },
+    {
+      "instr":"QA_DER",
+      "year":"2012",
+      "title":"Derived Variables - Your Health (QA_DER)",
+      "subject":"General Health Status, including Physical and Mental Component"
+    },
+    {
+      "instr":"QA_DER",
+      "year":"2013",
+      "title":"Derived Variables - Your Health (QA_DER)",
+      "subject":"General Health Status, including Physical and Mental Component"
+    },
+    {
+      "instr":"SF12",
+      "year":"2014",
+      "title":"Your Health (Section A)",
+      "subject":"General Health Status, including Physical and Mental Component"
+    },
+    {
+      "instr":"SF12_DER",
+      "year":"2014",
+      "title":"Derived Variables - SF12",
+      "subject":"General Health Status, including Physical and Mental Component"
+    }
+  ],
+  "Health Literacy":[
+    {
+      "instr":"STOFHLA",
+      "year":"2008-2009",
+      "title":"Short Test of Functional Health Literacy in Adults (STOFHLA)",
+      "subject":"Health Literacy"
+    },
+    {
+      "instr":"STOFHLA",
+      "year":"2010",
+      "title":"Short Test of Functional Health Literacy in Adults (STOFHLA)",
+      "subject":"Health Literacy"
+    },
+    {
+      "instr":"STOFHLA",
+      "year":"2011",
+      "title":"Short Test of Functional Health Literacy in Adults (STOFHLA)",
+      "subject":"Health Literacy"
+    },
+    {
+      "instr":"STOFHLA",
+      "year":"2012",
+      "title":"Short Test of Functional Health Literacy in Adults (STOFHLA)",
+      "subject":"Health Literacy"
+    },
+    {
+      "instr":"STOFHLA",
+      "year":"2013",
+      "title":"Short Test of Functional Health Literacy in Adults (STOFHLA)",
+      "subject":"Health Literacy"
+    },
+    {
+      "instr":"STOFHLA_DER",
+      "year":"2008-2009",
+      "title":"Derived Variables - Short Test of Functional Health Literacy in Adults (STOFHLA_DER)",
+      "subject":"Health Literacy"
+    },
+    {
+      "instr":"STOFHLA_DER",
+      "year":"2010",
+      "title":"Derived Variables - Short Test of Functional Health Literacy in Adults (STOFHLA_DER)",
+      "subject":"Health Literacy"
+    },
+    {
+      "instr":"STOFHLA_DER",
+      "year":"2011",
+      "title":"Derived Variables - Short Test of Functional Health Literacy in Adults (STOFHLA_DER)",
+      "subject":"Health Literacy"
+    },
+    {
+      "instr":"STOFHLA_DER",
+      "year":"2012",
+      "title":"Derived Variables - Short Test of Functional Health Literacy in Adults (STOFHLA_DER)",
+      "subject":"Health Literacy"
+    },
+    {
+      "instr":"STOFHLA_DER",
+      "year":"2013",
+      "title":"Derived Variables - Short Test of Functional Health Literacy in Adults (STOFHLA_DER)",
+      "subject":"Health Literacy"
+    }
+  ],
+  "Housing":[
+    {
+      "instr":"HOQ",
+      "year":"2008_2009",
+      "title":"Housing Characteristics (HOQ)",
+      "subject":"Housing Characteristics"
+    },
+    {
+      "instr":"HOQ",
+      "year":"2010",
+      "title":"Housing Characteristics (HOQ)",
+      "subject":"Housing Characteristics"
+    },
+    {
+      "instr":"HOQ",
+      "year":"2011",
+      "title":"Housing Characteristics (HOQ)",
+      "subject":"Housing Characteristics"
+    },
+    {
+      "instr":"HOQ",
+      "year":"2012",
+      "title":"Housing Characteristics (HOQ)",
+      "subject":"Housing Characteristics"
+    },
+    {
+      "instr":"HOQ",
+      "year":"2013",
+      "title":"Housing Characteristics (HOQ)",
+      "subject":"Housing Characteristics"
+    },
+    {
+      "instr":"HOQ",
+      "year":"2014",
+      "title":"Housing Characteristics (HOQ)",
+      "subject":"Housing Characteristics"
+    },
+    {
+      "instr":"HOQ_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - Housing Characteristics (HOQ_DER)",
+      "subject":"Housing Characteristics"
+    },
+    {
+      "instr":"HOQ_DER",
+      "year":"2010",
+      "title":"Derived Variables - Housing Characteristics (HOQ_DER)",
+      "subject":"Housing Characteristics"
+    },
+    {
+      "instr":"HOQ_DER",
+      "year":"2011",
+      "title":"Derived Variables - Housing Characteristics (HOQ_DER)",
+      "subject":"Housing Characteristics"
+    },
+    {
+      "instr":"HOQ_DER",
+      "year":"2012",
+      "title":"Derived Variables - Housing Characteristics (HOQ_DER)",
+      "subject":"Housing Characteristics"
+    },
+    {
+      "instr":"HOQ_DER",
+      "year":"2013",
+      "title":"Derived Variables - Housing Characteristics (HOQ_DER)",
+      "subject":"Housing Characteristics"
+    }
+  ],
+  "Hypertension":[
+    {
+      "instr":"HTN_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - Hypertension",
+      "subject":"Hypertension diagnosis, awareness, treatment and control"
+    },
+    {
+      "instr":"HTN_DER",
+      "year":"2010",
+      "title":"Derived Variables - Hypertension",
+      "subject":"Hypertension diagnosis, awareness, treatment and control"
+    },
+    {
+      "instr":"HTN_DER",
+      "year":"2011",
+      "title":"Derived Variables - Hypertension",
+      "subject":"Hypertension diagnosis, awareness, treatment and control"
+    },
+    {
+      "instr":"HTN_DER",
+      "year":"2012",
+      "title":"Derived Variables - Hypertension",
+      "subject":"Hypertension diagnosis, awareness, treatment and control"
+    },
+    {
+      "instr":"HTN_DER",
+      "year":"2013",
+      "title":"Derived Variables - Hypertension",
+      "subject":"Hypertension diagnosis, awareness, treatment and control"
+    },
+    {
+      "instr":"HTN_DER",
+      "year":"2014",
+      "title":"Derived Variables - Hypertension",
+      "subject":"Hypertension diagnosis, awareness, treatment and control"
+    }
+  ],
+  "ID variables":[
+    {
+      "instr":"KEY",
+      "year":"2008_2009",
+      "title":"Key (KEY)",
+      "subject":"Key variables required for almost all analyses"
+    },
+    {
+      "instr":"KEY",
+      "year":"2010",
+      "title":"Key (KEY)",
+      "subject":"Key variables required for almost all analyses"
+    },
+    {
+      "instr":"KEY",
+      "year":"2011",
+      "title":"Key (KEY)",
+      "subject":"Key variables required for almost all analyses"
+    },
+    {
+      "instr":"KEY",
+      "year":"2012",
+      "title":"Key (KEY)",
+      "subject":"Key variables required for almost all analyses"
+    },
+    {
+      "instr":"KEY",
+      "year":"2013",
+      "title":"Key (KEY)",
+      "subject":"Key variables required for almost all analyses"
+    }
+  ],
+  "Military Experience":[
+    {
+      "instr":"QF",
+      "year":"2008_2009",
+      "title":"Military Experience (QF)",
+      "subject":"Military Experience"
+    },
+    {
+      "instr":"QF",
+      "year":"2010",
+      "title":"Military Experience (QF)",
+      "subject":"Military Experience"
+    },
+    {
+      "instr":"QF",
+      "year":"2011",
+      "title":"Military Experience (QF)",
+      "subject":"Military Experience"
+    },
+    {
+      "instr":"QF",
+      "year":"2012",
+      "title":"Military Experience (QF)",
+      "subject":"Military Experience"
+    },
+    {
+      "instr":"QF",
+      "year":"2013",
+      "title":"Military Experience (QF)",
+      "subject":"Military Experience"
+    }
+  ],
+  "Neighborhood":[
+    {
+      "instr":"NBRHD",
+      "year":"2014",
+      "title":"Characteristics of Your Neighborhood (NBRHD)",
+      "subject":"Neighborhood characteristics"
+    },
+    {
+      "instr":"QH",
+      "year":"2008_2009",
+      "title":"Characteristics of Your Neighborhood (QH)",
+      "subject":"Neighborhood characteristics"
+    },
+    {
+      "instr":"QH",
+      "year":"2010",
+      "title":"Characteristics of Your Neighborhood (QH)",
+      "subject":"Neighborhood characteristics"
+    },
+    {
+      "instr":"QH",
+      "year":"2011",
+      "title":"Characteristics of Your Neighborhood (QH)",
+      "subject":"Neighborhood characteristics"
+    },
+    {
+      "instr":"QH",
+      "year":"2012",
+      "title":"Characteristics of Your Neighborhood (QH)",
+      "subject":"Neighborhood characteristics"
+    },
+    {
+      "instr":"QH",
+      "year":"2013",
+      "title":"Characteristics of Your Neighborhood (QH)",
+      "subject":"Neighborhood characteristics"
+    }
+  ],
+  "Insurance":[
+    {
+      "instr":"IUQ",
+      "year":"2008_2009",
+      "title":"Insurance, Access, Utilization (IUQ)",
+      "subject":"Insurance Access and Utilization"
+    },
+    {
+      "instr":"IUQ",
+      "year":"2010",
+      "title":" Insurance, Access, Utilization (IUQ)",
+      "subject":"Insurance Access and Utilization"
+    },
+    {
+      "instr":"IUQ",
+      "year":"2011",
+      "title":"Insurance, Access, Utilization (IUQ)",
+      "subject":"Insurance Access and Utilization History"
+    },
+    {
+      "instr":"IUQ",
+      "year":"2012",
+      "title":"Insurance, Access, Utilization (IUQ)",
+      "subject":"Insurance Access and Utilization History"
+    },
+    {
+      "instr":"IUQ",
+      "year":"2013",
+      "title":"Insurance, Access, Utilization (IUQ)",
+      "subject":"Insurance Access and Utilization History"
+    },
+    {
+      "instr":"IUQ",
+      "year":"2014",
+      "title":"Insurance, Access, Utilization (IUQ)",
+      "subject":"Insurance Access and Utilization History"
+    },
+    {
+      "instr":"IUQ_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - Insurance, Access, Utilization (IUQ_DER)",
+      "subject":"Insurance Access and Utilization History"
+    },
+    {
+      "instr":"IUQ_DER",
+      "year":"2010",
+      "title":"Derived Variables - Insurance, Access, Utilization (IUQ_DER)",
+      "subject":"Insurance Access and Utilization History"
+    },
+    {
+      "instr":"IUQ_DER",
+      "year":"2011",
+      "title":"Derived Variables - Insurance, Access, Utilization (IUQ_DER)",
+      "subject":"Insurance Access and Utilization History"
+    },
+    {
+      "instr":"IUQ_DER",
+      "year":"2012",
+      "title":"Derived Variables - Insurance, Access, Utilization (IUQ_DER)",
+      "subject":"Insurance Access and Utilization History"
+    },
+    {
+      "instr":"IUQ_DER",
+      "year":"2013",
+      "title":"Derived Variables - Insurance, Access, Utilization (IUQ_DER)",
+      "subject":"Insurance Access and Utilization History"
+    },
+    {
+      "instr":"IUQ_DER",
+      "year":"2014",
+      "title":"Derived Variables - Insurance, Access, Utilization (IUQ_DER)",
+      "subject":"Insurance Access and Utilization History"
+    }
+  ],
+  "Occupation":[
+    {
+      "instr":"IOQ",
+      "year":"2008_2009",
+      "title":"Occupation and Industry codes",
+      "subject":"Occupation and Industry codes"
+    },
+    {
+      "instr":"OCQ",
+      "year":"2008_2009",
+      "title":"Occupation (OCQ)",
+      "subject":"Occupation"
+    },
+    {
+      "instr":"OCQ",
+      "year":"2010",
+      "title":"Occupation (OCQ)",
+      "subject":"Occupation"
+    },
+    {
+      "instr":"OCQ",
+      "year":"2011",
+      "title":"Occupation (OCQ)",
+      "subject":"Occupation History"
+    },
+    {
+      "instr":"OCQ",
+      "year":"2012",
+      "title":"Occupation (OCQ)",
+      "subject":"Occupation History"
+    },
+    {
+      "instr":"OCQ",
+      "year":"2013",
+      "title":"Occupation (OCQ)",
+      "subject":"Occupation History"
+    },
+    {
+      "instr":"OCQ",
+      "year":"2014",
+      "title":"Occupation (OCQ)",
+      "subject":"Occupation History"
+    },
+    {
+      "instr":"OCQ_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables: Occupation (OCQ_DER)",
+      "subject":"Occupation History and Occupation and Industry Codes from Census 2000"
+    },
+    {
+      "instr":"OCQ_DER",
+      "year":"2010",
+      "title":"Derived Variables: Occupation (OCQ_DER)",
+      "subject":"Occupation History and Occupation and Industry Codes from Census 2000"
+    },
+    {
+      "instr":"OCQ_DER",
+      "year":"2011",
+      "title":"Derived Variables: Occupation (OCQ_DER)",
+      "subject":"Occupation History and Occupation and Industry Codes from Census 2000"
+    },
+    {
+      "instr":"OCQ_DER",
+      "year":"2012",
+      "title":"Derived Variables: Occupation (OCQ_DER)",
+      "subject":"Occupation History and Occupation and Industry Codes from Census 2000"
+    },
+    {
+      "instr":"OCQ_DER",
+      "year":"2013",
+      "title":"Derived Variables: Occupation (OCQ_DER)",
+      "subject":"Occupation History and Occupation and Industry Codes from Census 2000"
+    },
+    {
+      "instr":"OCQ_DER",
+      "year":"2014",
+      "title":"Derived Variables: Occupation (OCQ_DER)",
+      "subject":"Occupation History and Occupation and Industry Codes from Census 2000"
+    }
+  ],
+  "Oral Health":[
+    {
+      "instr":"OHQ",
+      "year":"2011",
+      "title":"Oral Health (OHQ)",
+      "subject":"Oral Health"
+    },
+    {
+      "instr":"SDQ",
+      "year":"2008_2009",
+      "title":"Sensory and Dental (SDQ)",
+      "subject":"Sensory and Dental History"
+    },
+    {
+      "instr":"SDQ",
+      "year":"2010",
+      "title":"Sensory and Dental (SDQ)",
+      "subject":"Sensory and Dental History"
+    },
+    {
+      "instr":"SDQ",
+      "year":"2011",
+      "title":"Sensory and Dental (SDQ)",
+      "subject":"Sensory and Dental History"
+    },
+    {
+      "instr":"SDQ",
+      "year":"2012",
+      "title":"Sensory and Dental (SDQ)",
+      "subject":"Sensory and Dental History"
+    },
+    {
+      "instr":"SDQ",
+      "year":"2013",
+      "title":"Sensory and Dental (SDQ)",
+      "subject":"Sensory and Dental History"
+    },
+    {
+      "instr":"SDQ_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - Sensory and Dental (SDQ_DER)",
+      "subject":"Sensory and Dental History"
+    },
+    {
+      "instr":"SDQ_DER",
+      "year":"2010",
+      "title":"Derived Variables - Sensory and Dental (SDQ_DER)",
+      "subject":"Sensory and Dental History"
+    },
+    {
+      "instr":"SDQ_DER",
+      "year":"2011",
+      "title":"Derived Variables - Sensory and Dental (SDQ_DER)",
+      "subject":"Sensory and Dental History"
+    },
+    {
+      "instr":"SDQ_DER",
+      "year":"2012",
+      "title":"Derived Variables - Sensory and Dental (SDQ_DER)",
+      "subject":"Sensory and Dental History"
+    },
+    {
+      "instr":"SDQ_DER",
+      "year":"2013",
+      "title":"Derived Variables - Sensory and Dental (SDQ_DER)",
+      "subject":"Sensory and Dental History"
+    }
+  ],
+  "Physical Activity":[
+    {
+      "instr":"PAM",
+      "year":"2014",
+      "title":"Physical Activity (PAM) for Minors",
+      "subject":"Physical Activity"
+    },
+    {
+      "instr":"PAQ",
+      "year":"2008_2009",
+      "title":"Physical Activity and Physical Fitness (PAQ)",
+      "subject":"Physical Activity"
+    },
+    {
+      "instr":"PAQ",
+      "year":"2010",
+      "title":"Physical Activity and Physical Fitness (PAQ)",
+      "subject":"Physical Activity"
+    },
+    {
+      "instr":"PAQ",
+      "year":"2011",
+      "title":"Physical Activity and Physical Fitness (PAQ)",
+      "subject":"Physical Activity"
+    },
+    {
+      "instr":"PAQ",
+      "year":"2012",
+      "title":"Physical Activity and Physical Fitness (PAQ)",
+      "subject":"Physical Activity"
+    },
+    {
+      "instr":"PAQ",
+      "year":"2013",
+      "title":"Physical Activity and Physical Fitness (PAQ)",
+      "subject":"Physical Activity"
+    },
+    {
+      "instr":"PAQ",
+      "year":"2014",
+      "title":"Physical Activity and Physical Fitness (PAQ)",
+      "subject":"Physical Activity"
+    },
+    {
+      "instr":"PAQ_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - Physical Activity and Physical Fitness (PAQ_DER)",
+      "subject":"Physical Activity"
+    },
+    {
+      "instr":"PAQ_DER",
+      "year":"2010",
+      "title":"Derived Variables - Physical Activity and Physical Fitness (PAQ_DER)",
+      "subject":"Physical Activity"
+    },
+    {
+      "instr":"PAQ_DER",
+      "year":"2011",
+      "title":"Derived Variables - Physical Activity and Physical Fitness (PAQ_DER)",
+      "subject":"Physical Activity"
+    },
+    {
+      "instr":"PAQ_DER",
+      "year":"2012",
+      "title":"Derived Variables - Physical Activity and Physical Fitness (PAQ_DER)",
+      "subject":"Physical Activity"
+    },
+    {
+      "instr":"PAQ_DER",
+      "year":"2013",
+      "title":"Derived Variables - Physical Activity and Physical Fitness (PAQ_DER)",
+      "subject":"Physical Activity"
+    },
+    {
+      "instr":"PAQ_DER",
+      "year":"2014",
+      "title":"Derived Variables - Physical Activity and Physical Fitness (PAQ_DER)",
+      "subject":"Physical Activity"
+    }
+  ],
+  "Prescription Medication":[
+    {
+      "instr":"RXQ",
+      "year":"2008_2009",
+      "title":"Prescription medications and Select OTC Drugs (RXQ)",
+      "subject":"Prescription medications with or without bottles and Non-prescription OTC drugs"
+    },
+    {
+      "instr":"RXQ",
+      "year":"2010",
+      "title":"Prescription Medication and Select OTC Drugs (RXQ)",
+      "subject":"Prescription medications with or without bottles and Non-prescription OTC drugs"
+    },
+    {
+      "instr":"RXQ",
+      "year":"2011",
+      "title":"Prescription Medication and Select OTC Drugs (RXQ)",
+      "subject":"Prescription medications with or without bottles and Non-prescription OTC drugs"
+    },
+    {
+      "instr":"RXQ",
+      "year":"2012",
+      "title":"Prescription Medication and Select OTC Drugs (RXQ)",
+      "subject":"Prescription medications with or without bottles and Non-prescription OTC drugs"
+    },
+    {
+      "instr":"RXQ",
+      "year":"2013",
+      "title":"Prescription Medication and Select OTC Drugs (RXQ)",
+      "subject":"Prescription medications with or without bottles and Non-prescription OTC drugs"
+    },
+    {
+      "instr":"RXQ",
+      "year":"2014",
+      "title":"Prescription Medication and Select OTC Drugs (RXQ)",
+      "subject":"Prescription medications with or without bottles and Non-prescription OTC drugs"
+    },
+    {
+      "instr":"RXQ_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - Prescription Medication and Select OTC Drugs (RXQ_DER)",
+      "subject":"Prescription medication and OTC drugs history"
+    },
+    {
+      "instr":"RXQ_DER",
+      "year":"2010",
+      "title":"Derived Variables - Prescription Medication and Select OTC Drugs (RXQ_DER)",
+      "subject":"Prescription medication and OTC drugs history"
+    },
+    {
+      "instr":"RXQ_DER",
+      "year":"2011",
+      "title":"Derived Variables - Prescription Medication and Select OTC Drugs (RXQ_DER)",
+      "subject":"Prescription medication and OTC drugs history"
+    },
+    {
+      "instr":"RXQ_DER",
+      "year":"2012",
+      "title":"Derived Variables - Prescription Medication and Select OTC Drugs (RXQ_DER)",
+      "subject":"Prescription medication and OTC drugs history"
+    },
+    {
+      "instr":"RXQ_DER",
+      "year":"2013",
+      "title":"Derived Variables - Prescription Medication and Select OTC Drugs (RXQ_DER)",
+      "subject":"Prescription medication and OTC drugs history"
+    },
+    {
+      "instr":"RXQ_DER",
+      "year":"2014",
+      "title":"Derived Variables - Prescription Medication and Select OTC Drugs (RXQ_DER)",
+      "subject":"Prescription medication and OTC drugs history"
+    }
+  ],
+  "Preventitive Health":[
+    {
+      "instr":"PSH",
+      "year":"2014",
+      "title":"Screening, Prevention, and Safety Habits (PSH)",
+      "subject":"Screening, Prevention, and Safety Habits"
+    },
+    {
+      "instr":"QB",
+      "year":"2008_2009",
+      "title":"Prevention and Safety Habits (QB)",
+      "subject":"Prevention and Safety Habits"
+    },
+    {
+      "instr":"QB",
+      "year":"2010",
+      "title":"Prevention and Safety Habits (QB)",
+      "subject":"Prevention and Safety Habits"
+    },
+    {
+      "instr":"QB",
+      "year":"2011",
+      "title":"Prevention and Safety Habits (QB)",
+      "subject":"Prevention and Safety Habits"
+    },
+    {
+      "instr":"QB",
+      "year":"2012",
+      "title":"Prevention and Safety Habits (QB)",
+      "subject":"Prevention and Safety Habits"
+    },
+    {
+      "instr":"QB",
+      "year":"2013",
+      "title":"Prevention and Safety Habits (QB)",
+      "subject":"Prevention and Safety Habits"
+    },
+    {
+      "instr":"SIQ",
+      "year":"2008_2009",
+      "title":"Screening and Immunization (SIQ)",
+      "subject":"Screening and Immunization History"
+    },
+    {
+      "instr":"SIQ",
+      "year":"2010",
+      "title":"Screening and Immunization (SIQ)",
+      "subject":"Screening and Immunization History"
+    },
+    {
+      "instr":"SIQ",
+      "year":"2011",
+      "title":"Screening and Immunization (SIQ)",
+      "subject":"Screening and Immunization History"
+    },
+    {
+      "instr":"SIQ",
+      "year":"2012",
+      "title":"Screening and Immunization (SIQ)",
+      "subject":"Screening and Immunization History"
+    },
+    {
+      "instr":"SIQ",
+      "year":"2013",
+      "title":"Screening and Immunization (SIQ)",
+      "subject":"Screening and Immunization History"
+    },
+    {
+      "instr":"SIQ_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables: Screening and Immunization (SIQ)",
+      "subject":"Screening and Immunization History"
+    },
+    {
+      "instr":"SIQ_DER",
+      "year":"2010",
+      "title":"Derived Variables: Screening and Immunization (SIQ)",
+      "subject":"Screening and Immunization History"
+    },
+    {
+      "instr":"SIQ_DER",
+      "year":"2011",
+      "title":"Derived Variables: Screening and Immunization (SIQ)",
+      "subject":"Screening and Immunization History"
+    },
+    {
+      "instr":"SIQ_DER",
+      "year":"2012",
+      "title":"Derived Variables: Screening and Immunization (SIQ)",
+      "subject":"Screening and Immunization"
+    },
+    {
+      "instr":"SIQ_DER",
+      "year":"2013",
+      "title":"Derived Variables: Screening and Immunization (SIQ)",
+      "subject":"Screening and Immunization"
+    }
+  ],
+  "PTSD":[
+    {
+      "instr":"PTSD",
+      "year":"2010",
+      "title":"PTSD Checklist - Civilian Version for DSM_IV (PTSD)",
+      "subject":"17 items that correspond to the key symptoms of PTSD"
+    },
+    {
+      "instr":"PTSD",
+      "year":"2011",
+      "title":"PTSD Checklist - Civilian Version for DSM_IV (PTSD)",
+      "subject":"17 items that correspond to the key symptoms of PTSD"
+    },
+    {
+      "instr":"PTSD",
+      "year":"2012",
+      "title":"PTSD Checklist - Civilian Version for DSM_IV (PTSD)",
+      "subject":" 17 items that correspond to the key symptoms of PTSD"
+    },
+    {
+      "instr":"PTSD",
+      "year":"2013",
+      "title":"Post-Traumatic Stress Disorder (PTSD)",
+      "subject":"Post-Traumatic Stress Disorder"
+    },
+    {
+      "instr":"PTSD",
+      "year":"2014",
+      "title":"Post-Traumatic Stress Disorder (PTSD)",
+      "subject":"Post-Traumatic Stress Disorder"
+    },
+    {
+      "instr":"PTSD_DER",
+      "year":"2010",
+      "title":"Derived Variables: PTSD Checklist - Civilian Version for DSM_IV (PTSD)",
+      "subject":"17 items that correspond to the key symptoms of PTSD"
+    },
+    {
+      "instr":"PTSD_DER",
+      "year":"2011",
+      "title":"Derived Variables:  PTSD Checklist - Civilian Version for DSM_IV (PTSD)",
+      "subject":"17 items that correspond to the key symptoms of PTSD"
+    },
+    {
+      "instr":"PTSD_DER",
+      "year":"2012",
+      "title":"Derived Variables: PTSD Checklist - Civilian Version for DSM_IV (PTSD)",
+      "subject":"17 items that correspond to the key symptoms of PTSD"
+    },
+    {
+      "instr":"PTSD_DER",
+      "year":"2013",
+      "title":"Derived Variables - Post-Traumatic Stress Disorder (PTSD_DER)",
+      "subject":"Post-Traumatic Stress Disorder"
+    },
+    {
+      "instr":"PTSD_DER",
+      "year":"2014",
+      "title":"Derived Variables - Post-Traumatic Stress Disorder (PTSD_DER)",
+      "subject":"Post-Traumatic Stress Disorder"
+    }
+  ],
+  "Quality of Life":[
+    {
+      "instr":"EOQ",
+      "year":"2008_2009",
+      "title":"EQ-5D (EOQ)",
+      "subject":"Quality of Life"
+    },
+    {
+      "instr":"EOQ",
+      "year":"2010",
+      "title":"EQ-5D (EOQ)",
+      "subject":"General Health-Related Quality of Life"
+    },
+    {
+      "instr":"EOQ",
+      "year":"2011",
+      "title":"EQ-5D (EOQ)",
+      "subject":"General Health-Related Quality of Life"
+    },
+    {
+      "instr":"EOQ",
+      "year":"2012",
+      "title":"EQ-5D (EOQ)",
+      "subject":"General Health-Related Quality of Life"
+    },
+    {
+      "instr":"EOQ",
+      "year":"2013",
+      "title":"EQ-5D (EOQ)",
+      "subject":"General Health-Related Quality of Life"
+    },
+    {
+      "instr":"EOQ_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - EQ-5D (EOQ_DER)",
+      "subject":"General Health-Related Quality of Life"
+    },
+    {
+      "instr":"EOQ_DER",
+      "year":"2010",
+      "title":"Derived Variables - EQ-5D (EOQ_DER)",
+      "subject":"General Health-Related Quality of Life"
+    },
+    {
+      "instr":"EOQ_DER",
+      "year":"2011",
+      "title":"Derived Variables - EQ-5D (EOQ_DER)",
+      "subject":"General Health-Related Quality of Life"
+    },
+    {
+      "instr":"EOQ_DER",
+      "year":"2012",
+      "title":"Derived Variables - EQ-5D (EOQ_DER)",
+      "subject":"General Health-Related Quality of Life"
+    },
+    {
+      "instr":"EOQ_DER",
+      "year":"2013",
+      "title":"Derived Variables - EQ-5D (EOQ_DER)",
+      "subject":"General Health-Related Quality of Life"
+    }
+  ],
+  "Reproductive Health":[
+    {
+      "instr":"RHQ",
+      "year":"2008_2009",
+      "title":"Reproductive Health (RHQ)",
+      "subject":"Female Reproductive Health"
+    },
+    {
+      "instr":"RHQ",
+      "year":"2010",
+      "title":"Reproductive Health (RHQ)",
+      "subject":"Female Reproductive Health"
+    },
+    {
+      "instr":"RHQ",
+      "year":"2011",
+      "title":"Reproductive Health (RHQ)",
+      "subject":"Female Reproductive Health"
+    },
+    {
+      "instr":"RHQ",
+      "year":"2012",
+      "title":"Reproductive Health (RHQ)",
+      "subject":"Female Reproductive Health"
+    },
+    {
+      "instr":"RHQ",
+      "year":"2013",
+      "title":"Reproductive Health (RHQ)",
+      "subject":"Female Reproductive Health"
+    },
+    {
+      "instr":"RHQ",
+      "year":"2014",
+      "title":"Reproductive Health (RHQ)",
+      "subject":"Reproductive Health and Contraception Use"
+    },
+    {
+      "instr":"RHQ_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - Reproductive Health (RHQ_DER)",
+      "subject":"Reproductive Health"
+    },
+    {
+      "instr":"RHQ_DER",
+      "year":"2010",
+      "title":"Derived Variables - Reproductive Health (RHQ_DER)",
+      "subject":"Reproductive Health"
+    },
+    {
+      "instr":"RHQ_DER",
+      "year":"2011",
+      "title":"Derived Variables - Reproductive Health (RHQ_DER)",
+      "subject":"Reproductive Health"
+    },
+    {
+      "instr":"RHQ_DER",
+      "year":"2012",
+      "title":"Derived Variables - Reproductive Health",
+      "subject":"Reproductive Health"
+    },
+    {
+      "instr":"RHQ_DER",
+      "year":"2013",
+      "title":"Derived Variables - Reproductive Health",
+      "subject":"Reproductive Health"
+    },
+    {
+      "instr":"RHQ_DER",
+      "year":"2014",
+      "title":"Derived Variables - Reproductive Health",
+      "subject":"Reproductive Health and Contraception Use"
+    }
+  ],
+  "Respiratory Health":[
+    {
+      "instr":"ASTHMA_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - Asthma",
+      "subject":"Asthma diagnosis, awareness, treatment and control"
+    },
+    {
+      "instr":"ASTHMA_DER",
+      "year":"2010",
+      "title":"Derived Variables - Asthma",
+      "subject":"Asthma diagnosis, awareness, treatment and control"
+    },
+    {
+      "instr":"ASTHMA_DER",
+      "year":"2011",
+      "title":"Derived Variables - Asthma",
+      "subject":"Asthma diagnosis, awareness, treatment and control"
+    },
+    {
+      "instr":"ASTHMA_DER",
+      "year":"2012",
+      "title":"Derived Variables - Asthma",
+      "subject":"Asthma diagnosis, awareness, treatment and control"
+    },
+    {
+      "instr":"ASTHMA_DER",
+      "year":"2013",
+      "title":"Derived Variables - Asthma",
+      "subject":"Asthma diagnosis, awareness, treatment and control"
+    },
+    {
+      "instr":"ASTHMA_DER",
+      "year":"2014",
+      "title":"Derived Variables - Asthma",
+      "subject":"Asthma diagnosis, awareness, treatment and control"
+    },
+    {
+      "instr":"RHM",
+      "year":"2014",
+      "title":"Respiratory Health for Minors (RHM)",
+      "subject":"Respiratory health for minors "
+    }
+  ],
+  "Sample Collection":[
+    {
+      "instr":"LAB",
+      "year":"2008_2009",
+      "title":"Laboratory (LAB)",
+      "subject":"Biological sample collection and testing results"
+    },
+    {
+      "instr":"LAB",
+      "year":"2010",
+      "title":"Laboratory (LAB)",
+      "subject":"Biological sample collection and testing results"
+    },
+    {
+      "instr":"LAB",
+      "year":"2011",
+      "title":"Laboratory (LAB)",
+      "subject":"Biological sample collection and testing results"
+    },
+    {
+      "instr":"LAB",
+      "year":"2012",
+      "title":"Laboratory (LAB)",
+      "subject":"Biological sample collection and testing results"
+    },
+    {
+      "instr":"LAB",
+      "year":"2013",
+      "title":"Laboratory (LAB)",
+      "subject":"Biological sample collection and testing results"
+    },
+    {
+      "instr":"LAB",
+      "year":"2014",
+      "title":"Laboratory (LAB)",
+      "subject":"Biological sample collection and testing results"
+    },
+    {
+      "instr":"LAB_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - Laboratory (LAB_DER)",
+      "subject":"Biological sample collection and testing results"
+    },
+    {
+      "instr":"LAB_DER",
+      "year":"2010",
+      "title":"Derived Variables - Laboratory (LAB_DER)",
+      "subject":"Biological sample collection and testing results"
+    },
+    {
+      "instr":"LAB_DER",
+      "year":"2011",
+      "title":"Derived Variables - Laboratory (LAB_DER)",
+      "subject":"Biological sample collection and testing results"
+    },
+    {
+      "instr":"LAB_DER",
+      "year":"2012",
+      "title":"Derived Variables - Laboratory (LAB_DER)",
+      "subject":"Biological sample collection and testing results"
+    },
+    {
+      "instr":"LAB_DER",
+      "year":"2013",
+      "title":"Derived Variables - Laboratory (LAB_DER)",
+      "subject":"Biological sample collection and testing results"
+    },
+    {
+      "instr":"LAB_DER",
+      "year":"2014",
+      "title":"Derived Variables - Laboratory (LAB_DER)",
+      "subject":"Biological sample collection and testing results"
+    }
+  ],
+  "Screen Time":[
+    {
+      "instr":"STM",
+      "year":"2014",
+      "title":"Screen Time for Minors (STM)",
+      "subject":"Screen time in minors"
+    },
+    {
+      "instr":"STM_DER",
+      "year":"2014",
+      "title":"Derived Variables - STM: Screen Time for Minors",
+      "subject":"Screen time in minors"
+    }
+  ],
+  "Sense of Community":[
+    {
+      "instr":"COMMUNITY",
+      "year":"2014",
+      "title":"Sense of Community and Empowerment (COMMUNITY)",
+      "subject":"Sense of Community and Empowerment"
+    },
+    {
+      "instr":"COMMUNITY_DER",
+      "year":"2014",
+      "title":"Derived Variables - Sense of Community and Empowerment (COMMUNITY_DER)",
+      "subject":""
+    }
+  ],
+  "Sexual Behavior":[
+    {
+      "instr":"SXQ",
+      "year":"2008_2009",
+      "title":"Sexual Behavior (SXQ)",
+      "subject":"Sexual Behavior"
+    },
+    {
+      "instr":"SXQ",
+      "year":"2010",
+      "title":"Sexual Behavior (SXQ)",
+      "subject":"Sexual Behavior"
+    },
+    {
+      "instr":"SXQ",
+      "year":"2011",
+      "title":"Sexual Behavior (SXQ)",
+      "subject":"Sexual Behavior"
+    },
+    {
+      "instr":"SXQ",
+      "year":"2012",
+      "title":"Sexual Behavior (SXQ)",
+      "subject":"Sexual Behavior"
+    },
+    {
+      "instr":"SXQ",
+      "year":"2013",
+      "title":"Sexual Behavior (SXQ)",
+      "subject":"Sexual Behavior"
+    },
+    {
+      "instr":"SXQ",
+      "year":"2014",
+      "title":"Sexual Identity (SXQ)",
+      "subject":"Sexual Identity"
+    }
+  ],
+  "Sleep":[
+    {
+      "instr":"QD",
+      "year":"2008_2009",
+      "title":"Sleep Habits and Problems (QD)",
+      "subject":"Sleep habits, Sleep disorders and Excessive daytime sleepiness"
+    },
+    {
+      "instr":"QD",
+      "year":"2010",
+      "title":"Sleep Habits and Problems (QD)",
+      "subject":"Sleep habits, Sleep disorders and Excessive daytime sleepiness"
+    },
+    {
+      "instr":"QD",
+      "year":"2011",
+      "title":"Sleep Habits and Problems (QD)",
+      "subject":"Sleep habits, Sleep disorders and Excessive daytime sleepiness"
+    },
+    {
+      "instr":"QD",
+      "year":"2012",
+      "title":"Sleep Habits and Problems (QD)",
+      "subject":"Sleep habits, Sleep disorders and Excessive daytime sleepiness"
+    },
+    {
+      "instr":"QD",
+      "year":"2013",
+      "title":"Sleep Habits and Problems (QD)",
+      "subject":"Sleep habits, Sleep disorders and Excessive daytime sleepiness"
+    },
+    {
+      "instr":"QD_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - QD: Sleep Habits and Problems",
+      "subject":"Sleep habits, sleep disorders and excessive daytime sleepiness"
+    },
+    {
+      "instr":"QD_DER",
+      "year":"2010",
+      "title":"Derived Variables - QD: Sleep Habits and Problems",
+      "subject":"Sleep habits, sleep disorders and excessive daytime sleepiness"
+    },
+    {
+      "instr":"QD_DER",
+      "year":"2011",
+      "title":"Derived Variables - QD: Sleep Habits and Problems",
+      "subject":"Sleep habits, sleep disorders and excessive daytime sleepiness"
+    },
+    {
+      "instr":"QD_DER",
+      "year":"2012",
+      "title":"Derived Variables - QD: Sleep Habits and Problems",
+      "subject":"Sleep habits, sleep disorders and excessive daytime sleepiness"
+    },
+    {
+      "instr":"QD_DER",
+      "year":"2013",
+      "title":"Derived Variables - QD: Sleep Habits and Problems",
+      "subject":"Sleep habits, sleep disorders and excessive daytime sleepiness"
+    },
+    {
+      "instr":"SLM",
+      "year":"2014",
+      "title":"Sleep Habits and Problems for Minors (SLM)",
+      "subject":"Sleep habits, Sleep disorders and Excessive daytime sleepiness in minors"
+    },
+    {
+      "instr":"SLM_DER",
+      "year":"2014",
+      "title":"Derived Variables - SLM: Sleep Habits and Problems for Minors",
+      "subject":"Sleep habits, Sleep disorders and Excessive daytime sleepiness in minors"
+    },
+    {
+      "instr":"SLP",
+      "year":"2014",
+      "title":"Sleep Habits and Problems (SLP)",
+      "subject":"Sleep habits, sleep disorders and excessive daytime sleepiness"
+    },
+    {
+      "instr":"SLP_DER",
+      "year":"2014",
+      "title":"Derived Variables - SLP: Sleep Habits and Problems",
+      "subject":"Sleep habits, sleep disorders and excessive daytime sleepiness"
+    },
+    {
+      "instr":"BERLIN",
+      "year":"2012",
+      "title":"Sleep Apnea Risk Score (BERLIN)",
+      "subject":"Sleep Apnea"
+    },
+    {
+      "instr":"BERLIN_DER",
+      "year":"2013",
+      "title":"Sleep Apnea Risk Score (BERLIN)",
+      "subject":"Sleep Apnea"
+    },
+    {
+      "instr":"BERLIN_DER",
+      "year":"2014",
+      "title":"Sleep Apnea Risk Score (Berlin)",
+      "subject":"Sleep Apnea"
+    }
+  ],
+  "Smoking":[
+    {
+      "instr":"SMQ",
+      "year":"2008-2009",
+      "title":"Smoking history and exposure to smoke (SMQ)",
+      "subject":"History of smoking"
+    },
+    {
+      "instr":"SMQ",
+      "year":"2010",
+      "title":"Smoking history and exposure to smoke (SMQ)",
+      "subject":"History of smoking"
+    },
+    {
+      "instr":"SMQ",
+      "year":"2011",
+      "title":"Smoking history and exposure to smoke (SMQ)",
+      "subject":"History of smoking"
+    },
+    {
+      "instr":"SMQ",
+      "year":"2012",
+      "title":"Smoking history and exposure to smoke (SMQ)",
+      "subject":"History of smoking"
+    },
+    {
+      "instr":"SMQ",
+      "year":"2013",
+      "title":"Smoking history and exposure to smoke (SMQ)",
+      "subject":"History of smoking"
+    },
+    {
+      "instr":"SMQ",
+      "year":"2014",
+      "title":"Smoking history and exposure to smoke (SMQ)",
+      "subject":"History of smoking"
+    },
+    {
+      "instr":"SMQ_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - Smoking history",
+      "subject":"Smoking History"
+    },
+    {
+      "instr":"SMQ_DER",
+      "year":"2010",
+      "title":"Derived Variables - Smoking History",
+      "subject":"Smoking History"
+    },
+    {
+      "instr":"SMQ_DER",
+      "year":"2011",
+      "title":"Derived Variables - Smoking history",
+      "subject":"Smoking History"
+    },
+    {
+      "instr":"SMQ_DER",
+      "year":"2012",
+      "title":"Derived Variables - Smoking history",
+      "subject":"Smoking History"
+    },
+    {
+      "instr":"SMQ_DER",
+      "year":"2013",
+      "title":"Derived Variables - Smoking history",
+      "subject":"Smoking History"
+    },
+    {
+      "instr":"SMQ_Der",
+      "year":"2014",
+      "title":"Derived Variables - Smoking history",
+      "subject":"Smoking History"
+    }
+  ],
+  "Spirometry":[
+    {
+      "instr":"SPI",
+      "year":"2008_2009",
+      "title":"Spirometry (SPI)",
+      "subject":"Lung Function"
+    },
+    {
+      "instr":"SPI",
+      "year":"2010",
+      "title":"Spirometry (SPI)",
+      "subject":"Lung Function"
+    },
+    {
+      "instr":"SPI",
+      "year":"2011",
+      "title":"Spirometry (SPI)",
+      "subject":"Lung Function"
+    },
+    {
+      "instr":"SPI",
+      "year":"2012",
+      "title":"Spirometry (SPI)",
+      "subject":"Lung Function"
+    },
+    {
+      "instr":"SPI",
+      "year":"2013",
+      "title":"Spirometry (SPI)",
+      "subject":"Lung Function"
+    },
+    {
+      "instr":"SPI",
+      "year":"2014",
+      "title":"Spirometry (SPI)",
+      "subject":"Lung Function"
+    },
+    {
+      "instr":"SPI_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - Spirometry (SPI_DER)",
+      "subject":"Lung Function"
+    },
+    {
+      "instr":"SPI_DER",
+      "year":"2010",
+      "title":"Derived Variables - Spirometry (SPI_DER)",
+      "subject":"Lung Function"
+    },
+    {
+      "instr":"SPI_DER",
+      "year":"2011",
+      "title":"Derived Variables - Spirometry (SPI_DER)",
+      "subject":"Lung Function"
+    },
+    {
+      "instr":"SPI_DER",
+      "year":"2012",
+      "title":"Derived Variables - Spirometry (SPI_DER)",
+      "subject":"Lung Function"
+    },
+    {
+      "instr":"SPI_DER",
+      "year":"2013",
+      "title":"Derived Variables - Spirometry (SPI_DER)",
+      "subject":"Lung Function"
+    },
+    {
+      "instr":"SPI_DER",
+      "year":"2014",
+      "title":"Derived Variables - Spirometry (SPI_DER)",
+      "subject":"Lung Function"
+    }
+  ],
+  "Stress":[
+    {
+      "instr":"QE",
+      "year":"2008_2009",
+      "title":"Stress (QE)",
+      "subject":"Stress, Anxiety, and Depression"
+    },
+    {
+      "instr":"QE",
+      "year":"2010",
+      "title":"Stress (QE)",
+      "subject":"Stress, Anxiety, and Depression"
+    },
+    {
+      "instr":"QE",
+      "year":"2011",
+      "title":"Stress (QE)",
+      "subject":"Stress, Anxiety, and Depression"
+    },
+    {
+      "instr":"QE",
+      "year":"2012",
+      "title":"Stress (QE)",
+      "subject":"Stress, Anxiety, and Depression"
+    },
+    {
+      "instr":"QE",
+      "year":"2013",
+      "title":"Stress (QE)",
+      "subject":"Stress, Anxiety, and Depression"
+    },
+    {
+      "instr":"QE_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - Stress (QE_DER)",
+      "subject":"April 2013"
+    },
+    {
+      "instr":"QE_DER",
+      "year":"2010",
+      "title":"Derived Variables - Stress (QE_DER)",
+      "subject":"Stress, Anxiety, and Depression"
+    },
+    {
+      "instr":"QE_DER",
+      "year":"2011",
+      "title":"Derived Variables - Stress (QE_DER)",
+      "subject":"Stress, Anxiety, and Depression"
+    },
+    {
+      "instr":"QE_DER",
+      "year":"2012",
+      "title":"Derived Variables - Stress (QE_DER)",
+      "subject":"Stress, Anxiety, and Depression"
+    },
+    {
+      "instr":"QE_DER",
+      "year":"2013",
+      "title":"Derived Variables - Stress (QE_DER)",
+      "subject":"Stress, Anxiety, and Depression"
+    },
+    {
+      "instr":"STRESS",
+      "year":"2014",
+      "title":"Stress ",
+      "subject":"Stress, Anxiety, and Depression"
+    },
+    {
+      "instr":"STRESS_DER",
+      "year":"2014",
+      "title":"Derived Variables - Stress ",
+      "subject":"Stress, Anxiety, and Depression"
+    }
+  ],
+  "Stressful Events":[
+    {
+      "instr":"QC",
+      "year":"2008_2009",
+      "title":"Life Events (QC)",
+      "subject":"Major life events linked to stress"
+    },
+    {
+      "instr":"QC",
+      "year":"2010",
+      "title":"Life Events (QC)",
+      "subject":"Major life events linked to stress"
+    },
+    {
+      "instr":"QC",
+      "year":"2011",
+      "title":"Life Events (QC)",
+      "subject":"Major life events linked to stress"
+    },
+    {
+      "instr":"QC",
+      "year":"2012",
+      "title":"Life Events (QC)",
+      "subject":"Major life events linked to stress"
+    },
+    {
+      "instr":"QC",
+      "year":"2013",
+      "title":"Life Events (QC)",
+      "subject":"Major life events linked to stress"
+    },
+    {
+      "instr":"QC_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - Life events (QC_DER)",
+      "subject":"Major life events linked to stress"
+    },
+    {
+      "instr":"QC_DER",
+      "year":"2010",
+      "title":"Derived Variables - Life events (QC_DER)",
+      "subject":"Major life events linked to stress"
+    },
+    {
+      "instr":"QC_DER",
+      "year":"2011",
+      "title":"Derived Variables - Life events (QC_DER)",
+      "subject":"Major life events linked to stress"
+    },
+    {
+      "instr":"QC_DER",
+      "year":"2012",
+      "title":"Derived Variables - Life events (QC_DER)",
+      "subject":"Major life events linked to stress"
+    },
+    {
+      "instr":"QC_DER",
+      "year":"2013",
+      "title":"Derived Variables - Life Events (QC_DER)",
+      "subject":"Major life events linked to stress"
+    }
+  ],
+  "Verification of Age":[
+    {
+      "instr":"VAQ",
+      "year":"2008_2009",
+      "title":"Verification of Age (VAQ)",
+      "subject":"Verification of subject's age."
+    },
+    {
+      "instr":"VAQ",
+      "year":"2010",
+      "title":"Verification of Age (VAQ)",
+      "subject":"Verification of subject's age."
+    },
+    {
+      "instr":"VAQ",
+      "year":"2011",
+      "title":"Verification of Age (VAQ)",
+      "subject":"Verification of subject's age."
+    },
+    {
+      "instr":"VAQ",
+      "year":"2012",
+      "title":"Verification of Age (VAQ)",
+      "subject":"Verification of subject's age."
+    },
+    {
+      "instr":"VAQ",
+      "year":"2013",
+      "title":"Verification of Age (VAQ)",
+      "subject":"Verification of subject's age."
+    },
+    {
+      "instr":"VAQ",
+      "year":"2014",
+      "title":"Verification of Age (VAQ)",
+      "subject":"Verification of subject's age."
+    },
+    {
+      "instr":"VAQ_DER",
+      "year":"2012",
+      "title":"Derived Variables - Verification of Age (VAQ_DER)",
+      "subject":"Date of Birth"
+    },
+    {
+      "instr":"VAQ_DER",
+      "year":"2013",
+      "title":"Derived Variables - Verification of Age (VAQ_DER)",
+      "subject":"Date of Birth"
+    },
+    {
+      "instr":"VAQ_DER",
+      "year":"2014",
+      "title":"Derived Variables - Verification of Age (VAQ_DER)",
+      "subject":"Date of Birth"
+    }
+  ],
+  "Walk Score":[
+    {
+      "instr":"WALK",
+      "year":"2008_2009",
+      "title":"Walk Score (WALK)",
+      "subject":"Walk Score"
+    },
+    {
+      "instr":"WALK",
+      "year":"2010",
+      "title":"Walk Score (WALK)",
+      "subject":"Walk Score"
+    },
+    {
+      "instr":"WALK",
+      "year":"2011",
+      "title":"Walk Score (WALK)",
+      "subject":"Walk Score"
+    },
+    {
+      "instr":"WALK",
+      "year":"2012",
+      "title":"Walk Score (WALK)",
+      "subject":"Walk Score"
+    },
+    {
+      "instr":"WALK",
+      "year":"2013",
+      "title":"Walk Score (WALK)",
+      "subject":"Walk Score"
+    },
+    {
+      "instr":"WALK",
+      "year":"2014",
+      "title":"Walk Score (WALK)",
+      "subject":"Walk Score"
+    }
+  ],
+  "Weight History":[
+    {
+      "instr":"WHQ",
+      "year":"2008_2009",
+      "title":"Weight History",
+      "subject":"Weight History"
+    },
+    {
+      "instr":"WHQ",
+      "year":"2010",
+      "title":"Weight History (WHQ)",
+      "subject":"Weight History"
+    },
+    {
+      "instr":"WHQ",
+      "year":"2011",
+      "title":"Weight History (WHQ)",
+      "subject":"Weight History"
+    },
+    {
+      "instr":"WHQ",
+      "year":"2012",
+      "title":"Weight History (WHQ)",
+      "subject":"Weight History"
+    },
+    {
+      "instr":"WHQ",
+      "year":"2013",
+      "title":"Weight History (WHQ)",
+      "subject":"Weight History"
+    },
+    {
+      "instr":"WHQ",
+      "year":"2014",
+      "title":"Weight History (WHQ)",
+      "subject":"Weight History"
+    },
+    {
+      "instr":"WHQ_DER",
+      "year":"2008_2009",
+      "title":"Derived Variables - Weight History (WHQ_DER)",
+      "subject":"Weight History"
+    },
+    {
+      "instr":"WHQ_DER",
+      "year":"2010",
+      "title":"Derived Variables - Weight History (WHQ_DER)",
+      "subject":"Weight History"
+    },
+    {
+      "instr":"WHQ_DER",
+      "year":"2011",
+      "title":"Derived Variables - Weight History (WHQ_DER)",
+      "subject":"Weight History"
+    },
+    {
+      "instr":"WHQ_DER",
+      "year":"2012",
+      "title":"Derived Variables - Weight History (WHQ_DER)",
+      "subject":"Weight History"
+    },
+    {
+      "instr":"WHQ_DER",
+      "year":"2013",
+      "title":"Derived Variables - Weight History (WHQ_DER)",
+      "subject":"Weight History"
+    },
+    {
+      "instr":"WHQ_DER",
+      "year":"2014",
+      "title":"Derived Variables - Weight History (WHQ_DER)",
+      "subject":"Weight History"
+    }
+  ]
+}

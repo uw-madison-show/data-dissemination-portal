@@ -179,22 +179,21 @@
 
   <script type="text/javascript">
     $(document).ready( function() {
-      console.log('hello world');
-
+      // console.log('hello world');
 
       // functions
       var instrumentClicked = function(e) 
       {
-        console.log('function ready');
+        // console.log('function ready');
         e.preventDefault();
-        cb = $(this).data("codebooks");
-        console.log(cb);
+        var cb = $(this).data("codebooks");
+        // console.log(cb);
         
         $('#codebook-list').empty();
 
         $.each( cb, function(key, this_codebook) {
-          console.log( key );
-          console.log( this_codebook );
+          // console.log( key );
+          // console.log( this_codebook );
           
           var cb_year = this_codebook.instr.toUpperCase() + '_' + this_codebook.year;
 
@@ -206,32 +205,23 @@
                       .text(cb_year)
           ));
         }); // end for each over cb
-
-      loadListeners();
       }
 
       var codebookClicked = function(e)
       {
-        console.log($(this));
+        // console.log($(this));
         e.preventDefault();
 
         $('#codebook-iframe').attr('src', './instruments/' + this.id + '.html');
 
       }
 
-      // listeners are in a function due to loading json via ajax
-      var loadListeners = function ()
-      {
-        $('a.instrument-list-item-link').click( instrumentClicked );
-        $('a.codebook-list-item-link').click( codebookClicked );
-      }
-
       // on load 
       $.getJSON( 'codebook_menu.json' , function( instruments ) {
         // make the menu items
         $.each( instruments, function(key, value) {
-          // console.log( key );
-          // console.log( value );
+          // // console.log( key );
+          // // console.log( value );
           $('#instrument-list').append(
             $('<li>').addClass('instrument-list-item').append(
               $('<a>').attr('href', '#')
@@ -241,7 +231,12 @@
                       .text(key)
           ));
         });
-      }).done( loadListeners );
+      }).done(
+      );
+
+      // load up dynamic listeners
+      $('#instrument-list').on('click', '.instrument-list-item-link', instrumentClicked );
+      $('#codebook-list').on('click', '.codebook-list-item-link', codebookClicked );
 
     }); // end document ready
   </script>

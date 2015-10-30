@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class=" is-copy-enabled">
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -123,6 +123,14 @@
         height: 98%;
         width: inherit;
       }
+      .list-group-item.codebook-list-year-header {
+        font-weight: bold;
+        background-color: lightblue;
+        margin-top: 5px;
+      }
+      #codebook-list a.list-group-item {
+        margin-left: 5px;
+      }
     </style>
   </head>
   <body id="page-top" class="index">
@@ -164,8 +172,8 @@
         </ul>
       </div>
       <div class="col-fixed-2">
-        <ul id="codebook-list">
-        </ul>
+        <div id="codebook-list" class="list-group">
+        </div>
       </div>
       <div class="col-fixed-3">
           <div class="row row-fill">
@@ -179,59 +187,146 @@
 
   <script type="text/javascript">
     $(document).ready( function() {
-      console.log('hello world');
-
+      // console.log('hello world');
 
       // functions
       var instrumentClicked = function(e) 
       {
-        console.log('function ready');
+        // console.log('function ready');
         e.preventDefault();
-        cb = $(this).data("codebooks");
+        var cb = $(this).data("codebooks");
         console.log(cb);
-        
-        $('#codebook-list').empty();
+        var tg = $('#codebook-list');
+        console.log(tg);
+        tg.empty();
 
-        $.each( cb, function(key, this_codebook) {
-          console.log( key );
-          console.log( this_codebook );
-          
-          var cb_year = this_codebook.instr.toUpperCase() + '_' + this_codebook.year;
-
-          $('#codebook-list').append(
-            $('<li>)').addClass('codebook-list-item').append(
-              $('<a>').attr('href', '#')
-                      .attr('id', cb_year)
-                      .attr('class', 'codebook-list-item-link')
-                      .text(cb_year)
-          ));
-        }); // end for each over cb
-
-      loadListeners();
+        parseInstrument(cb, tg);
       }
 
       var codebookClicked = function(e)
       {
-        console.log($(this));
+        // console.log($(this));
         e.preventDefault();
 
-        $('#codebook-iframe').attr('src', './instruments/' + this.id + '.html');
-
+        $('#codebook-iframe').attr('src', this.id );
       }
 
-      // listeners are in a function due to loading json via ajax
-      var loadListeners = function ()
+      var parseInstrument = function(codebooks, target)
       {
-        $('a.instrument-list-item-link').click( instrumentClicked );
-        $('a.codebook-list-item-link').click( codebookClicked );
+        var raw_cb = {};
+        var derived_cb = {};
+        var annotated = {};
+        var years = [];
+
+        // patterns for matching
+        derived_pat = new RegExp(/_DER$/g);
+        annotated_pat = new RegExp(/_ANNOTATED\.[pdf|doc|html]/g);
+
+        $.each( codebooks, function(key, this_codebook) {
+          // console.log( key );
+          // console.log( this_codebook );
+          
+          years.push(this_codebook.year);
+          
+          if ( derived_pat.test( this_codebook.instr ) ) {
+            console.log('we have a derived codebook');
+            derived_cb[this_codebook.year] = {
+                                              "src" : "./instruments/" + this_codebook.instr + "_" + this_codebook.year + ".html", 
+                                              "text" : "Derived Variables"
+                                              };
+          } else if ( annotated_pat.test( this_codebook.instr ) ) {
+            console.log('we have a annotated questionnaire');
+            annotated[this_codebook.year] = {
+                                              "src" : "./annotated/" + this_codebook.year + "/" + this_codebook.instr,
+                                              "text" : "Annotated Survey"
+                                            };
+          } else {
+            console.log('we have a raw codebook');
+            raw_cb[this_codebook.year] = {
+                                           "src" : "./instruments/" + this_codebook.instr + "_" + this_codebook.year + ".html",
+                                           "text" : "Raw Variables"
+                                          };
+          }
+        }); // end for each over cb
+
+        var years_unique = $.grep( years, function(v, k) {
+                             return $.inArray(v, years) === k;
+                           });
+
+        console.log(years_unique);
+
+        console.log(raw_cb);
+        console.log(derived_cb);
+        console.log(annotated);
+
+        years_unique.sort()
+
+        $.each( years_unique, function(key, year) {
+
+          // make the "header" for the years
+          $(target).append(
+            $('<div>').attr('href', '#')
+                      .text(year)
+                      .addClass('list-group-item')
+                      .addClass('codebook-list-year-header')
+          );
+
+          // add the raw codebook links if they exist
+          var rr = $('<a>').attr('href', '#')
+                           .text('Raw Variables')
+                           .addClass('list-group-item')
+                           .addClass('disabled')
+                           ;
+          if ( raw_cb.hasOwnProperty(year) ) {
+            rr.removeClass('disabled');
+            rr.addClass('codebook-list-item-link');
+            rr.attr('id', raw_cb[year].src);
+            rr.text(raw_cb[year].text);
+          };
+          $(target).append(rr);
+
+          // add the derived codebook link if it exists
+          var dd = $('<a>').attr('href', '#')
+                           .text('Derived Variables')
+                           .addClass('list-group-item')
+                           .addClass('disabled')
+                           ;
+          if ( derived_cb.hasOwnProperty(year) ) {
+            dd.removeClass('disabled');
+            dd.addClass('codebook-list-item-link');
+            dd.attr('id', derived_cb[year].src);
+            dd.text(derived_cb[year].text);
+          };
+          $(target).append(dd);
+
+          // add annotated questionnaire if it exists
+          var aa = $('<a>').attr('href', '#')
+                           .text('Annotated Survey')
+                           .addClass('list-group-item')
+                           .addClass('disabled')
+                           ;
+          if ( annotated.hasOwnProperty(year) ) {
+            aa.removeClass('disabled');
+            aa.addClass('codebook-list-item-link');
+            aa.attr('id', annotated[year].src);
+            aa.text(annotated[year].text);
+          };
+          $(target).append(aa);
+          //     $('<a>').attr('href', '#')
+          //             //.attr('id', cb_year)
+          //             .attr('class', 'codebook-list-item-link')
+          //             .text(year)
+          //             addClass('codebook-list-item').append(
+          // ));
+        }); // end of each years_unique
       }
 
       // on load 
       $.getJSON( 'codebook_menu.json' , function( instruments ) {
         // make the menu items
         $.each( instruments, function(key, value) {
-          // console.log( key );
-          // console.log( value );
+          // // console.log( key );
+          // // console.log( value );
           $('#instrument-list').append(
             $('<li>').addClass('instrument-list-item').append(
               $('<a>').attr('href', '#')
@@ -241,7 +336,11 @@
                       .text(key)
           ));
         });
-      }).done( loadListeners );
+      });
+
+      // load up dynamic listeners
+      $('#instrument-list').on('click', '.instrument-list-item-link', instrumentClicked );
+      $('#codebook-list').on('click', '.codebook-list-item-link', codebookClicked );
 
     }); // end document ready
   </script>

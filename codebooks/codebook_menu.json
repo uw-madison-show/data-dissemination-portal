@@ -21,6 +21,12 @@
   ],
   "Alcohol":[
     {
+      "instr":"ALQ_2008_ANNOTATED.pdf",
+      "year":"2008_2009",
+      "title":"Annotated questionnaire",
+      "subject":"Alcohol use"
+    },
+    {
       "instr":"ALQ",
       "year":"2010",
       "title":"History of drinking alcoholic beverage (ALQ)",
@@ -266,7 +272,7 @@
   "Caregiving":[
     {
       "instr":"CGQ",
-      "year":"2008-2009",
+      "year":"2008_2009",
       "title":"Caregiving (CGQ)",
       "subject":"Caregiving Experience"
     },

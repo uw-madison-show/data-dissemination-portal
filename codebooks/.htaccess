@@ -17,4 +17,4 @@ AuthName "Codebooks"
 AuthUserFile "/var/www/vhosts/wwwtest.show.wisc.edu/httpdocs/data/codebooks/.htpasswd"
 Require valid-user
 
-ErrorDocument 401 /data/auth/landing.php
+ErrorDocument 401 /data/registration.php

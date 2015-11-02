@@ -17,11 +17,20 @@
       "year":"2014",
       "title":"Accelerometry Derived Output",
       "subject":"Accelerometry"
-    }
+    },
+      { "subject":null, "year":"2014", "instr":"ACC_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2014", "instr":"ACM_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"}
+
   ],
   "Alcohol":[
+    
+      { "subject":null, "year":"2008_2009", "instr":"ALQ_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"ALQ_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"ALQ_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2014", "instr":"ALQ_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
-      "instr":"ALQ_2008_ANNOTATED.pdf",
+      "instr":"ALQ_2008_2009_ANNOTATED.pdf",
       "year":"2008_2009",
       "title":"Annotated questionnaire",
       "subject":"Alcohol use"
@@ -123,9 +132,18 @@
       "year":"2013",
       "title":"Bioimpedance Analysis (BIA)",
       "subject":"Bioimpedance Analysis"
-    }
+    },
+    { "subject":null, "year":"2008_2009", "instr":"BIA_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"BIA_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"BIA_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"}
+  
   ],
   "Body Measures":[
+    { "subject":null, "year":"2008_2009", "instr":"ANT_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"ANT_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"ANT_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2014", "instr":"ANT_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"ANT",
       "year":"2008_2009",
@@ -209,7 +227,9 @@
       "year":"2014",
       "title":"Derived Variables - Physical Measurments in Minors (PMM_DER)",
       "subject":"Anthropometry, blood pressure & spirometry testing"
-    }
+    },
+      { "subject":null, "year":"2014", "instr":"PMM_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"}
+
   ],
   "Built Environment":[
     {
@@ -270,6 +290,10 @@
     }
   ],
   "Caregiving":[
+      { "subject":null, "year":"2008_2009", "instr":"CGQ_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"CGQ_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"CGQ_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"CGQ",
       "year":"2008_2009",
@@ -340,6 +364,13 @@
     }
   ],
   "Cognitive Function":[
+  { "subject":null, "year":"2008_2009", "instr":"COG_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"COG_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"COG_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2014", "instr":"COG_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2014", "instr":"COMMUNITY_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  
+
     {
       "instr":"COG",
       "year":"2008_2009",
@@ -378,6 +409,15 @@
     }
   ],
   "Consent":[
+    { "subject":null, "year":"2014", "instr":"CON2_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"CONS_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2014", "instr":"CONS_M_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2014", "instr":"CONSENT_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2008_2009", "instr":"DIQ_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"DIQ_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"DIQ_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2014", "instr":"DIQ_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"CON2",
       "year":"2012",
@@ -440,6 +480,9 @@
     }
   ],
   "Contraception":[
+  { "subject":null, "year":"2008_2009", "instr":"FPC_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"FPC_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  
     {
       "instr":"FPC",
       "year":"2008_2009",
@@ -480,6 +523,10 @@
     }
   ],
   "Demographics":[
+  { "subject":null, "year":"2008_2009", "instr":"DMQ_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"DMQ_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"DMQ_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"DMQ",
       "year":"2008_2009",
@@ -554,6 +601,9 @@
     }
   ],
   "Depression":[
+    { "subject":null, "year":"2010", "instr":"PHQ-8_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"PHQ-8_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"PHQ",
       "year":"2010",
@@ -654,6 +704,8 @@
     }
   ],
   "Diet":[
+    { "subject":null, "year":"2014", "instr":"FOOD_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"DIQ",
       "year":"2008_2009",
@@ -740,6 +792,10 @@
     }
   ],
   "Discrimination":[
+    { "subject":null, "year":"2014", "instr":"DSC_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2008_2009", "instr":"QG_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"QG_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"DSC",
       "year":"2014",
@@ -814,6 +870,10 @@
     }
   ],
   "Eating":[
+    { "subject":null, "year":"2008_2009", "instr":"QI_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"QI_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"QI_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"FOOD",
       "year":"2014",
@@ -926,6 +986,10 @@
     }
   ],
   "Food Insecurity":[
+  { "subject":null, "year":"2008_2009", "instr":"FSQ_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"FSQ_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"FSQ_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"FSQ",
       "year":"2008_2009",
@@ -1128,6 +1192,18 @@
     }
   ],
   "Health":[
+    { "subject":null, "year":"2014", "instr":"HFM_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2014", "instr":"HHQ_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2008_2009", "instr":"HHQ1_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"HHQ1_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2008_2009", "instr":"HHQ2_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"HHQ2_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"HHQ2_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2008_2009", "instr":"HOQ_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"HOQ_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"HOQ_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2014", "instr":"HOQ_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"HFM",
       "year":"2014",
@@ -1332,6 +1408,10 @@
       "title":"Derived Variables - Your Health (QA_DER)",
       "subject":"General Health Status, including Physical and Mental Component"
     },
+      { "subject":null, "year":"2008_2009", "instr":"QA_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"QA_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"QA_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"SF12",
       "year":"2014",
@@ -1343,9 +1423,15 @@
       "year":"2014",
       "title":"Derived Variables - SF12",
       "subject":"General Health Status, including Physical and Mental Component"
-    }
+    },
+      { "subject":null, "year":"2014", "instr":"SF12_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"}
+
   ],
   "Health Literacy":[
+      { "subject":null, "year":"2008_2009", "instr":"STOFHLA_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"STOFHLA_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"STOFHLA_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"STOFHLA",
       "year":"2008-2009",
@@ -1546,6 +1632,9 @@
     }
   ],
   "Military Experience":[
+    { "subject":null, "year":"2008_2009", "instr":"QF_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"QF_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"QF",
       "year":"2008_2009",
@@ -1578,6 +1667,11 @@
     }
   ],
   "Neighborhood":[
+    { "subject":null, "year":"2014", "instr":"NEIGHBORHOOD_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2008_2009", "instr":"QH_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"QH_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"QH_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"NBRHD",
       "year":"2014",
@@ -1690,6 +1784,15 @@
     }
   ],
   "Occupation":[
+    { "subject":null, "year":"2008_2009", "instr":"OCQ_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"OCQ_2010 ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"OCQ_2011_Annotated.pdf", "title":"Annotated Questionnaire"},
+
+    { "subject":null, "year":"2008_2009", "instr":"IUQ_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"IUQ_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"IUQ_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2014", "instr":"IUQ_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"IOQ",
       "year":"2008_2009",
@@ -1770,6 +1873,12 @@
     }
   ],
   "Oral Health":[
+    { "subject":null, "year":"2010", "instr":"OHQ_2010-ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"OHQ_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2008_2009", "instr":"SDQ_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"SDQ_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"SDQ_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"OHQ",
       "year":"2011",
@@ -1838,6 +1947,10 @@
     }
   ],
   "Physical Activity":[
+    { "subject":null, "year":"2014", "instr":"PAM_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2008_2009", "instr":"PAQ_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2014", "instr":"PAQ_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"PAM",
       "year":"2014",
@@ -1918,6 +2031,11 @@
     }
   ],
   "Prescription Medication":[
+    { "subject":null, "year":"2008_2009", "instr":"RXQ_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"RXQ_2010_ANNOTATED .pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"RXQ_2011_ANNOTATED .pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2014", "instr":"RXQ_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"RXQ",
       "year":"2008_2009",
@@ -1992,6 +2110,11 @@
     }
   ],
   "Preventitive Health":[
+    { "subject":null, "year":"2014", "instr":"PSH_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2008_2009", "instr":"QB_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"QB_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"QB_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"PSH",
       "year":"2014",
@@ -2087,9 +2210,17 @@
       "year":"2013",
       "title":"Derived Variables: Screening and Immunization (SIQ)",
       "subject":"Screening and Immunization"
-    }
+    },
+      { "subject":null, "year":"2008_2009", "instr":"SIQ_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"SIQ_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"SIQ_2011_Annotated.pdf", "title":"Annotated Questionnaire"}
+
   ],
   "PTSD":[
+    { "subject":null, "year":"2010", "instr":"PCL-C_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"PTSD_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"PTSD_ANNOTATED_2011.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"PTSD",
       "year":"2010",
@@ -2152,6 +2283,10 @@
     }
   ],
   "Quality of Life":[
+  { "subject":null, "year":"2008_2009", "instr":"EOQ_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"EOQ_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"EOQ_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  
     {
       "instr":"EOQ",
       "year":"2008_2009",
@@ -2214,6 +2349,11 @@
     }
   ],
   "Reproductive Health":[
+    { "subject":null, "year":"2008_2009", "instr":"RHQ_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"RHQ_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"RHQ_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2014", "instr":"RHQ_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"RHQ",
       "year":"2008_2009",
@@ -2329,9 +2469,16 @@
       "year":"2014",
       "title":"Respiratory Health for Minors (RHM)",
       "subject":"Respiratory health for minors "
-    }
+    },
+      { "subject":null, "year":"2014", "instr":"RHM_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"}
+
   ],
   "Sample Collection":[
+    { "subject":null, "year":"2008_2009", "instr":"LAB_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"LAB_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"LAB_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2014", "instr":"LAB_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"LAB",
       "year":"2008_2009",
@@ -2434,6 +2581,11 @@
     }
   ],
   "Sexual Behavior":[
+    { "subject":null, "year":"2008_2009", "instr":"SXQ_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"SXQ_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"SXQ_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2014", "instr":"SXQ_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"SXQ",
       "year":"2008_2009",
@@ -2472,6 +2624,12 @@
     }
   ],
   "Sleep":[
+  { "subject":null, "year":"2008_2009", "instr":"QD_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"QD_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"QD_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2014", "instr":"SLP_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2014", "instr":"SLM_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"QD",
       "year":"2008_2009",
@@ -2576,6 +2734,11 @@
     }
   ],
   "Smoking":[
+    { "subject":null, "year":"2008_2009", "instr":"SMQ_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"SMQ_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"SMQ_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2014", "instr":"SMQ_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"SMQ",
       "year":"2008-2009",
@@ -2650,6 +2813,11 @@
     }
   ],
   "Spirometry":[
+  { "subject":null, "year":"2008_2009", "instr":"SPI_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"SPI_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2014", "instr":"SPI_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"SPI_DER_CALC.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"SPI",
       "year":"2008_2009",
@@ -2724,6 +2892,11 @@
     }
   ],
   "Stress":[
+    { "subject":null, "year":"2008_2009", "instr":"QE_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"QE_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"QE_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+    { "subject":null, "year":"2014", "instr":"STRESS_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"QE",
       "year":"2008_2009",
@@ -2798,6 +2971,10 @@
     }
   ],
   "Stressful Events":[
+    { "subject":null, "year":"2008_2009", "instr":"QC_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"QC_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2011", "instr":"QC_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"QC",
       "year":"2008_2009",
@@ -2860,6 +3037,8 @@
     }
   ],
   "Verification of Age":[
+    { "subject":null, "year":"2011", "instr":"VAQ_2011_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"VAQ",
       "year":"2008_2009",
@@ -2916,6 +3095,8 @@
     }
   ],
   "Walk Score":[
+    { "subject":null, "year":"2011", "instr":"WalkScoreMethodology_2011.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"WALK",
       "year":"2008_2009",
@@ -2954,6 +3135,10 @@
     }
   ],
   "Weight History":[
+    { "subject":null, "year":"2008_2009", "instr":"WHQ_2008_2009_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2010", "instr":"WHQ_2010_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+  { "subject":null, "year":"2014", "instr":"WHQ_2014_ANNOTATED.pdf", "title":"Annotated Questionnaire"},
+
     {
       "instr":"WHQ",
       "year":"2008_2009",
@@ -3026,5 +3211,11 @@
       "title":"Derived Variables - Weight History (WHQ_DER)",
       "subject":"Weight History"
     }
-  ]
+  ],
+  "Miscellaneous" : [
+    { "subject":"Follow up study", "year":"2008_2009", "instr":"FUS_2008_2009_ANNOTATED QUESTIONNAIRE.pdf", "title":"Annotated Questionnaire"},
+    { "subject":null, "year":"2010", "instr":"Screener (1-1) SHOW 2010.pdf", "title":"Annotated Questionnaire"},
+    { "subject":null, "year":"2011", "instr":"Transit Score_May_23_2012.pdf", "title":"Annotated Questionnaire"}
+
+]
 }

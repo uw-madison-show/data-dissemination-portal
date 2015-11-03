@@ -195,9 +195,9 @@
         // console.log('function ready');
         e.preventDefault();
         var cb = $(this).data("codebooks");
-        console.log(cb);
+         // console.log(cb);
         var tg = $('#codebook-list');
-        console.log(tg);
+         // console.log(tg);
         tg.empty();
 
         parseInstrument(cb, tg);
@@ -219,47 +219,60 @@
         var years = [];
 
         // patterns for matching
-        derived_pat = new RegExp(/_DER$/g);
-        annotated_pat = new RegExp(/_ANNOTATED\.[pdf|doc|html]/g);
+        var derived_pat = new RegExp(/_DER$/);
+        var annotated_pat = new RegExp(/_ANNOTATED\.[pdf|doc|html]/);
 
         $.each( codebooks, function(key, this_codebook) {
           // console.log( key );
           // console.log( this_codebook );
           
           years.push(this_codebook.year);
-          
+
           if ( derived_pat.test( this_codebook.instr ) ) {
-            console.log('we have a derived codebook');
-            derived_cb[this_codebook.year] = {
-                                              "src" : "./instruments/" + this_codebook.instr + "_" + this_codebook.year + ".html", 
-                                              "text" : "Derived Variables"
-                                              };
+            // console.log('we have a derived codebook');
+            if( !derived_cb.hasOwnProperty(this_codebook.year) ) {
+              derived_cb[this_codebook.year] = [];
+            }
+            derived_cb[this_codebook.year].push({
+              "src" : "./instruments/" + this_codebook.instr + "_" + this_codebook.year + ".html", 
+              "text" : this_codebook.title,
+              "title" : "[Derived] " +this_codebook.subject
+              });
           } else if ( annotated_pat.test( this_codebook.instr ) ) {
-            console.log('we have a annotated questionnaire');
-            annotated[this_codebook.year] = {
-                                              "src" : "./annotated/" + this_codebook.year + "/" + this_codebook.instr,
-                                              "text" : "Annotated Survey"
-                                            };
+            // console.log('we have a annotated questionnaire');
+            if( !annotated.hasOwnProperty(this_codebook.year) ) {
+              annotated[this_codebook.year] = [];
+            }
+            var abbreviation = this_codebook.instr.match(/[a-zA-Z0-9]*_/);
+            abbreviation = abbreviation[0].replace('_', '');
+            annotated[this_codebook.year].push({
+              "src" : "./annotated/" + this_codebook.year + "/" + this_codebook.instr,
+              "text" : "[Annotated Survey] " + abbreviation,
+              "title" : this_codebook.instr
+            });
           } else {
-            console.log('we have a raw codebook');
-            raw_cb[this_codebook.year] = {
-                                           "src" : "./instruments/" + this_codebook.instr + "_" + this_codebook.year + ".html",
-                                           "text" : "Raw Variables"
-                                          };
+            // console.log('we have a raw codebook');
+            if( !raw_cb.hasOwnProperty(this_codebook.year) ) {
+              raw_cb[this_codebook.year] = [];
+            }
+            raw_cb[this_codebook.year].push({
+                                              "src" : "./instruments/" + this_codebook.instr + "_" + this_codebook.year + ".html",
+                                              "text" : this_codebook.title,
+                                              "title" : "[Raw] " + this_codebook.subject
+                                            });
           }
         }); // end for each over cb
 
         var years_unique = $.grep( years, function(v, k) {
                              return $.inArray(v, years) === k;
                            });
-
-        console.log(years_unique);
-
-        console.log(raw_cb);
-        console.log(derived_cb);
-        console.log(annotated);
-
         years_unique.sort()
+
+         console.log(years_unique);
+         console.log(raw_cb);
+         console.log(derived_cb);
+         console.log(annotated);
+
 
         $.each( years_unique, function(key, year) {
 
@@ -271,19 +284,27 @@
                       .addClass('codebook-list-year-header')
           );
 
-          // add the raw codebook links if they exist
+          // add the raw codebook link(s) if they exist
           var rr = $('<a>').attr('href', '#')
-                           .text('Raw Variables')
+                           .text('[Raw Variables]')
                            .addClass('list-group-item')
                            .addClass('disabled')
                            ;
           if ( raw_cb.hasOwnProperty(year) ) {
-            rr.removeClass('disabled');
-            rr.addClass('codebook-list-item-link');
-            rr.attr('id', raw_cb[year].src);
-            rr.text(raw_cb[year].text);
-          };
-          $(target).append(rr);
+            $.each( raw_cb[year], function(key, this_cb) {
+              var rr = $('<a>').attr('href', '#');
+              rr.text(this_cb.text);
+              rr.attr('title', this_cb.title);
+              rr.addClass('list-group-item');
+              rr.addClass('codebook-list-item-link');
+              rr.addClass('tooltip-right');
+              rr.attr('id', this_cb.src);
+              $(target).append(rr);
+            });
+          } else {
+            $(target).append(rr); // attache the disabled link
+          }
+          
 
           // add the derived codebook link if it exists
           var dd = $('<a>').attr('href', '#')
@@ -292,12 +313,19 @@
                            .addClass('disabled')
                            ;
           if ( derived_cb.hasOwnProperty(year) ) {
-            dd.removeClass('disabled');
-            dd.addClass('codebook-list-item-link');
-            dd.attr('id', derived_cb[year].src);
-            dd.text(derived_cb[year].text);
-          };
-          $(target).append(dd);
+            $.each( derived_cb[year], function(key, this_cb) {
+              var dd = $('<a>').attr('href', '#');
+              dd.text(this_cb.text);
+              dd.attr('title', this_cb.title);
+              dd.addClass('list-group-item');
+              dd.addClass('codebook-list-item-link');
+              dd.addClass('tooltip-right');
+              dd.attr('id', this_cb.src);
+              $(target).append(dd);
+            })
+          } else {
+            $(target).append(dd); // attache the disabled link
+          }
 
           // add annotated questionnaire if it exists
           var aa = $('<a>').attr('href', '#')
@@ -306,12 +334,19 @@
                            .addClass('disabled')
                            ;
           if ( annotated.hasOwnProperty(year) ) {
-            aa.removeClass('disabled');
-            aa.addClass('codebook-list-item-link');
-            aa.attr('id', annotated[year].src);
-            aa.text(annotated[year].text);
-          };
-          $(target).append(aa);
+            $.each( annotated[year], function(key, this_cb) {
+              var aa = $('<a>').attr('href', '#');
+              aa.text(this_cb.text);
+              aa.attr('title', this_cb.title);
+              aa.addClass('list-group-item');
+              aa.addClass('codebook-list-item-link');
+              aa.addClass('tooltip-right');
+              aa.attr('id', this_cb.src);
+              $(target).append(aa);
+            })
+          } else {
+            $(target).append(dd); // attache the disabled link
+          }
           //     $('<a>').attr('href', '#')
           //             //.attr('id', cb_year)
           //             .attr('class', 'codebook-list-item-link')
@@ -337,6 +372,11 @@
           ));
         });
       });
+
+      // turn on tooltips
+      $('.tooltip-right').tooltip({ placement: "right",
+                                    delay: 500,
+                                     })
 
       // load up dynamic listeners
       $('#instrument-list').on('click', '.instrument-list-item-link', instrumentClicked );

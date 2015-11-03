@@ -22,6 +22,21 @@ express: {
     }
 },
 
+// PHP server
+// stolen from here http://fettblog.eu/php-browsersync-grunt-gulp/
+// php: {
+//     all: {
+//         options: {
+//             base: 'C:\\Users\\moehr\\Documents\\GitHub\\data-dissemination-portal',
+//             hostname: "127.0.0.1",
+//             port: 8080,
+//             keepalive: false,
+//             open: true
+//         }
+//     }
+// },
+
+
 // grunt-watch will monitor the projects files
 // https://github.com/gruntjs/grunt-contrib-watch
 watch: {

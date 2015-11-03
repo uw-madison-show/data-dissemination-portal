@@ -1,5 +1,6 @@
 codebooks/instruments/
 codebooks/annotated/
+node_modules/
 
 #################
 ## Eclipse

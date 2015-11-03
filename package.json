@@ -7,6 +7,6 @@
     "grunt-express": "~1.2.1",
     "grunt-open": "~0.2.3",
     "grunt-php": "^1.5.1",
-    "matchdep": "~0.3.0",
+    "matchdep": "~0.3.0"
   }
 }

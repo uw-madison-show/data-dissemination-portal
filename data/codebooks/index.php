@@ -155,7 +155,10 @@
               derived_cb[this_codebook.year] = [];
             }
             derived_cb[this_codebook.year].push({
-              "src" : "./instruments/" + this_codebook.instr + "_" + this_codebook.year + ".html", 
+              // TODO fix all the urls so they are relative to /data/codebooks but for the 
+              // life of me i can not figure out how to make dev, test, and prod agree on
+              // relative paths
+              "src" : "/data/codebooks/instruments/" + this_codebook.instr + "_" + this_codebook.year + ".html", 
               "text" : this_codebook.title,
               "title" : "[Derived] " +this_codebook.subject
               });
@@ -167,7 +170,7 @@
             var abbreviation = this_codebook.instr.match(/[a-zA-Z0-9]*_/);
             abbreviation = abbreviation[0].replace('_', '');
             annotated[this_codebook.year].push({
-              "src" : "./annotated/" + this_codebook.year + "/" + this_codebook.instr,
+              "src" : "/data/codebooks/annotated/" + this_codebook.year + "/" + this_codebook.instr,
               "text" : "[Annotated Survey] " + abbreviation,
               "title" : this_codebook.instr
             });
@@ -177,10 +180,10 @@
               raw_cb[this_codebook.year] = [];
             }
             raw_cb[this_codebook.year].push({
-                                              "src" : "/data/codebooks/instruments/" + this_codebook.instr + "_" + this_codebook.year + ".html",
-                                              "text" : this_codebook.title,
-                                              "title" : "[Raw] " + this_codebook.subject
-                                            });
+              "src" : "/data/codebooks/instruments/" + this_codebook.instr + "_" + this_codebook.year + ".html",
+              "text" : this_codebook.title,
+              "title" : "[Raw] " + this_codebook.subject
+            });
           }
         }); // end for each over cb
 

@@ -1,0 +1,1 @@
+this folder intentionally left blank because it was developed as stand alone js code.

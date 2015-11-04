@@ -11,8 +11,8 @@ module.exports = function(grunt) {
 
     grunt.initConfig({
         watch: {
-            php: {
-                files: ['**/*.php']
+            all: {
+                files: ['**/*.php', '**/*.html', '**/*.css', '**/*.js']
             }
         },
         browserSync: {
@@ -32,7 +32,7 @@ module.exports = function(grunt) {
             dev: {
                 options: {
                     port: 8010,
-                    base: 'C:\\Users\\moehr\\Documents\\GitHub\\data-dissemination-portal'
+                    base: 'C:\\Users\\moehr\\Documents\\GitHub\\data-dissemination-portal\\data'
                 }
             }
         }

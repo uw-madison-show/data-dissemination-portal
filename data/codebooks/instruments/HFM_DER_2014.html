@@ -1,0 +1,2434 @@
+<html>
+<head>
+<style>
+body{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-style: normal;
+  font-weight: normal;
+  width:6.85in
+}
+
+/* word styles */
+p.LocatorRecord, li.LocatorRecord, div.LocatorRecord {
+	mso-style-name:"Locator Record";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-indent:-.5in;
+	font-size:normal;
+	font-family:"Arial","sans-serif";
+}
+p.HeaderText, li.HeaderText, div.HeaderText {
+	mso-style-name:"Header Text";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:normal;
+	font-family:"Arial","sans-serif";
+}
+
+/* variable list */
+.vl {
+  border-collapse: separate;
+  border-width: 1px;
+  border-style: solid;
+  width: 6.7in;
+}
+.vl tbody tr:nth-child(even) td {
+  background-color: #EEEEEE;
+  color: #000000;
+  font-size: normal;
+}
+.vl tbody tr:nth-child(odd) td {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: normal;
+}
+
+/* variable info */
+.vi {
+  border-width: 0px;
+  width: 6.7in;
+}
+
+/* main tables */
+
+.main{
+  background-color: #FFFFFF;
+  border-width: 1px;
+  border-color: #C1C1C1;
+  border-style: solid;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-style: normal;
+  font-weight: normal;
+  width: 6.7in;
+  text-align: center;
+}
+
+.main tbody tr:nth-child(even) td {
+  background-color: #EEEEEE;
+  color: #000000;
+  font-size: normal;
+}
+.main tbody tr:nth-child(odd) td {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: normal;
+}
+
+/* sas styles */
+.systitleandfootercontainer{
+  background-color: #FAFBFE;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  width: 100%;
+}
+
+.systemfooter{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: normal;
+  font-style: normal;
+  font-weight: normal;
+  padding-bottom: 0.5in;
+  text-align: right;
+}
+
+#menu {
+  position: fixed;
+  right: 0;
+  top: 5%;
+  width: 30%;
+  margin-top: -2.5em;
+}
+
+@media print{
+body{background-color: white;}
+h1{color: black;}
+a{text-decoration: none; color: black;}
+.systemfooter{display: none;}
+.systemtitle{background-color: black; color: white;}
+}
+h1 {
+  color: #772211;
+  font-size: large;
+}
+
+.vl_header1{
+  background-color: #F9F2ED;
+  border: 0px solid #000000;
+  color: #000000;
+  font-size: medium;
+  width: 2in;
+  vertical-align: bottom;
+  text-align: left;
+}
+
+.vl_header2{
+  background-color: #F9F2ED;
+  border: 0px solid #000000;
+  color: #000000;
+  font-size: medium;
+  width: 4.7in;
+  vertical-align: bottom;
+  text-align: left;
+}
+
+.vi_attr {
+  background-color: #F9F2ED;
+  width: 1.5in;
+  font-weight: bold;
+  vertical-align: top;
+}
+
+.m1_header1 {
+  width: 0.7in;
+  background-color: #F9F2ED;
+  text-align: center;
+}
+
+.m1_header2 {
+  width: 1.2in;
+  background-color: #F9F2ED;
+  text-align: center;
+}
+
+.m2_header1 {
+  width: 4.7in;
+  background-color: #F9F2ED;
+  text-align: left;
+}
+
+.m2_header2 {
+  width: 1in;
+  background-color: #F9F2ED;
+  text-align: center;
+}
+
+.systemtitle
+{
+  background-color: #772211;
+  color: #FFFFFF;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+  border: 1px solid #000000;
+  text-align: left;
+}
+
+</style>
+<title>SHOW 2014 Codebook: HFM_DER</title>
+<body>
+<div class=WordSection1>
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;border:none'>
+<tr><td width=658 valign=top style='width:6.85in;border:solid windowtext 1.0pt; border-bottom:none;padding:0in 5.4pt 0in 5.4pt'>
+  <h1>LOCATOR RECORD</h1>
+</td> </tr>
+<tr><td width=658 valign=top style='width:6.85in;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+ <p class=LocatorRecord>Title: <b>Derived Variables - Health and Functioning in Minors (HFM_DER)</b></p>
+  <p class=LocatorRecord>Years of Content: <b>2014</b></p>
+  <p class=LocatorRecord>First Published: <b>June 2015</b></p>
+  <p class=LocatorRecord>Last Revised: <b>     July 2015</b></p>
+  <p class=LocatorRecord>Subject: <b>Health and Functioning</b></p>
+  <p class=LocatorRecord>Raw Data Source(s): <b>HFM</b></p>
+  <p class=LocatorRecord>Data File: <b>hfm_der_2014.sas7bdat</b></p>
+</td></tr></table>
+<h1><a name='Component_Description'></a>Component Description</h1>
+<blockquote>These are derived variables for the Health and Functioning in Minors  (HFM), administered during the in-home questionnaire portion of the SHOW survey.</blockquote>
+<h1><a name='Analytic_Notes'></a>Analytic Notes</h1>
+<blockquote>All processing was completed using SAS version 9.3. Short hand SAS calculations have been included to help researchers recreate these variables from the raw data. Additional details are available upon request. These data were collected as part of the in-home questionnaire portion of the SHOW study and sample weights should be used when analyzing these data (see the Analytic Guidelines for information on what weights to use).</blockquote>
+<div class="branch">
+<a name="varlist"></a>
+<div>
+<div align="center">
+<table class="VL" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c VL_HEADER1">Variable Name</th>
+<th class="c VL_HEADER2">SAS Label</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data"><a href="#SPID.">SPID</a>
+</td>
+<td class="l data">SURVEY PARTICIPANT IDENTIFICATION NUMBER</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HFM_FAIRPOOR.">HFM_FAIRPOOR</a>
+</td>
+<td class="l data">GENERAL HEALTH IS FAIR OR POOR</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HFM_FAIRPOOR_TEETH.">HFM_FAIRPOOR_TEETH</a>
+</td>
+<td class="l data">CONDITION OF TEETH IS FAIR OR POOR</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HFM_RACE_ETHNICITY_4CAT.">HFM_RACE_ETHNICITY_4CAT</a>
+</td>
+<td class="l data">COMBINATION OF RACE AND ETHINICITY INTO 4 CATEGORIES</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HFM430_1.">HFM430_1</a>
+</td>
+<td class="l data">REPORTED TYPE OF PHYSICAL HEALTH ISSUE: DIABETES TYPE 1</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HFM430_2.">HFM430_2</a>
+</td>
+<td class="l data">REPORTED TYPE OF PHYSICAL HEALTH ISSUE: DiABETES TYPE 2</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HFM430_3.">HFM430_3</a>
+</td>
+<td class="l data">REPORTED TYPE OF PHYSICAL HEALTH ISSUE: DIABETES (UNKNOWN TYPE)</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HFM430_4.">HFM430_4</a>
+</td>
+<td class="l data">REPORTED TYPE OF PHYSICAL HEALTH ISSUE: HEARING PROBLEMS</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HFM430_5.">HFM430_5</a>
+</td>
+<td class="l data">REPORTED TYPE OF PHYSICAL HEALTH ISSUE: VISION PROBLEMS THAT CANNOT BE CORRECTED WITH STANDARD GLASSES OR CONTACT LENSES</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HFM430_6.">HFM430_6</a>
+</td>
+<td class="l data">REPORTED TYPE OF PHYSICAL HEALTH ISSUE: BONE, JOINT, OR MUSCLE PROBLEMS</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HFM430_7.">HFM430_7</a>
+</td>
+<td class="l data">REPORTED TYPE OF PHYSICAL HEALTH ISSUE: BRAIN INJURY OR CONCUSSION</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HFM430_8.">HFM430_8</a>
+</td>
+<td class="l data">REPORTED TYPE OF PHYSICAL HEALTH ISSUE: EPILEPSY OR SEIZURE DISORDER</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HFM440_1.">HFM440_1</a>
+</td>
+<td class="l data">REPORTED TYPE OF MENTAL HEALTH ISSUE:  ADD/ADHD</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HFM440_2.">HFM440_2</a>
+</td>
+<td class="l data">REPORTED TYPE OF MENTAL HEALTH ISSUE: DEPRESSION</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HFM440_3.">HFM440_3</a>
+</td>
+<td class="l data">REPORTED TYPE OF MENTAL HEALTH ISSUE:  ANXIETY</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HFM440_4.">HFM440_4</a>
+</td>
+<td class="l data">REPORTED TYPE OF MENTAL HEALTH ISSUE: BEHAVIORAL OR CONDUCT PROBLEMS</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HFM440_5.">HFM440_5</a>
+</td>
+<td class="l data">REPORTED TYPE OF MENTAL HEALTH ISSUE: AUTISM</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HFM440_6.">HFM440_6</a>
+</td>
+<td class="l data">REPORTED TYPE OF MENTAL HEALTH ISSUE:  DEVELOPMENTAL DELAY</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HFM440_7.">HFM440_7</a>
+</td>
+<td class="l data">REPORTED TYPE OF MENTAL HEALTH ISSUE: INTELLECTUAL  DISABILITY</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HFM620_1.">HFM620_1</a>
+</td>
+<td class="l data">WHITE ALONE OR IN COMBINATION WITH OTHER RACES</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HFM620_2.">HFM620_2</a>
+</td>
+<td class="l data">BLACK OR AFRICAN AMERICAN ALONE OR IN COMBINATION WITH OTHER RACES</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HFM620_3.">HFM620_3</a>
+</td>
+<td class="l data">ASIAN ALONE OR IN COMBINATION WITH OTHER RACES</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HFM620_4.">HFM620_4</a>
+</td>
+<td class="l data">NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER ALONE OR IN COMBINATION WITH OTHER RACES</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HFM620_5.">HFM620_5</a>
+</td>
+<td class="l data">AMERICAN INDIAN OR NATIVE ALASKAN ALONE OR IN COMBINATION WITH OTHER RACES</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HFM620_6.">HFM620_6</a>
+</td>
+<td class="l data">OTHER RACE ALONE OR IN COMBINATION WITH OTHER RACES</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HFM620_SUM.">HFM620_SUM</a>
+</td>
+<td class="l data">NUMBER OF RACES REPORTED BY SP</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">&nbsp;</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HFM_FAIRPOOR."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HFM_FAIRPOOR - GENERAL HEALTH IS FAIR OR POOR</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HFM_FAIRPOOR</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Self reported general health.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Calculation process in detail is available upon request</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">AGE: &lt; 18</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HFM_FAIRPOOR.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        3</td>
+<td class="c M2_HEADER2">        3</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      185</td>
+<td class="c M2_HEADER2">      188</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HFM_FAIRPOOR_TEETH."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HFM_FAIRPOOR_TEETH - CONDITION OF TEETH IS FAIR OR POOR</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HFM_FAIRPOOR_TEETH</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Self reported health of teeth.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Calculation process in detail is available upon request</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">AGE: &gt;=12 AND &lt; 18</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HFM_FAIRPOOR_TEETH.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        3</td>
+<td class="c M2_HEADER2">        3</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">       57</td>
+<td class="c M2_HEADER2">       60</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[. ] Missing   </td>
+<td class="c M2_HEADER2">      128</td>
+<td class="c M2_HEADER2">      188</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HFM440_1."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HFM440_1 - REPORTED TYPE OF MENTAL HEALTH ISSUE:  ADD/ADHD</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HFM440_1</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Report of &quot;ADD/ADHD&quot; in any of the raw variables: (HFM440_A - - HFM440_D).</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Code will be available upon request.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">AGE: &gt;=3 AND &lt; 18 AND ANSWERED HFM440_A ---HFM440_D</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HFM440_1.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       16</td>
+<td class="c M2_HEADER2">       16</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      172</td>
+<td class="c M2_HEADER2">      188</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HFM440_2."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HFM440_2 - REPORTED TYPE OF MENTAL HEALTH ISSUE: DEPRESSION</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HFM440_2</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Report of &quot;DEPRESSION&quot; in any of the raw variables: (HFM440_A - - HFM440_D).</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Code will be available upon request.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">AGE: &gt;=3 AND &lt; 18 AND ANSWERED HFM440_A ---HFM440_D</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HFM440_2.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        8</td>
+<td class="c M2_HEADER2">        8</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      180</td>
+<td class="c M2_HEADER2">      188</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HFM440_3."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HFM440_3 - REPORTED TYPE OF MENTAL HEALTH ISSUE:  ANXIETY</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HFM440_3</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Report of &quot;ANXIETY&quot; in any of the raw variables: (HFM440_A - - HFM440_D).</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Code will be available upon request.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">AGE: &gt;=3 AND &lt; 18 AND ANSWERED HFM440_A ---HFM440_D</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HFM440_3.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       13</td>
+<td class="c M2_HEADER2">       13</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      175</td>
+<td class="c M2_HEADER2">      188</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HFM440_4."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HFM440_4 - REPORTED TYPE OF MENTAL HEALTH ISSUE: BEHAVIORAL OR CONDUCT PROBLEMS</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HFM440_4</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Report of &quot;BEHAVIORAL OR CONDUCT PROBLEMS&quot; in any of the raw variables: (HFM440_A - - HFM440_D).</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Code will be available upon request.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">AGE: &gt;=3 AND &lt; 18   AND ANSWERED HFM440_A ---HFM440_D</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HFM440_4.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        3</td>
+<td class="c M2_HEADER2">        3</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      185</td>
+<td class="c M2_HEADER2">      188</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HFM440_5."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HFM440_5 - REPORTED TYPE OF MENTAL HEALTH ISSUE: AUTISM</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HFM440_5</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Report of &quot;AUTISM&quot; in any of the raw variables: (HFM440_A - - HFM440_D).</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Code will be available upon request.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">AGE: &gt;=3 AND &lt; 18 AND ANSWERED HFM440_A ---HFM440_D</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HFM440_5.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        3</td>
+<td class="c M2_HEADER2">        3</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      185</td>
+<td class="c M2_HEADER2">      188</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HFM440_6."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HFM440_6 - REPORTED TYPE OF MENTAL HEALTH ISSUE:  DEVELOPMENTAL DELAY</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HFM440_6</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Report of &quot;DEVELOPMENTAL DELAY&quot; in any of the raw variables: (HFM440_A - - HFM440_D).</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Code will be available upon request.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">AGE: &gt;=3 AND &lt; 18 AND ANSWERED HFM440_A ---HFM440_D</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HFM440_6.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        5</td>
+<td class="c M2_HEADER2">        5</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      183</td>
+<td class="c M2_HEADER2">      188</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HFM440_7."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HFM440_7 - REPORTED TYPE OF MENTAL HEALTH ISSUE: INTELLECTUAL  DISABILITY</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HFM440_7</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Report of &quot;INTELLECTUAL  DISABILITY&quot; in any of the raw variables: (HFM440_A - - HFM440_D).</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Code will be available upon request.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">AGE: &gt;=3 AND &lt; 18 AND ANSWERED HFM440_A ---HFM440_D</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HFM440_7.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">        1</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      187</td>
+<td class="c M2_HEADER2">      188</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HFM430_1."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HFM430_1 - REPORTED TYPE OF PHYSICAL HEALTH ISSUE: DIABETES TYPE 1</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HFM430_1</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Report of &quot;DIABETES TYPE 1&quot; in any of the raw variables: (HFM430_A - - HFM430_G).</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Code will be available upon request.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">AGE: &lt; 18 AND ANSWERED HFM430_A---HFM430_G</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HFM430_1.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">        1</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      187</td>
+<td class="c M2_HEADER2">      188</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HFM430_2."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HFM430_2 - REPORTED TYPE OF PHYSICAL HEALTH ISSUE: DiABETES TYPE 2</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HFM430_2</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Report of &quot;DIABETES TYPE 2&quot; in any of the raw variables: (HFM430_A - - HFM430_G).</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Code will be available upon request.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">AGE: &lt; 18 AND ANSWERED HFM430_A---HFM430_G</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HFM430_2.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      188</td>
+<td class="c M2_HEADER2">      188</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HFM430_3."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HFM430_3 - REPORTED TYPE OF PHYSICAL HEALTH ISSUE: DIABETES (UNKNOWN TYPE)</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HFM430_3</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Report of &quot;DIABETES (UNKNOWN TYPE)&quot; in any of the raw variables: (HFM430_A - - HFM430_G).</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Code will be available upon request.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">AGE: &lt; 18 AND ANSWERED HFM430_A---HFM430_G</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HFM430_3.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      188</td>
+<td class="c M2_HEADER2">      188</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HFM430_4."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HFM430_4 - REPORTED TYPE OF PHYSICAL HEALTH ISSUE: HEARING PROBLEMS</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HFM430_4</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Report of &quot;HEARING PROBLEMS&quot; in any of the raw variables: (HFM430_A - - HFM430_G).</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Code will be available upon request.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">AGE: &lt; 18 AND ANSWERED HFM430_A---HFM430_G</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HFM430_4.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        7</td>
+<td class="c M2_HEADER2">        7</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      181</td>
+<td class="c M2_HEADER2">      188</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HFM430_5."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HFM430_5 - REPORTED TYPE OF PHYSICAL HEALTH ISSUE: VISION PROBLEMS THAT CANNOT BE CORRECTED WITH STANDARD GLASSES OR CONTACT LENSES</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HFM430_5</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Report of &quot;VISION PROBLEMS THAT CANNOT BE CORRECTED WITH STANDARD GLASSES OR CONTACT LENSES&quot; in any of the raw variables: (HFM430_A - - HFM430_G).</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Code will be available upon request.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">AGE: &lt; 18 AND ANSWERED HFM430_A---HFM430_G</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HFM430_5.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        3</td>
+<td class="c M2_HEADER2">        3</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      185</td>
+<td class="c M2_HEADER2">      188</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HFM430_6."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HFM430_6 - REPORTED TYPE OF PHYSICAL HEALTH ISSUE: BONE, JOINT, OR MUSCLE PROBLEMS</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HFM430_6</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Report of &quot;BONE, JOINT, OR MUSCLE PROBLEMS&quot; in any of the raw variables: (HFM430_A - - HFM430_G).</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Code will be available upon request.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">AGE: &lt; 18 AND ANSWERED HFM430_A---HFM430_G</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HFM430_6.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       10</td>
+<td class="c M2_HEADER2">       10</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      178</td>
+<td class="c M2_HEADER2">      188</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HFM430_7."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HFM430_7 - REPORTED TYPE OF PHYSICAL HEALTH ISSUE: BRAIN INJURY OR CONCUSSION</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HFM430_7</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Report of &quot;BRAIN INJURY OR CONCUSSION&quot; in any of the raw variables: (HFM430_A - - HFM430_G).</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Code will be available upon request.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">AGE: &lt; 18 AND ANSWERED HFM430_A---HFM430_G</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HFM430_7.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        5</td>
+<td class="c M2_HEADER2">        5</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      183</td>
+<td class="c M2_HEADER2">      188</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HFM430_8."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HFM430_8 - REPORTED TYPE OF PHYSICAL HEALTH ISSUE: EPILEPSY OR SEIZURE DISORDER</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HFM430_8</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Report of &quot;EPILEPSY OR SEIZURE DISORDER&quot; in any of the raw variables: (HFM430_A - - HFM430_G).</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Code will be available upon request.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">AGE: &lt; 18 AND ANSWERED HFM430_A---HFM430_G</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HFM430_8.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        6</td>
+<td class="c M2_HEADER2">        6</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      182</td>
+<td class="c M2_HEADER2">      188</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HFM620_1."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HFM620_1 - WHITE ALONE OR IN COMBINATION WITH OTHER RACES</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HFM620_1</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Reported Race: White alone or in combination with other races</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Report of &quot;White&quot; in any of the raw variables: (HFM260_A--HFM260_C).</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">AGE: &lt; 18</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HFM620_1.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">      159</td>
+<td class="c M2_HEADER2">      159</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">       29</td>
+<td class="c M2_HEADER2">      188</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HFM620_2."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HFM620_2 - BLACK OR AFRICAN AMERICAN ALONE OR IN COMBINATION WITH OTHER RACES</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HFM620_2</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Reported Race: Black or African American alone or in combination with other races</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Report of &quot;Black or african american&quot; in any of the raw variables: (HFM260_A--HFM260_C).</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">AGE: &lt; 18</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HFM620_2.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       24</td>
+<td class="c M2_HEADER2">       24</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      164</td>
+<td class="c M2_HEADER2">      188</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HFM620_3."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HFM620_3 - ASIAN ALONE OR IN COMBINATION WITH OTHER RACES</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HFM620_3</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Reported Race: Asian alone or in combination with other races</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Report of &quot;Asian&quot; in any of the raw variables: (HFM260_A--HFM260_C).</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">AGE: &lt; 18</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HFM620_3.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       10</td>
+<td class="c M2_HEADER2">       10</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      178</td>
+<td class="c M2_HEADER2">      188</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HFM620_4."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HFM620_4 - NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER ALONE OR IN COMBINATION WITH OTHER RACES</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HFM620_4</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Reported Race: Native Hawaiian or other Pacific Islander alone or in combination with other races</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Report of &quot;Native Hawaiian or other Pacific Islander&quot; in any of the raw variables: ((HFM260_A--HFM260_C).</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">AGE: &lt; 18</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HFM620_4.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">        1</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      187</td>
+<td class="c M2_HEADER2">      188</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HFM620_5."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HFM620_5 - AMERICAN INDIAN OR NATIVE ALASKAN ALONE OR IN COMBINATION WITH OTHER RACES</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HFM620_5</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Reported Race: American Indian or Native Alaskan alone or in combination with other races</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Report of &quot;American Indian or Native Alaskan&quot; in any of the raw variables: ((HFM260_A--HFM260_C).</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">AGE: &lt; 18</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HFM620_5.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       12</td>
+<td class="c M2_HEADER2">       12</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      176</td>
+<td class="c M2_HEADER2">      188</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HFM620_6."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HFM620_6 - OTHER RACE ALONE OR IN COMBINATION WITH OTHER RACES</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HFM620_6</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Reported Race: other alone or in combination with other races</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Report of &quot;Other&quot; in any of the raw variables: ((HFM260_A--HFM260_C).</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">AGE: &lt; 18</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HFM620_6.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       10</td>
+<td class="c M2_HEADER2">       10</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      178</td>
+<td class="c M2_HEADER2">      188</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HFM620_SUM."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HFM620_SUM - NUMBER OF RACES REPORTED BY SP</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HFM620_SUM</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_NUMCAT</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Number of races reported by subject</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Sum of (HFM260_A--HFM260_C)</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">AGE: &lt; 18</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HFM620_SUM.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">                         1</td>
+<td class="c M2_HEADER2">      154</td>
+<td class="c M2_HEADER2">      154</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">                         2</td>
+<td class="c M2_HEADER2">       23</td>
+<td class="c M2_HEADER2">      177</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">                         3</td>
+<td class="c M2_HEADER2">        2</td>
+<td class="c M2_HEADER2">      179</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[. ] Missing              </td>
+<td class="c M2_HEADER2">        9</td>
+<td class="c M2_HEADER2">      188</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HFM_RACE_ETHNICITY_4CAT."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HFM_RACE_ETHNICITY_4CAT - COMBINATION OF RACE AND ETHINICITY INTO 4 CATEGORIES</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HFM_RACE_ETHNICITY_4CAT</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_R4CAT</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Categorizes subjects as either Hispanic, Non-Hispanic White, Non-Hispanic Black, or Other Race Or Ethnicity</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">IF HFM610=1 THEN RACE_ETHNICITY_4CAT=3; ELSE DO;IF HFM620_1=1 THEN HFM_RACE_ETHNICITY_4CAT=1; IF HFM620_3=1 OR HFM620_4=1 OR HFM620_5=1 THEN HFM_RACE_ETHNICITY_4CAT=4; IF HFM620_2=1 THEN HFM_RACE_ETHNICITY_4CAT=2;END;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">AGE: &lt; 18</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HFM_RACE_ETHNICITY_4CAT.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Non-hispanic white           </td>
+<td class="c M2_HEADER2">      136</td>
+<td class="c M2_HEADER2">      136</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] Non-hispanic African American</td>
+<td class="c M2_HEADER2">       24</td>
+<td class="c M2_HEADER2">      160</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[3] Hispanic                     </td>
+<td class="c M2_HEADER2">        8</td>
+<td class="c M2_HEADER2">      168</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[4] Other race or ethinicity     </td>
+<td class="c M2_HEADER2">       19</td>
+<td class="c M2_HEADER2">      187</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[. ] Missing                     </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">      188</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+</body>
+</html>

@@ -1,0 +1,4743 @@
+<html>
+<head>
+<style>
+body{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-style: normal;
+  font-weight: normal;
+  width:6.85in
+}
+
+/* word styles */
+p.LocatorRecord, li.LocatorRecord, div.LocatorRecord {
+	mso-style-name:"Locator Record";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-indent:-.5in;
+	font-size:normal;
+	font-family:"Arial","sans-serif";
+}
+p.HeaderText, li.HeaderText, div.HeaderText {
+	mso-style-name:"Header Text";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:normal;
+	font-family:"Arial","sans-serif";
+}
+
+/* variable list */
+.vl {
+  border-collapse: separate;
+  border-width: 1px;
+  border-style: solid;
+  width: 6.7in;
+}
+.vl tbody tr:nth-child(even) td {
+  background-color: #EEEEEE;
+  color: #000000;
+  font-size: normal;
+}
+.vl tbody tr:nth-child(odd) td {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: normal;
+}
+
+/* variable info */
+.vi {
+  border-width: 0px;
+  width: 6.7in;
+}
+
+/* main tables */
+
+.main{
+  background-color: #FFFFFF;
+  border-width: 1px;
+  border-color: #C1C1C1;
+  border-style: solid;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-style: normal;
+  font-weight: normal;
+  width: 6.7in;
+  text-align: center;
+}
+
+.main tbody tr:nth-child(even) td {
+  background-color: #EEEEEE;
+  color: #000000;
+  font-size: normal;
+}
+.main tbody tr:nth-child(odd) td {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: normal;
+}
+
+/* sas styles */
+.systitleandfootercontainer{
+  background-color: #FAFBFE;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  width: 100%;
+}
+
+.systemfooter{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: normal;
+  font-style: normal;
+  font-weight: normal;
+  padding-bottom: 0.5in;
+  text-align: right;
+}
+
+#menu {
+  position: fixed;
+  right: 0;
+  top: 5%;
+  width: 30%;
+  margin-top: -2.5em;
+}
+
+@media print{
+body{background-color: white;}
+h1{color: black;}
+a{text-decoration: none; color: black;}
+.systemfooter{display: none;}
+.systemtitle{background-color: black; color: white;}
+}
+h1 {
+  color: #772211;
+  font-size: large;
+}
+
+.vl_header1{
+  background-color: #F9F2ED;
+  border: 0px solid #000000;
+  color: #000000;
+  font-size: medium;
+  width: 2in;
+  vertical-align: bottom;
+  text-align: left;
+}
+
+.vl_header2{
+  background-color: #F9F2ED;
+  border: 0px solid #000000;
+  color: #000000;
+  font-size: medium;
+  width: 4.7in;
+  vertical-align: bottom;
+  text-align: left;
+}
+
+.vi_attr {
+  background-color: #F9F2ED;
+  width: 1.5in;
+  font-weight: bold;
+  vertical-align: top;
+}
+
+.m1_header1 {
+  width: 0.7in;
+  background-color: #F9F2ED;
+  text-align: center;
+}
+
+.m1_header2 {
+  width: 1.2in;
+  background-color: #F9F2ED;
+  text-align: center;
+}
+
+.m2_header1 {
+  width: 4.7in;
+  background-color: #F9F2ED;
+  text-align: left;
+}
+
+.m2_header2 {
+  width: 1in;
+  background-color: #F9F2ED;
+  text-align: center;
+}
+
+.systemtitle
+{
+  background-color: #772211;
+  color: #FFFFFF;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+  border: 1px solid #000000;
+  text-align: left;
+}
+
+</style>
+<title>SHOW 2014 Codebook: GW14_DER</title>
+<body>
+<div class=WordSection1>
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;border:none'>
+<tr><td width=658 valign=top style='width:6.85in;border:solid windowtext 1.0pt; border-bottom:none;padding:0in 5.4pt 0in 5.4pt'>
+  <h1>LOCATOR RECORD</h1>
+</td> </tr>
+<tr><td width=658 valign=top style='width:6.85in;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+ <p class=LocatorRecord>Title: <b>Groundwater Ancillary Study Derived</b></p>
+  <p class=LocatorRecord>Years of Content: <b>2014</b></p>
+  <p class=LocatorRecord>First Published: <b>June 2015</b></p>
+  <p class=LocatorRecord>Last Revised: <b>  October 2015</b></p>
+  <p class=LocatorRecord>Subject: <b>Private well water ancillary study derived variables</b></p>
+  <p class=LocatorRecord>Raw Data Source(s): <b>GW14</b></p>
+  <p class=LocatorRecord>Data File: <b>gw14_der_2014.sas7bdat</b></p>
+</td></tr></table>
+<h1><a name='Component_Description'></a>Component Description</h1>
+<blockquote>These are derived variables for the Groundwater Ancillary Study (GW14). Free response answers were reviewed and categorized under ont the derived response options if the free response text was exactly the same or similar. Not other responses were categorized if the response option was considered not relevant or pertinent; these responses are categorized as "other."</blockquote>
+<div class="branch">
+<a name="varlist"></a>
+<div>
+<div align="center">
+<table class="VL" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c VL_HEADER1">Variable Name</th>
+<th class="c VL_HEADER2">SAS Label</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data"><a href="#GW14_490A_DERIVED.">GW14_490A_DERIVED</a>
+</td>
+<td class="l data">COMMENTS - 1ST RESPONSE</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_490B_DERIVED.">GW14_490B_DERIVED</a>
+</td>
+<td class="l data">COMMENTS - 2ND RESPONSE</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_480A_DERIVED.">GW14_480A_DERIVED</a>
+</td>
+<td class="l data">SUGGESTIONS - 1ST RESPONSE</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_480B_DERIVED.">GW14_480B_DERIVED</a>
+</td>
+<td class="l data">SUGGESTIONS -2ND RESPONSE</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_480C_DERIVED.">GW14_480C_DERIVED</a>
+</td>
+<td class="l data">SUGGESTIONS - 3RD RESPONSE</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_480D_DERIVED.">GW14_480D_DERIVED</a>
+</td>
+<td class="l data">SUGGESTIONS - 4TH RESPONSE</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_470A_DERIVED.">GW14_470A_DERIVED</a>
+</td>
+<td class="l data">QUESTIONS - 1ST RESPONSE</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_470B_DERIVED.">GW14_470B_DERIVED</a>
+</td>
+<td class="l data">QUESTIONS - 2ND RESPONSE</td>
+</tr>
+<tr>
+<td class="l data"><a href="#SPID.">SPID</a>
+</td>
+<td class="l data">SURVEY PARTICIPANT IDENTIFICATION NUMBER</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_090_16.">GW14_090_16</a>
+</td>
+<td class="l data">REASONS YOU HAD WATER TESTED: Other - New water pump, piping, treatment, or filter</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_090_17.">GW14_090_17</a>
+</td>
+<td class="l data">REASONS YOU HAD WATER TESTED: Other - Natural disaster or human-made disaster</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_090_18.">GW14_090_18</a>
+</td>
+<td class="l data">REASONS YOU HAD WATER TESTED: Other - To test for water softener specifications</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_090_19.">GW14_090_19</a>
+</td>
+<td class="l data">REASONS YOU HAD WATER TESTED: Other - Concerned about nearby factory farm or diary farm</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_120_14.">GW14_120_14</a>
+</td>
+<td class="l data">WATER TESTED FOR: Other - pH and/or alkalinity</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_120_15.">GW14_120_15</a>
+</td>
+<td class="l data">WATER TESTED FOR: Other - Magnesium</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_120_16.">GW14_120_16</a>
+</td>
+<td class="l data">WATER TESTED FOR: Other - Conductivity</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_120_17.">GW14_120_17</a>
+</td>
+<td class="l data">WATER TESTED FOR: Other - More than 7 other chemicals and/or metals (including: Aluminum, Cadmium, Calcium, Chromium, Cobalt, Manganese, Potasium, Sodium, Strotium, Zinc)</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_130_15.">GW14_130_15</a>
+</td>
+<td class="l data">WATER TEST INDICATED PROBLEM WITH: Other - Manganese</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_130_16.">GW14_130_16</a>
+</td>
+<td class="l data">WATER TEST INDICATED PROBLEM WITH: Other - Aluminum</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_130_17.">GW14_130_17</a>
+</td>
+<td class="l data">WATER TEST INDICATED PROBLEM WITH: Other - Sulfur</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_190_3.">GW14_190_3</a>
+</td>
+<td class="l data">REASONS THAT WOULD PROMPT YOU TO TEST WELL WATER IN FUTURE: REASON - OTHER</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_330_11.">GW14_330_11</a>
+</td>
+<td class="l data">WHY YOU DO NOT FILTER WATER: OTHER - specify: unflitered water is good for health and/or tastes good</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_330_12.">GW14_330_12</a>
+</td>
+<td class="l data">WHY YOU DO NOT FILTER WATER: OTHER - specify: haven&#39;t thought about it</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_330_13.">GW14_330_13</a>
+</td>
+<td class="l data">WHY YOU DO NOT FILTER WATER: OTHER - specify: no problem in area that we know of</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_330_14.">GW14_330_14</a>
+</td>
+<td class="l data">WHY YOU DO NOT FILTER WATER: OTHER - specify: the well is deep</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_260_16.">GW14_260_16</a>
+</td>
+<td class="l data">WHERE YOU WOULD LOOK FOR INFORMATION TO MANAGE SAFETY/QUALITY OF WELL WATER: OTHER - Specify:  EPA and/or local environmental organization</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_260_17.">GW14_260_17</a>
+</td>
+<td class="l data">WHERE YOU WOULD LOOK FOR INFORMATION TO MANAGE SAFETY/QUALITY OF WELL WATER: OTHER - Specify:  local plumber</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_260_18.">GW14_260_18</a>
+</td>
+<td class="l data">WHERE YOU WOULD LOOK FOR INFORMATION TO MANAGE SAFETY/QUALITY OF WELL WATER: OTHER - Specify:  UW extension</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_260_19.">GW14_260_19</a>
+</td>
+<td class="l data">WHERE YOU WOULD LOOK FOR INFORMATION TO MANAGE SAFETY/QUALITY OF WELL WATER: OTHER - Specify:  Books / my own research</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_260_20.">GW14_260_20</a>
+</td>
+<td class="l data">WHERE YOU WOULD LOOK FOR INFORMATION TO MANAGE SAFETY/QUALITY OF WELL WATER: OTHER - Specify:  Don&#39;t know</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_260_21.">GW14_260_21</a>
+</td>
+<td class="l data">WHERE YOU WOULD LOOK FOR INFORMATION TO MANAGE SAFETY/QUALITY OF WELL WATER: OTHER - Specify:  landlord</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_290_DER_1.">GW14_290_DER_1</a>
+</td>
+<td class="l data">FILTER/TREATMENT TYPE USED IN HOME: PITCHER-TYPE WATER FILER</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_290_DER_2.">GW14_290_DER_2</a>
+</td>
+<td class="l data">FILTER/TREATMENT TYPE USED IN HOME: REFRIGERATION</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_290_DER_3A.">GW14_290_DER_3A</a>
+</td>
+<td class="l data">FILTER/TREATMENT TYPE USED IN HOME: CARBON FILTER</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_290_DER_3B.">GW14_290_DER_3B</a>
+</td>
+<td class="l data">FILTER/TREATMENT TYPE USED IN HOME: REVERSE OSMOSIS</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_290_DER_3C.">GW14_290_DER_3C</a>
+</td>
+<td class="l data">FILTER/TREATMENT TYPE USED IN HOME: WATER SOFTENER</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_290_DER_3D.">GW14_290_DER_3D</a>
+</td>
+<td class="l data">FILTER/TREATMENT TYPE USED IN HOME: DISTILLATION</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_290_DER_3E.">GW14_290_DER_3E</a>
+</td>
+<td class="l data">FILTER/TREATMENT TYPE USED IN HOME: ABSORBENT MEDIA (IRON-OXIDE FILTER)</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_290_DER_4.">GW14_290_DER_4</a>
+</td>
+<td class="l data">FILTER/TREATMENT TYPE USED IN HOME: DRINK ONLY BOTTLED WATER</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_290_DER_5.">GW14_290_DER_5</a>
+</td>
+<td class="l data">FILTER/TREATMENT TYPE USED IN HOME: OTHER</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_290_DER_6.">GW14_290_DER_6</a>
+</td>
+<td class="l data">FILTER/TREATMENT TYPE USED IN HOME: DON’T KNOW</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_290_DER_7.">GW14_290_DER_7</a>
+</td>
+<td class="l data">FILTER/TREATMENT TYPE USED IN HOME: Other (specify): Culligan Water</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_290_DER_8.">GW14_290_DER_8</a>
+</td>
+<td class="l data">FILTER/TREATMENT TYPE USED IN HOME: Other (specify): Micronizer/Aerator</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_290_DER_9.">GW14_290_DER_9</a>
+</td>
+<td class="l data">FILTER/TREATMENT TYPE USED IN HOME: Other (specify): Sediment filter</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_300_12.">GW14_300_12</a>
+</td>
+<td class="l data">WHY YOU FILTER WATER: Other (specify): Came with the refridgerator and/or came with the house</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_300_13.">GW14_300_13</a>
+</td>
+<td class="l data">WHY YOU FILTER WATER: Other (specify): Sand/sediment/pipe build-up</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_300_14.">GW14_300_14</a>
+</td>
+<td class="l data">WHY YOU FILTER WATER: Other (specify): Because it keeps the water cold</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_300_16.">GW14_300_16</a>
+</td>
+<td class="l data">WHY YOU FILTER WATER: Other (specify): Skin problems</td>
+</tr>
+<tr>
+<td class="l data"><a href="#GW14_300_17.">GW14_300_17</a>
+</td>
+<td class="l data">WHY YOU  FILTER WATER: Other (specify): Live near a cemetary</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">&nbsp;</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_090_16."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_090_16 - REASONS YOU HAD WATER TESTED: Other - New water pump, piping, treatment, or filter</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_090_16</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">What were the main reasons you had your water tested?  Other - new water pump, piping, treatment, or filter</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Selected &quot;Other -Specify&quot; for GW14_090</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_090_16.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        4</td>
+<td class="c M2_HEADER2">        4</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      456</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_090_17."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_090_17 - REASONS YOU HAD WATER TESTED: Other - Natural disaster or human-made disaster</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_090_17</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">What were the main reasons you had your water tested?  Other - natural disaster or human-made disaster</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Selected &quot;Other -Specify&quot; for GW14_090</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_090_17.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        4</td>
+<td class="c M2_HEADER2">        4</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      456</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_090_18."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_090_18 - REASONS YOU HAD WATER TESTED: Other - To test for water softener specifications</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_090_18</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">What were the main reasons you had your water tested?  Other -to test for water softener specifications</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Selected &quot;Other -Specify&quot; for GW14_090</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_090_18.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        4</td>
+<td class="c M2_HEADER2">        4</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      456</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_090_19."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_090_19 - REASONS YOU HAD WATER TESTED: Other - Concerned about nearby factory farm or diary farm</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_090_19</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">What were the main reasons you had your water tested?  Other -Concerned about nearby factory farm or diary farm</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Selected &quot;Other -Specify&quot; for GW14_090</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_090_19.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        2</td>
+<td class="c M2_HEADER2">        2</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      458</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_120_14."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_120_14 - WATER TESTED FOR: Other - pH and/or alkalinity</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_120_14</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">What was your water tested for the last time it was tested? Selected &quot;Other &quot; - pH and/or alkalinity</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered GW14_120_OTHER with a response in this category</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_120_14.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        3</td>
+<td class="c M2_HEADER2">        3</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      457</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_120_15."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_120_15 - WATER TESTED FOR: Other - Magnesium</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_120_15</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">What was your water tested for the last time it was tested? Selected &quot;Other &quot; - Magnesium</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered GW14_120_OTHER with a response in this category</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_120_15.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        3</td>
+<td class="c M2_HEADER2">        3</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      457</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_120_16."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_120_16 - WATER TESTED FOR: Other - Conductivity</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_120_16</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">What was your water tested for the last time it was tested? Selected &quot;Other &quot; - Conductivity</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered GW14_120_OTHER with a response in this category</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_120_16.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        2</td>
+<td class="c M2_HEADER2">        2</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      458</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_120_17."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_120_17 - WATER TESTED FOR: Other - More than 7 other chemicals and/or metals (including: Aluminum, Cadmium, Calcium, Chromium, Cobalt, Manganese, Potasium, Sodium, Strotium, Zinc)</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_120_17</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">What was your water tested for the last time it was tested? Selected &quot;Other &quot; - More than 7 other chemicals and/or metals (including: Aluminum, Cadmium, Calcium, Chromium, Cobalt, Manganese, Potasium, Sodium, Strotium, Zinc)</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered GW14_120_OTHER with a response in this category</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_120_17.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        3</td>
+<td class="c M2_HEADER2">        3</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      457</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_130_15."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_130_15 - WATER TEST INDICATED PROBLEM WITH: Other - Manganese</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_130_15</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Has a test of your water ever shown a problem with any of the following? Selected &quot;Other &quot; - reponse fit this category</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered GW12_130_OTHER with a response in this cateogry</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_130_15.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        2</td>
+<td class="c M2_HEADER2">        2</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      458</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_130_16."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_130_16 - WATER TEST INDICATED PROBLEM WITH: Other - Aluminum</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_130_16</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Has a test of your water ever shown a problem with any of the following? Selected &quot;Other &quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered GW12_130_OTHER with a response in this cateogry</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_130_16.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">        1</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      459</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_130_17."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_130_17 - WATER TEST INDICATED PROBLEM WITH: Other - Sulfur</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_130_17</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Has a test of your water ever shown a problem with any of the following? Selected &quot;Other &quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered GW12_130_OTHER with a response in this cateogry</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_130_17.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        2</td>
+<td class="c M2_HEADER2">        2</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      458</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_190_3."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_190_3 - REASONS THAT WOULD PROMPT YOU TO TEST WELL WATER IN FUTURE: REASON - OTHER</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_190_3</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_GW14_190B</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Selected &quot;Other - specify&quot; for GW14_190_1 (no &quot;other -specify&quot; were selected for GW14_190_2)  and response fit one of these categories</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="c data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_190_3.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Other - Nearby CAFO and/or farms where fertilizers/pesticides are used</td>
+<td class="c M2_HEADER2">        3</td>
+<td class="c M2_HEADER2">        3</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] Other - General interest in the safety and/or quality of the our water</td>
+<td class="c M2_HEADER2">      452</td>
+<td class="c M2_HEADER2">      455</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[3] Other - Gas/oil spill near by                                         </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">      456</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[4] Other - Real estate transaction and/or new well or pump               </td>
+<td class="c M2_HEADER2">        2</td>
+<td class="c M2_HEADER2">      458</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[5] Other - Regular testing is required (shared well)                     </td>
+<td class="c M2_HEADER2">        2</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_330_11."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_330_11 - WHY YOU DO NOT FILTER WATER: OTHER - specify: unflitered water is good for health and/or tastes good</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_330_11</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Why do you not filter or treat your well water? Selected &quot;Other - specify&quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered GW14_330_OTHER and specified answer in this category</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_330_11.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        2</td>
+<td class="c M2_HEADER2">        2</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      458</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_330_12."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_330_12 - WHY YOU DO NOT FILTER WATER: OTHER - specify: haven&#39;t thought about it</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_330_12</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Why do you not filter or treat your well water? Selected &quot;Other - specify&quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered GW14_330_OTHER and specified answer in this category</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_330_12.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">        1</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      459</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_330_13."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_330_13 - WHY YOU DO NOT FILTER WATER: OTHER - specify: no problem in area that we know of</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_330_13</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Why do you not filter or treat your well water? Selected &quot;Other - specify&quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered GW14_330_OTHER and specified answer in this category</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_330_13.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        3</td>
+<td class="c M2_HEADER2">        3</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      457</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_330_14."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_330_14 - WHY YOU DO NOT FILTER WATER: OTHER - specify: the well is deep</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_330_14</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Why do you not filter or treat your well water? Selected &quot;Other - specify&quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered GW14_330_OTHER and specified answer in this category</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_330_14.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">        1</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      459</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_260_16."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_260_16 - WHERE YOU WOULD LOOK FOR INFORMATION TO MANAGE SAFETY/QUALITY OF WELL WATER: OTHER - Specify:  EPA and/or local environmental organization</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_260_16</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Where would you look for information to help you manage the safety and quality of your well water?  Selected &quot;OTHER &quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered GW14_260_OTHER with a response in this category</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_260_16.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        3</td>
+<td class="c M2_HEADER2">        3</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      457</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_260_17."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_260_17 - WHERE YOU WOULD LOOK FOR INFORMATION TO MANAGE SAFETY/QUALITY OF WELL WATER: OTHER - Specify:  local plumber</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_260_17</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Where would you look for information to help you manage the safety and quality of your well water?  Selected &quot;OTHER &quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered GW14_260_OTHER with a response in this category</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_260_17.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        7</td>
+<td class="c M2_HEADER2">        7</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      453</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_260_18."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_260_18 - WHERE YOU WOULD LOOK FOR INFORMATION TO MANAGE SAFETY/QUALITY OF WELL WATER: OTHER - Specify:  UW extension</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_260_18</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Where would you look for information to help you manage the safety and quality of your well water?  Selected &quot;OTHER &quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered GW14_260_OTHER with a response in this category</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_260_18.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        3</td>
+<td class="c M2_HEADER2">        3</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      457</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_260_19."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_260_19 - WHERE YOU WOULD LOOK FOR INFORMATION TO MANAGE SAFETY/QUALITY OF WELL WATER: OTHER - Specify:  Books / my own research</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_260_19</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Where would you look for information to help you manage the safety and quality of your well water?  Selected &quot;OTHER &quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered GW14_260_OTHER with a response in this category</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_260_19.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">        1</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      459</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_260_20."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_260_20 - WHERE YOU WOULD LOOK FOR INFORMATION TO MANAGE SAFETY/QUALITY OF WELL WATER: OTHER - Specify:  Don&#39;t know</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_260_20</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Where would you look for information to help you manage the safety and quality of your well water?  Selected &quot;OTHER &quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered GW14_260_OTHER with a response in this category</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_260_20.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        8</td>
+<td class="c M2_HEADER2">        8</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      452</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_260_21."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_260_21 - WHERE YOU WOULD LOOK FOR INFORMATION TO MANAGE SAFETY/QUALITY OF WELL WATER: OTHER - Specify:  landlord</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_260_21</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Where would you look for information to help you manage the safety and quality of your well water?  Selected &quot;OTHER &quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered GW14_260_OTHER with a response in this category</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_260_21.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">        1</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      459</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_290_DER_1."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_290_DER_1 - FILTER/TREATMENT TYPE USED IN HOME: PITCHER-TYPE WATER FILER</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_290_DER_1</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Please select all that apply regarding the filters or treatments that you use on your well water. Selected &quot;PITCHER-TYPE WATER FILER &quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered yes to GW14_290_1</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_290_DER_1.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       37</td>
+<td class="c M2_HEADER2">       37</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      423</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_290_DER_2."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_290_DER_2 - FILTER/TREATMENT TYPE USED IN HOME: REFRIGERATION</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_290_DER_2</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Please select all that apply regarding the filters or treatments that you use on your well water. Selected &quot;PITCHER-TYPE WATER FILER &quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered yes to GW14_290_2</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_290_DER_2.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       86</td>
+<td class="c M2_HEADER2">       86</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      374</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_290_DER_3A."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_290_DER_3A - FILTER/TREATMENT TYPE USED IN HOME: CARBON FILTER</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_290_DER_3A</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Please select all that apply regarding the filters or treatments that you use on your well water. Selected &quot;REFRIGERATION &quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered yes to GW14_290_3a and/or GW14_290_4a</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_290_DER_3A.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       62</td>
+<td class="c M2_HEADER2">       62</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      398</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_290_DER_3B."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_290_DER_3B - FILTER/TREATMENT TYPE USED IN HOME: REVERSE OSMOSIS</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_290_DER_3B</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Please select all that apply regarding the filters or treatments that you use on your well water. Selected &quot; TREAT AT THE POINT OF USE/UNDER THE SINK &quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered yes to GW14_290_3b and/or GW14_290_4b</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_290_DER_3B.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       30</td>
+<td class="c M2_HEADER2">       30</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      430</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_290_DER_3C."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_290_DER_3C - FILTER/TREATMENT TYPE USED IN HOME: WATER SOFTENER</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_290_DER_3C</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Please select all that apply regarding the filters or treatments that you use on your well water. Selected &quot;CARBON FILTER &quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered yes to GW14_290_3c and/or GW14_290_4c</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_290_DER_3C.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">      193</td>
+<td class="c M2_HEADER2">      193</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      267</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_290_DER_3D."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_290_DER_3D - FILTER/TREATMENT TYPE USED IN HOME: DISTILLATION</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_290_DER_3D</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Please select all that apply regarding the filters or treatments that you use on your well water. Selected &quot;REVERSE OSMOSIS &quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered yes to GW14_290_3d and/or GW14_290_4d</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_290_DER_3D.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        6</td>
+<td class="c M2_HEADER2">        6</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      454</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_290_DER_3E."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_290_DER_3E - FILTER/TREATMENT TYPE USED IN HOME: ABSORBENT MEDIA (IRON-OXIDE FILTER)</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_290_DER_3E</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Please select all that apply regarding the filters or treatments that you use on your well water. Selected &quot;WATER SOFTENER &quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered yes to GW14_290_3e and/or GW14_290_4e</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_290_DER_3E.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       31</td>
+<td class="c M2_HEADER2">       31</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      429</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_290_DER_4."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_290_DER_4 - FILTER/TREATMENT TYPE USED IN HOME: DRINK ONLY BOTTLED WATER</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_290_DER_4</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Please select all that apply regarding the filters or treatments that you use on your well water. Selected &quot;DON’T KNOW &quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered yes to GW14_290_5</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_290_DER_4.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       22</td>
+<td class="c M2_HEADER2">       22</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      438</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_290_DER_5."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_290_DER_5 - FILTER/TREATMENT TYPE USED IN HOME: OTHER</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_290_DER_5</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Please select all that apply regarding the filters or treatments that you use on your well water. Selected &quot;DON’T KNOW &quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered yes to GW14_290_6</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_290_DER_5.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       12</td>
+<td class="c M2_HEADER2">       12</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      448</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_290_DER_6."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_290_DER_6 - FILTER/TREATMENT TYPE USED IN HOME: DON’T KNOW</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_290_DER_6</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Please select all that apply regarding the filters or treatments that you use on your well water. Selected &quot;DON’T KNOW &quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered yes to GW14_290_3f and/or GW14_290_4f and/or GW14_290_7</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_290_DER_6.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       15</td>
+<td class="c M2_HEADER2">       15</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      445</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_290_DER_7."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_290_DER_7 - FILTER/TREATMENT TYPE USED IN HOME: Other (specify): Culligan Water</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_290_DER_7</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Please select all that apply regarding the filters or treatments that you use on your well water.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered GW14_290_OTHER and response matches this category</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_290_DER_7.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        2</td>
+<td class="c M2_HEADER2">        2</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      458</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_290_DER_8."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_290_DER_8 - FILTER/TREATMENT TYPE USED IN HOME: Other (specify): Micronizer/Aerator</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_290_DER_8</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Please select all that apply regarding the filters or treatments that you use on your well water. Selected &quot;DON’T KNOW &quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered GW14_290_OTHER and response matches this category</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_290_DER_8.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        2</td>
+<td class="c M2_HEADER2">        2</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      458</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_290_DER_9."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_290_DER_9 - FILTER/TREATMENT TYPE USED IN HOME: Other (specify): Sediment filter</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_290_DER_9</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Please select all that apply regarding the filters or treatments that you use on your well water. Selected &quot;DON’T KNOW &quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered GW14_290_OTHER and response matches this category</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_290_DER_9.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">        4</td>
+<td class="c M2_HEADER2">        4</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      456</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_300_12."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_300_12 - WHY YOU FILTER WATER: Other (specify): Came with the refridgerator and/or came with the house</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_300_12</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Why do you not filter or treat your well water? Selected &quot;Other (specify) &quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered GW14_300_OTHER and response matches this category</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_300_12.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      460</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_300_13."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_300_13 - WHY YOU FILTER WATER: Other (specify): Sand/sediment/pipe build-up</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_300_13</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Why do you not filter or treat your well water? Selected &quot;Other (specify) &quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered GW14_300_OTHER and response matches this category</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_300_13.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      460</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_300_14."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_300_14 - WHY YOU FILTER WATER: Other (specify): Because it keeps the water cold</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_300_14</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Why do you not filter or treat your well water? Selected &quot;Other (specify) &quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered GW14_300_OTHER and response matches this category</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_300_14.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      460</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_300_16."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_300_16 - WHY YOU FILTER WATER: Other (specify): Skin problems</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_300_16</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Why do you not filter or treat your well water? Selected &quot;Other (specify) &quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered GW14_300_OTHER and response matches this category</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_300_16.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      460</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_300_17."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_300_17 - WHY YOU  FILTER WATER: Other (specify): Live near a cemetary</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_300_17</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Why do you not filter or treat your well water? Selected &quot;Other (specify) &quot;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Answered GW14_300_OTHER and response matches this category</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_300_17.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      460</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_470A_DERIVED."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_470A_DERIVED - QUESTIONS - 1ST RESPONSE</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_470A_DERIVED</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_GW14_470_DERIVED</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Partcipants questions were categorized by the following statements:</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="c data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="c data">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_470A_DERIVED.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1]    This survey was a reminder and I should test my water                                                                                             </td>
+<td class="c M2_HEADER2">        6</td>
+<td class="c M2_HEADER2">        6</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[3]    I have never thought about getting the water tested until now                                                                                     </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">        7</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[4]    I would like to know what safe  contaminant levels are and if there is a website that indicates what test results are and if they are noncompliant</td>
+<td class="c M2_HEADER2">        2</td>
+<td class="c M2_HEADER2">        9</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[5]    I would like to know what the best test is, how often to test, what the cost is, and/or where to test my water                                    </td>
+<td class="c M2_HEADER2">       31</td>
+<td class="c M2_HEADER2">       40</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[6]    I Would like to know if free water testing is possible and where to go                                                                            </td>
+<td class="c M2_HEADER2">        3</td>
+<td class="c M2_HEADER2">       43</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[7]    I would like to know if I should get my water tested even if it has no problems                                                                   </td>
+<td class="c M2_HEADER2">        3</td>
+<td class="c M2_HEADER2">       46</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[8]    I would like more information (and/or recommendations) or additional information from what I can find online                                      </td>
+<td class="c M2_HEADER2">        6</td>
+<td class="c M2_HEADER2">       52</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[9]    I would like alerts about water contamination in the area                                                                                         </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">       53</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[10]  I would like to know what to do if I am having water quality issues                                                                                </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">       54</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[11]  I would like to know where to test for contaminants other than bacteria, for example: pesticides                                                   </td>
+<td class="c M2_HEADER2">        2</td>
+<td class="c M2_HEADER2">       56</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[12]  I would like to know how to initiate regular testing (for example: kit automatically sent and charged once a year)?                                </td>
+<td class="c M2_HEADER2">        2</td>
+<td class="c M2_HEADER2">       58</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[13]  I worry about contamination due to a pipeline break nearby                                                                                         </td>
+<td class="c M2_HEADER2">        2</td>
+<td class="c M2_HEADER2">       60</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[14]  I worry about my well drying up due to development and being forced to go on municipal with no compensation                                        </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">       61</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[15]  I worry about contamination from pesticides (Round-up), crop-dusters, and larger dairy cow operations                                              </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">       62</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[16]  I would like to know if large dairy cow operations are responsible for paying for and cleaning up  nearby residential wells due to contamination   </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">       63</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[17]  I would like to know how to stop irrigation wells in the area                                                                                      </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">       64</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[18]  I would like to know if my well water is related to kidney stones, diarrhea, cancer or other health problems                                       </td>
+<td class="c M2_HEADER2">        2</td>
+<td class="c M2_HEADER2">       66</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[20]  How do I know for sure if test was performed correctly/if reportedly safe levels are actually safe?                                                </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">       67</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[21]  other                                                                                                                                              </td>
+<td class="c M2_HEADER2">        9</td>
+<td class="c M2_HEADER2">       76</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.] Missing                                                                                                                                              </td>
+<td class="c M2_HEADER2">      384</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_470B_DERIVED."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_470B_DERIVED - QUESTIONS - 2ND RESPONSE</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_470B_DERIVED</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_GW14_470_DERIVED</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Partcipants questions were categorized by the following statements:</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="c data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="c data">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_470B_DERIVED.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[2]    Our water has no problems                                                                                                                         </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">        1</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[3]    I have never thought about getting the water tested until now                                                                                     </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">        2</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[4]    I would like to know what safe  contaminant levels are and if there is a website that indicates what test results are and if they are noncompliant</td>
+<td class="c M2_HEADER2">        2</td>
+<td class="c M2_HEADER2">        4</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[5]    I would like to know what the best test is, how often to test, what the cost is, and/or where to test my water                                    </td>
+<td class="c M2_HEADER2">        3</td>
+<td class="c M2_HEADER2">        7</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[8]    I would like more information (and/or recommendations) or additional information from what I can find online                                      </td>
+<td class="c M2_HEADER2">        3</td>
+<td class="c M2_HEADER2">       10</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[9]    I would like alerts about water contamination in the area                                                                                         </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">       11</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[15]  I worry about contamination from pesticides (Round-up), crop-dusters, and larger dairy cow operations                                              </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">       12</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[19]  I would like to know if a water softener protects from unsafe water                                                                                </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">       13</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[20]  How do I know for sure if test was performed correctly/if reportedly safe levels are actually safe?                                                </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">       14</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.] Missing                                                                                                                                              </td>
+<td class="c M2_HEADER2">      446</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_480A_DERIVED."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_480A_DERIVED - SUGGESTIONS - 1ST RESPONSE</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_480A_DERIVED</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_GW14_480_DERIVED</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Partcipants suggestions were categorized by the following statements:</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="c data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="c data">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_480A_DERIVED.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1]    Send kits by mail and mail-in sample option                                                                                                                                                                        </td>
+<td class="c M2_HEADER2">        9</td>
+<td class="c M2_HEADER2">        9</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2]    The Tribal land should offer this service (I live on Tribal land)                                                                                                                                                  </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">       10</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[3]    Private well testing reminder should be sent with septic system reminders and testing should be required when spectic systems are required to be pumped; OR send testing reminder/kits to homeowners with tax bills</td>
+<td class="c M2_HEADER2">        9</td>
+<td class="c M2_HEADER2">       19</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[4]    Provide free or affordable well water testing                                                                                                                                                                      </td>
+<td class="c M2_HEADER2">       15</td>
+<td class="c M2_HEADER2">       34</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[5]    Advertise/promote - (ex: The UW extension office and UW Stevens point lab process is very easy - they should promote)                                                                                              </td>
+<td class="c M2_HEADER2">        3</td>
+<td class="c M2_HEADER2">       37</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[6]    Make testing convenient &amp; local (Provide local pick-up and drop-off at the township or county level - at least once a year)                                                                                        </td>
+<td class="c M2_HEADER2">       40</td>
+<td class="c M2_HEADER2">       77</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[7]    Provide local venus of information, local informational class, information in newspaper, and/or community involvement                                                                                              </td>
+<td class="c M2_HEADER2">       10</td>
+<td class="c M2_HEADER2">       87</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[8]    The State/legislation should require testing                                                                                                                                                                       </td>
+<td class="c M2_HEADER2">        7</td>
+<td class="c M2_HEADER2">       94</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[9]    Have someone come to the house and test the water instead of mailing in a sample                                                                                                                                   </td>
+<td class="c M2_HEADER2">        5</td>
+<td class="c M2_HEADER2">       99</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[10]  Private well owners should receive reminders  with information (unknown preferred medium of delivery)                                                                                                               </td>
+<td class="c M2_HEADER2">        5</td>
+<td class="c M2_HEADER2">      104</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[11]  Private well owners should receive reminders  with information by mail                                                                                                                                              </td>
+<td class="c M2_HEADER2">       13</td>
+<td class="c M2_HEADER2">      117</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[13]  Private well owners should receive reminders  with information by email                                                                                                                                             </td>
+<td class="c M2_HEADER2">        3</td>
+<td class="c M2_HEADER2">      120</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[14]  Testing kits and instructions should be automatically sent out annually / sign up for automatic testing kits that arrive periodically                                                                               </td>
+<td class="c M2_HEADER2">        9</td>
+<td class="c M2_HEADER2">      129</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[15]  Laws should be passed to insure better inspection of gas lines and fine companies of gas spills                                                                                                                     </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">      130</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[16]  Keep the state out of private well testing                                                                                                                                                                          </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">      131</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[17]  Other                                                                                                                                                                                                               </td>
+<td class="c M2_HEADER2">        3</td>
+<td class="c M2_HEADER2">      134</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.] Missing                                                                                                                                                                                                               </td>
+<td class="c M2_HEADER2">      326</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_480B_DERIVED."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_480B_DERIVED - SUGGESTIONS -2ND RESPONSE</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_480B_DERIVED</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_GW14_480_DERIVED</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Partcipants suggestions were categorized by the following statements:</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="c data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="c data">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_480B_DERIVED.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1]    Send kits by mail and mail-in sample option                                                                                                                                                                        </td>
+<td class="c M2_HEADER2">        3</td>
+<td class="c M2_HEADER2">        3</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[4]    Provide free or affordable well water testing                                                                                                                                                                      </td>
+<td class="c M2_HEADER2">       11</td>
+<td class="c M2_HEADER2">       14</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[5]    Advertise/promote - (ex: The UW extension office and UW Stevens point lab process is very easy - they should promote)                                                                                              </td>
+<td class="c M2_HEADER2">        3</td>
+<td class="c M2_HEADER2">       17</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[6]    Make testing convenient &amp; local (Provide local pick-up and drop-off at the township or county level - at least once a year)                                                                                        </td>
+<td class="c M2_HEADER2">        7</td>
+<td class="c M2_HEADER2">       24</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[7]    Provide local venus of information, local informational class, information in newspaper, and/or community involvement                                                                                              </td>
+<td class="c M2_HEADER2">        6</td>
+<td class="c M2_HEADER2">       30</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[10]  Private well owners should receive reminders  with information (unknown preferred medium of delivery)                                                                                                               </td>
+<td class="c M2_HEADER2">        3</td>
+<td class="c M2_HEADER2">       33</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[11]  Private well owners should receive reminders  with information by mail                                                                                                                                              </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">       34</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[12]  Private well owners should receive reminders  with information by phone                                                                                                                                             </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">       35</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[13]  Private well owners should receive reminders  with information by email                                                                                                                                             </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">       36</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.] Missing                                                                                                                                                                                                               </td>
+<td class="c M2_HEADER2">      424</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_480C_DERIVED."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_480C_DERIVED - SUGGESTIONS - 3RD RESPONSE</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_480C_DERIVED</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_GW14_480_DERIVED</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Partcipants suggestions were categorized by the following statements:</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="c data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="c data">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_480C_DERIVED.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[11]  Private well owners should receive reminders  with information by mail                                                                                                                                              </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">        1</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.] Missing                                                                                                                                                                                                               </td>
+<td class="c M2_HEADER2">      459</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_480D_DERIVED."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_480D_DERIVED - SUGGESTIONS - 4TH RESPONSE</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_480D_DERIVED</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_GW14_480_DERIVED</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Partcipants suggestions were categorized by the following statements:</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="c data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="c data">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_480D_DERIVED.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[16]  Keep the state out of private well testing                                                                                                                                                                          </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">        1</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.] Missing                                                                                                                                                                                                               </td>
+<td class="c M2_HEADER2">      459</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_490A_DERIVED."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_490A_DERIVED - COMMENTS - 1ST RESPONSE</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_490A_DERIVED</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_GW14_490_DERIVED</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Partcipants comments were categorized by the following statements:</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="c data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="c data">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_490A_DERIVED.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1]    You could shorten this questionnaire and get the same information                                                   </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">        1</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2]    Thank you for reminding us to test out water and for this survey                                                    </td>
+<td class="c M2_HEADER2">        8</td>
+<td class="c M2_HEADER2">        9</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[3]  Thank you for the $2                                                                                                  </td>
+<td class="c M2_HEADER2">        2</td>
+<td class="c M2_HEADER2">       11</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[4]   Survey makes you aware of homeowners responsibility                                                                  </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">       12</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[5]    We need reminders to test our water and/or more information - please share testing information with us              </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">       13</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[6]    We are/were concerned about water contamination and our health                                                      </td>
+<td class="c M2_HEADER2">        3</td>
+<td class="c M2_HEADER2">       16</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[7]    My main concern is the increase of high capacity wells/CAFO                                                         </td>
+<td class="c M2_HEADER2">        2</td>
+<td class="c M2_HEADER2">       18</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[8]    Need requirements/regulation – many parents and landlords do not care about well water safety                       </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">       19</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[9]   Need requirements/regulation – in areas of mega-farms, high capacity irrigation well, CAFO, and/or high pesticide use</td>
+<td class="c M2_HEADER2">        2</td>
+<td class="c M2_HEADER2">       21</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[10]  I am afraid to have my well tested because if I need a new well I cannot afford it                                   </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">       22</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[11]  I don’t think the government should make you test your well                                                          </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">       23</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[12]  Haven’t thought about testing                                                                                        </td>
+<td class="c M2_HEADER2">        4</td>
+<td class="c M2_HEADER2">       27</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[13]    I do not test my well, because we do not have a problem                                                            </td>
+<td class="c M2_HEADER2">        2</td>
+<td class="c M2_HEADER2">       29</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[14]    I had water tested when children were little/I was pregnant, haven’t done it since                                 </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">       30</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[15]    I believe there should be more education awareness if well water quality is a concern                              </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">       31</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[16]    Testing  well water is easy – homeowners just choose not to do it                                                  </td>
+<td class="c M2_HEADER2">        2</td>
+<td class="c M2_HEADER2">       33</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[17]    Have been forced to hook up to city water (Used to be on private well)                                             </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">       34</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[18]    Do not like city water, prefer well water                                                                          </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">       35</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[19]    Well water testing costs are high                                                                                  </td>
+<td class="c M2_HEADER2">       15</td>
+<td class="c M2_HEADER2">       50</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.]     Missing                                                                                                            </td>
+<td class="c M2_HEADER2">      410</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="GW14_490B_DERIVED."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GW14_490B_DERIVED - COMMENTS - 2ND RESPONSE</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">GW14_490B_DERIVED</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_GW14_490_DERIVED</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Partcipants comments were categorized by the following statements:</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="c data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="c data">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="GW14_490B_DERIVED.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[5]    We need reminders to test our water and/or more information - please share testing information with us              </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">        1</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[17]    Have been forced to hook up to city water (Used to be on private well)                                             </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">        2</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.]     Missing                                                                                                            </td>
+<td class="c M2_HEADER2">      458</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+</body>
+</html>

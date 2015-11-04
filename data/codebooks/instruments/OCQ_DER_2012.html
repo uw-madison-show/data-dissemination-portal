@@ -1,0 +1,1382 @@
+<html>
+<head>
+<style>
+body{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-style: normal;
+  font-weight: normal;
+  width:6.85in
+}
+
+/* word styles */
+p.LocatorRecord, li.LocatorRecord, div.LocatorRecord {
+	mso-style-name:"Locator Record";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-indent:-.5in;
+	font-size:normal;
+	font-family:"Arial","sans-serif";
+}
+p.HeaderText, li.HeaderText, div.HeaderText {
+	mso-style-name:"Header Text";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:normal;
+	font-family:"Arial","sans-serif";
+}
+
+/* variable list */
+.vl {
+  border-collapse: separate;
+  border-width: 1px;
+  border-style: solid;
+  width: 6.7in;
+}
+.vl tbody tr:nth-child(even) td {
+  background-color: #EEEEEE;
+  color: #000000;
+  font-size: normal;
+}
+.vl tbody tr:nth-child(odd) td {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: normal;
+}
+
+/* variable info */
+.vi {
+  border-width: 0px;
+  width: 6.7in;
+}
+
+/* main tables */
+
+.main{
+  background-color: #FFFFFF;
+  border-width: 1px;
+  border-color: #C1C1C1;
+  border-style: solid;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-style: normal;
+  font-weight: normal;
+  width: 6.7in;
+  text-align: center;
+}
+
+.main tbody tr:nth-child(even) td {
+  background-color: #EEEEEE;
+  color: #000000;
+  font-size: normal;
+}
+.main tbody tr:nth-child(odd) td {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: normal;
+}
+
+/* sas styles */
+.systitleandfootercontainer{
+  background-color: #FAFBFE;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  width: 100%;
+}
+
+.systemfooter{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: normal;
+  font-style: normal;
+  font-weight: normal;
+  padding-bottom: 0.5in;
+  text-align: right;
+}
+
+#menu {
+  position: fixed;
+  right: 0;
+  top: 5%;
+  width: 30%;
+  margin-top: -2.5em;
+}
+
+@media print{
+body{background-color: white;}
+h1{color: black;}
+a{text-decoration: none; color: black;}
+.systemfooter{display: none;}
+.systemtitle{background-color: black; color: white;}
+}
+h1 {
+  color: #772211;
+  font-size: large;
+}
+
+.vl_header1{
+  background-color: #F9F2ED;
+  border: 0px solid #000000;
+  color: #000000;
+  font-size: medium;
+  width: 2in;
+  vertical-align: bottom;
+  text-align: left;
+}
+
+.vl_header2{
+  background-color: #F9F2ED;
+  border: 0px solid #000000;
+  color: #000000;
+  font-size: medium;
+  width: 4.7in;
+  vertical-align: bottom;
+  text-align: left;
+}
+
+.vi_attr {
+  background-color: #F9F2ED;
+  width: 1.5in;
+  font-weight: bold;
+  vertical-align: top;
+}
+
+.m1_header1 {
+  width: 0.7in;
+  background-color: #F9F2ED;
+  text-align: center;
+}
+
+.m1_header2 {
+  width: 1.2in;
+  background-color: #F9F2ED;
+  text-align: center;
+}
+
+.m2_header1 {
+  width: 4.7in;
+  background-color: #F9F2ED;
+  text-align: left;
+}
+
+.m2_header2 {
+  width: 1in;
+  background-color: #F9F2ED;
+  text-align: center;
+}
+
+.systemtitle
+{
+  background-color: #772211;
+  color: #FFFFFF;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+  border: 1px solid #000000;
+  text-align: left;
+}
+
+</style>
+<title>SHOW 2012 Codebook: OCQ_DER</title>
+<body>
+<div class=WordSection1>
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;border:none'>
+<tr><td width=658 valign=top style='width:6.85in;border:solid windowtext 1.0pt; border-bottom:none;padding:0in 5.4pt 0in 5.4pt'>
+  <h1>LOCATOR RECORD</h1>
+</td> </tr>
+<tr><td width=658 valign=top style='width:6.85in;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+ <p class=LocatorRecord>Title: <b>Derived Variables: Occupation (OCQ_DER)</b></p>
+  <p class=LocatorRecord>Years of Content: <b>2012</b></p>
+  <p class=LocatorRecord>First Published: <b>January 2014</b></p>
+  <p class=LocatorRecord>Last Revised: <b>      May 2014</b></p>
+  <p class=LocatorRecord>Subject: <b>Occupation History and Occupation and Industry Codes from Census 2000</b></p>
+  <p class=LocatorRecord>Raw Data Source(s): <b>OCQ</b></p>
+  <p class=LocatorRecord>Data File: <b>ocq_der_2012.sas7bdat</b></p>
+</td></tr></table>
+<h1><a name='Component_Description'></a>Component Description</h1>
+<blockquote>These are the derived variables for the Occupation Questionnaire (OCQ) which is a part of the in-home personal interview portion of the SHOW study (Time 1). Occupational and Industry Codes are given for current job and usual job (longest held job).</blockquote>
+<h1><a name='Data_Processing'></a>Data Processing</h1>
+<blockquote>Employees from UW Survey Center, specially trained to use the Alphabetic Index of Industries and Occupations, filled in codes that matched participants work description derived from OCQ. The coder both used hard-copies of the Alphabetic Index as well as a software developed by UWSC staff. The coders worked in pairs and double coded each other's work.</blockquote>
+<h1><a name='Analytic_Notes'></a>Analytic Notes</h1>
+<blockquote>All derived variables in this dataset used variables collected during the Time 1 portion of the SHOW study and T1 survey weights should be used when analyzing these data. All processing was completed using SAS version 9.3. Short hand SAS calculations have been included to help researchers recreate these variables from the raw data. Additional details are available upon request. Every participant got assigned an industry and an occupation code, from the Census 2000 Industry and Occupation Index, for current/ and longest held job. The assigned code depended on the participant’s description of his/her job. The index itself and further information on it can be found at: http://www.census.gov/people/io/methodology/indexes.html.</blockquote>
+<h1><a name='References'></a>References</h1>
+<blockquote>N/A</blockquote>
+<div class="branch">
+<a name="varlist"></a>
+<div>
+<div align="center">
+<table class="VL" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c VL_HEADER1">Variable Name</th>
+<th class="c VL_HEADER2">SAS Label</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data"><a href="#SPID.">SPID</a>
+</td>
+<td class="l data">SURVEY PARTICIPANT IDENTIFICATION NUMBER</td>
+</tr>
+<tr>
+<td class="l data"><a href="#OCQ_UNEMPLOYED.">OCQ_UNEMPLOYED</a>
+</td>
+<td class="l data">UNEMPLOYED BUT LOOKING FOR WORK</td>
+</tr>
+<tr>
+<td class="l data"><a href="#CUR_OCC.">CUR_OCC</a>
+</td>
+<td class="l data">OCCUPATION INDEX CODE - CURRENT JOB</td>
+</tr>
+<tr>
+<td class="l data"><a href="#CUR_OCCFINTITLE.">CUR_OCCFINTITLE</a>
+</td>
+<td class="l data">OCCUPATION INDEX TITLE - CURRENT JOB</td>
+</tr>
+<tr>
+<td class="l data"><a href="#CUR_SOC.">CUR_SOC</a>
+</td>
+<td class="l data">STANDARD OCCUPATIONAL CLASSIFICATION CODE - CURRENT JOB</td>
+</tr>
+<tr>
+<td class="l data"><a href="#CUR_IND.">CUR_IND</a>
+</td>
+<td class="l data">INDUSTRY INDEX CODE - CURRENT JOB</td>
+</tr>
+<tr>
+<td class="l data"><a href="#CUR_INDFINTITLE.">CUR_INDFINTITLE</a>
+</td>
+<td class="l data">OCCUPATION INDEX TITLE - CURRENT JOB</td>
+</tr>
+<tr>
+<td class="l data"><a href="#CUR_NAICS.">CUR_NAICS</a>
+</td>
+<td class="l data">NORTH AMERICAN INDUSTRY CLASSIFICATION SYSTEM CODE - CURRENT JOB</td>
+</tr>
+<tr>
+<td class="l data"><a href="#USU_OCC.">USU_OCC</a>
+</td>
+<td class="l data">OCCUPATION INDEX CODE - USUAL JOB</td>
+</tr>
+<tr>
+<td class="l data"><a href="#USU_OCCFINTITLE.">USU_OCCFINTITLE</a>
+</td>
+<td class="l data">OCCUPATION INDEX TITLE - USUAL JOB</td>
+</tr>
+<tr>
+<td class="l data"><a href="#USU_SOC.">USU_SOC</a>
+</td>
+<td class="l data">STANDARD OCCUPATIONAL CLASSIFICATION CODE - USUAL JOB</td>
+</tr>
+<tr>
+<td class="l data"><a href="#USU_IND.">USU_IND</a>
+</td>
+<td class="l data">INDUSTRY INDEX CODE - USUAL JOB</td>
+</tr>
+<tr>
+<td class="l data"><a href="#USU_INDFINTITLE.">USU_INDFINTITLE</a>
+</td>
+<td class="l data">OCCUPATION INDEX TITLE - USUAL JOB</td>
+</tr>
+<tr>
+<td class="l data"><a href="#USU_NAICS.">USU_NAICS</a>
+</td>
+<td class="l data">NORTH AMERICAN INDUSTRY CLASSIFICATION SYSTEM CODE - USUAL JOB</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">&nbsp;</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="OCQ_UNEMPLOYED."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">OCQ_UNEMPLOYED - UNEMPLOYED BUT LOOKING FOR WORK</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">OCQ_UNEMPLOYED</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Unemployed but looking for work</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">IF OCQ100 = 3 THEN OCQ_UNEMPLOYED = 1;
+IF OCQ100 = 1 THEN OCQ_UNEMPLOYED = 2;
+IF OCQ100 = 2 THEN OCQ_UNEMPLOYED = 2;
+IF OCQ100 = 4 THEN OCQ_UNEMPLOYED = 2;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74 AND report of “[3] Not working but looking for work”</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="OCQ_UNEMPLOYED.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       28</td>
+<td class="c M2_HEADER2">       28</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      427</td>
+<td class="c M2_HEADER2">      455</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[. ] Missing   </td>
+<td class="c M2_HEADER2">        3</td>
+<td class="c M2_HEADER2">      458</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="USU_OCC."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">USU_OCC - OCCUPATION INDEX CODE - USUAL JOB</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">USU_OCC</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">$FMT_CHAR</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Codes from Census 2000 Occupation Index for usual job (longest held job)</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Derived from: OCQ210, OCQ220, OCQ225, OCQ226, OCQ227 - The Occupation Index can be found at http://www.census.gov/people/io/methodology/indexes.html</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74 AND either response of “No” in OCQ190  or report of “[3] Not working but looking for work”, “[4] Not working at a job or business &amp; not looking for a job”,  “[.R] Refused” or “[.D] Don’t Know” in OCQ100</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="USU_OCC.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">Field contains text</td>
+<td class="c M2_HEADER2">      297</td>
+<td class="c M2_HEADER2">      297</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[  ] Missing</td>
+<td class="c M2_HEADER2">      161</td>
+<td class="c M2_HEADER2">      458</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="USU_OCCFINTITLE."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">USU_OCCFINTITLE - OCCUPATION INDEX TITLE - USUAL JOB</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">USU_OCCFINTITLE</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">$FMT_CHAR</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Titles from Census 2000 Occupation Index for usual job (longest held job)</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Derived from: OCQ210, OCQ220, OCQ225, OCQ226, OCQ227 - The Occupation Index can be found at http://www.census.gov/people/io/methodology/indexes.html</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74 AND either response of “No” in OCQ190  or report of “[3] Not working but looking for work”, “[4] Not working at a job or business &amp; not looking for a job”,  “[.R] Refused” or “[.D] Don’t Know” in OCQ100</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="USU_OCCFINTITLE.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">Field contains text</td>
+<td class="c M2_HEADER2">      297</td>
+<td class="c M2_HEADER2">      297</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[  ] Missing</td>
+<td class="c M2_HEADER2">      161</td>
+<td class="c M2_HEADER2">      458</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="USU_IND."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">USU_IND - INDUSTRY INDEX CODE - USUAL JOB</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">USU_IND</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">$FMT_CHAR</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Codes from Census 2000 Industry Index for usual job (longest held job)</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Derived from: OCQ210, OCQ220, OCQ225, OCQ226, OCQ227 - The Industry Index can be found at http://www.census.gov/people/io/methodology/indexes.html</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74 AND either response of “No” in OCQ190  or report of “[3] Not working but looking for work”, “[4] Not working at a job or business &amp; not looking for a job”,  “[.R] Refused” or “[.D] Don’t Know” in OCQ100</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="USU_IND.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">Field contains text</td>
+<td class="c M2_HEADER2">      297</td>
+<td class="c M2_HEADER2">      297</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[  ] Missing</td>
+<td class="c M2_HEADER2">      161</td>
+<td class="c M2_HEADER2">      458</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="USU_INDFINTITLE."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">USU_INDFINTITLE - OCCUPATION INDEX TITLE - USUAL JOB</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">USU_INDFINTITLE</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">$FMT_CHAR</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Titles from Census 2000 Industry Index for usual job (longest held job)</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Derived from: OCQ210, OCQ220, OCQ225, OCQ226, OCQ227 - The Industry Index can be found at http://www.census.gov/people/io/methodology/indexes.html</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74 AND either response of “No” in OCQ190  or report of “[3] Not working but looking for work”, “[4] Not working at a job or business &amp; not looking for a job”,  “[.R] Refused” or “[.D] Don’t Know” in OCQ100</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="USU_INDFINTITLE.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">Field contains text</td>
+<td class="c M2_HEADER2">      297</td>
+<td class="c M2_HEADER2">      297</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[  ] Missing</td>
+<td class="c M2_HEADER2">      161</td>
+<td class="c M2_HEADER2">      458</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="USU_SOC."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">USU_SOC - STANDARD OCCUPATIONAL CLASSIFICATION CODE - USUAL JOB</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">USU_SOC</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">$FMT_CHAR</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Standard Occupational Classification (SOC) code derived from Census 2000 Industry Code - Code refers to usual job (longest held job)</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Derived from: OCQ210, OCQ220, OCQ225, OCQ226, OCQ227 - Code crosswalk between SOC (2000) and Census (2000) can be found at http://www.census.gov/people/io/files/occ2000t.pdf</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74 AND either response of “No” in OCQ190  or report of “[3] Not working but looking for work”, “[4] Not working at a job or business &amp; not looking for a job”,  “[.R] Refused” or “[.D] Don’t Know” in OCQ100</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="USU_SOC.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">Field contains text</td>
+<td class="c M2_HEADER2">      291</td>
+<td class="c M2_HEADER2">      291</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[  ] Missing</td>
+<td class="c M2_HEADER2">      167</td>
+<td class="c M2_HEADER2">      458</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="USU_NAICS."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">USU_NAICS - NORTH AMERICAN INDUSTRY CLASSIFICATION SYSTEM CODE - USUAL JOB</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">USU_NAICS</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">$FMT_CHAR</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">North America Industry Classification System (NAICS) code derived from Census 2000 Industry Code - Code refers to usual job (longest held job)</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Derived from: OCQ210, OCQ220, OCQ225, OCQ226, OCQ227 -Code crosswalk between NAICS (1997) and Census (2000)  can be found at http://www.census.gov/people/io/files/indcswk2k.pdf</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74 AND either response of “No” in OCQ190  or report of “[3] Not working but looking for work”, “[4] Not working at a job or business &amp; not looking for a job”,  “[.R] Refused” or “[.D] Don’t Know” in OCQ100</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="USU_NAICS.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">Field contains text</td>
+<td class="c M2_HEADER2">      294</td>
+<td class="c M2_HEADER2">      294</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[  ] Missing</td>
+<td class="c M2_HEADER2">      164</td>
+<td class="c M2_HEADER2">      458</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="CUR_OCC."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">CUR_OCC - OCCUPATION INDEX CODE - CURRENT JOB</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">CUR_OCC</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">$FMT_CHAR</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Codes from Census 2000 Occupation Index for current job</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Derived from: OCQ140,  OCQ160,  OCQ160,  OCQ170,  OCQ171 - The Occupation Index can be found at http://www.census.gov/people/io/methodology/indexes.html</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74 AND report of either “[1] Working at a job or business” or “[2] With a job or business but not at work (for example, on vacation or sick)” in OCQ100</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="CUR_OCC.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">Field contains text</td>
+<td class="c M2_HEADER2">      294</td>
+<td class="c M2_HEADER2">      294</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[  ] Missing</td>
+<td class="c M2_HEADER2">      164</td>
+<td class="c M2_HEADER2">      458</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="CUR_OCCFINTITLE."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">CUR_OCCFINTITLE - OCCUPATION INDEX TITLE - CURRENT JOB</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">CUR_OCCFINTITLE</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">$FMT_CHAR</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Titles from Census 2000 Occupation Index for current job</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Derived from: OCQ210, OCQ220, OCQ225, OCQ226, OCQ227 - The Occupation Index can be found at http://www.census.gov/people/io/methodology/indexes.html</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74 AND report of either “[1] Working at a job or business” or “[2] With a job or business but not at work (for example, on vacation or sick)” in OCQ100</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="CUR_OCCFINTITLE.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">Field contains text</td>
+<td class="c M2_HEADER2">      294</td>
+<td class="c M2_HEADER2">      294</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[  ] Missing</td>
+<td class="c M2_HEADER2">      164</td>
+<td class="c M2_HEADER2">      458</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="CUR_IND."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">CUR_IND - INDUSTRY INDEX CODE - CURRENT JOB</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">CUR_IND</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">$FMT_CHAR</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Codes from Census 2000 Industry Index for current job</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Derived from: OCQ140,  OCQ160,  OCQ160,  OCQ170,  OCQ171 - The Industry Index can be found at http://www.census.gov/people/io/methodology/indexes.html</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74 AND report of either “[1] Working at a job or business” or “[2] With a job or business but not at work (for example, on vacation or sick)” in OCQ100</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="CUR_IND.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">Field contains text</td>
+<td class="c M2_HEADER2">      293</td>
+<td class="c M2_HEADER2">      293</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[  ] Missing</td>
+<td class="c M2_HEADER2">      165</td>
+<td class="c M2_HEADER2">      458</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="CUR_INDFINTITLE."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">CUR_INDFINTITLE - OCCUPATION INDEX TITLE - CURRENT JOB</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">CUR_INDFINTITLE</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">$FMT_CHAR</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Titles from Census 2000 Industry Index for current job</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Derived from: OCQ140,  OCQ160,  OCQ160,  OCQ170,  OCQ171 - The Industry Index can be found at http://www.census.gov/people/io/methodology/indexes.html</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74 AND report of either “[1] Working at a job or business” or “[2] With a job or business but not at work (for example, on vacation or sick)” in OCQ100</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="CUR_INDFINTITLE.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">Field contains text</td>
+<td class="c M2_HEADER2">      293</td>
+<td class="c M2_HEADER2">      293</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[  ] Missing</td>
+<td class="c M2_HEADER2">      165</td>
+<td class="c M2_HEADER2">      458</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="CUR_SOC."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">CUR_SOC - STANDARD OCCUPATIONAL CLASSIFICATION CODE - CURRENT JOB</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">CUR_SOC</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">$FMT_CHAR</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Standard Occupational Classification (SOC) code derived from Census 2000 Industry Code - Code refers to current job</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Derived from: OCQ140,  OCQ160,  OCQ160,  OCQ170,  OCQ171 - Code crosswalk between SOC (2000) and Census (2000) can be found at http://www.census.gov/people/io/files/occ2000t.pdf</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74 AND report of either “[1] Working at a job or business” or “[2] With a job or business but not at work (for example, on vacation or sick)” in OCQ100</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="CUR_SOC.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">Field contains text</td>
+<td class="c M2_HEADER2">      294</td>
+<td class="c M2_HEADER2">      294</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[  ] Missing</td>
+<td class="c M2_HEADER2">      164</td>
+<td class="c M2_HEADER2">      458</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="CUR_NAICS."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">CUR_NAICS - NORTH AMERICAN INDUSTRY CLASSIFICATION SYSTEM CODE - CURRENT JOB</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">CUR_NAICS</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">$FMT_CHAR</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">North America Industry Classification System (NAICS) code derived from Census 2000 Industry Code - Code refers to current job</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">Derived from: OCQ140,  OCQ160,  OCQ160,  OCQ170,  OCQ171 - Code crosswalk between NAICS (1997) and Census (2000)  can be found at http://www.census.gov/people/io/files/indcswk2k.pdf</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74 AND report of either “[1] Working at a job or business” or “[2] With a job or business but not at work (for example, on vacation or sick)” in OCQ100</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="CUR_NAICS.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">Field contains text</td>
+<td class="c M2_HEADER2">      293</td>
+<td class="c M2_HEADER2">      293</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[  ] Missing</td>
+<td class="c M2_HEADER2">      165</td>
+<td class="c M2_HEADER2">      458</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+</body>
+</html>

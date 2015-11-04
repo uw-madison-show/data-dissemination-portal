@@ -1,0 +1,2421 @@
+<html>
+<head>
+<style>
+body{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-style: normal;
+  font-weight: normal;
+  width:6.85in
+}
+
+/* word styles */
+p.LocatorRecord, li.LocatorRecord, div.LocatorRecord {
+	mso-style-name:"Locator Record";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-indent:-.5in;
+	font-size:normal;
+	font-family:"Arial","sans-serif";
+}
+p.HeaderText, li.HeaderText, div.HeaderText {
+	mso-style-name:"Header Text";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:normal;
+	font-family:"Arial","sans-serif";
+}
+
+/* variable list */
+.vl {
+  border-collapse: separate;
+  border-width: 1px;
+  border-style: solid;
+  width: 6.7in;
+}
+.vl tbody tr:nth-child(even) td {
+  background-color: #EEEEEE;
+  color: #000000;
+  font-size: normal;
+}
+.vl tbody tr:nth-child(odd) td {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: normal;
+}
+
+/* variable info */
+.vi {
+  border-width: 0px;
+  width: 6.7in;
+}
+
+/* main tables */
+
+.main{
+  background-color: #FFFFFF;
+  border-width: 1px;
+  border-color: #C1C1C1;
+  border-style: solid;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-style: normal;
+  font-weight: normal;
+  width: 6.7in;
+  text-align: center;
+}
+
+.main tbody tr:nth-child(even) td {
+  background-color: #EEEEEE;
+  color: #000000;
+  font-size: normal;
+}
+.main tbody tr:nth-child(odd) td {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: normal;
+}
+
+/* sas styles */
+.systitleandfootercontainer{
+  background-color: #FAFBFE;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  width: 100%;
+}
+
+.systemfooter{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: normal;
+  font-style: normal;
+  font-weight: normal;
+  padding-bottom: 0.5in;
+  text-align: right;
+}
+
+#menu {
+  position: fixed;
+  right: 0;
+  top: 5%;
+  width: 30%;
+  margin-top: -2.5em;
+}
+
+@media print{
+body{background-color: white;}
+h1{color: black;}
+a{text-decoration: none; color: black;}
+.systemfooter{display: none;}
+.systemtitle{background-color: black; color: white;}
+}
+h1 {
+  color: #772211;
+  font-size: large;
+}
+
+.vl_header1{
+  background-color: #F9F2ED;
+  border: 0px solid #000000;
+  color: #000000;
+  font-size: medium;
+  width: 2in;
+  vertical-align: bottom;
+  text-align: left;
+}
+
+.vl_header2{
+  background-color: #F9F2ED;
+  border: 0px solid #000000;
+  color: #000000;
+  font-size: medium;
+  width: 4.7in;
+  vertical-align: bottom;
+  text-align: left;
+}
+
+.vi_attr {
+  background-color: #F9F2ED;
+  width: 1.5in;
+  font-weight: bold;
+  vertical-align: top;
+}
+
+.m1_header1 {
+  width: 0.7in;
+  background-color: #F9F2ED;
+  text-align: center;
+}
+
+.m1_header2 {
+  width: 1.2in;
+  background-color: #F9F2ED;
+  text-align: center;
+}
+
+.m2_header1 {
+  width: 4.7in;
+  background-color: #F9F2ED;
+  text-align: left;
+}
+
+.m2_header2 {
+  width: 1in;
+  background-color: #F9F2ED;
+  text-align: center;
+}
+
+.systemtitle
+{
+  background-color: #772211;
+  color: #FFFFFF;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+  border: 1px solid #000000;
+  text-align: left;
+}
+
+</style>
+<title>SHOW 2010 Codebook: HOQ_DER</title>
+<body>
+<div class=WordSection1>
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;border:none'>
+<tr><td width=658 valign=top style='width:6.85in;border:solid windowtext 1.0pt; border-bottom:none;padding:0in 5.4pt 0in 5.4pt'>
+  <h1>LOCATOR RECORD</h1>
+</td> </tr>
+<tr><td width=658 valign=top style='width:6.85in;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+ <p class=LocatorRecord>Title: <b>Derived Variables - Housing Characteristics (HOQ_DER)                                                                                                                                                                                                          </b></p>
+  <p class=LocatorRecord>Years of Content: <b>2010</b></p>
+  <p class=LocatorRecord>First Published: <b>May 2013                                                                                                                                                                                                                                                       </b></p>
+  <p class=LocatorRecord>Last Revised: <b>      May 2013</b></p>
+  <p class=LocatorRecord>Subject: <b>Housing Characteristics                                                                                                                                                                                                                                        </b></p>
+  <p class=LocatorRecord>Raw Data Source(s): <b>HOQ                                                                                                                                                                                                                                                            </b></p>
+  <p class=LocatorRecord>Data File: <b>hoq_der_2010.sas7bdat</b></p>
+</td></tr></table>
+<h1><a name='Component_Description'></a>Component Description</h1>
+<blockquote>These are the derived variables for the Housing Characteristics (HOQ) module administered during the Time 1 (home visit) portion of the SHOW survey.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </blockquote>
+<h1><a name='Analytic_Notes'></a>Analytic Notes</h1>
+<blockquote>All derived variables in this dataset used variables collected during the Time 3 portion of the SHOW study and T3 survey weights should be used when analyzing these data. All processing was completed using SAS version 9.3. Short hand SAS calculations have been included to help researchers recreate these variables from the raw data. Additional details are available upon request.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </blockquote>
+<h1><a name='References'></a>References</h1>
+<blockquote>N/A                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             </blockquote>
+<div class="branch">
+<a name="varlist"></a>
+<div>
+<div align="center">
+<table class="VL" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c VL_HEADER1">Variable Name</th>
+<th class="c VL_HEADER2">SAS Label</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data"><a href="#SPID.">SPID</a>
+</td>
+<td class="l data">SURVEY PARTICIPANT IDENTIFICATION NUMBER</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HOQ083_1.">HOQ083_1</a>
+</td>
+<td class="l data">WATER FILTER: BRITA OR OTHER PITCHER WATER FILTER</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HOQ083_2.">HOQ083_2</a>
+</td>
+<td class="l data">WATER FILTER: CERAMIC OR CHARCOAL FILTER</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HOQ083_3.">HOQ083_3</a>
+</td>
+<td class="l data">WATER FILTER: WATER SOFTENER</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HOQ083_4.">HOQ083_4</a>
+</td>
+<td class="l data">WATER FILTER: AERATOR</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HOQ083_5.">HOQ083_5</a>
+</td>
+<td class="l data">WATER FILTER: REVERSE OSMOSIS</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HOQ083_6.">HOQ083_6</a>
+</td>
+<td class="l data">WATER FILTER: OTHER</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HOQ250_1.">HOQ250_1</a>
+</td>
+<td class="l data">PET: CAT</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HOQ250_2.">HOQ250_2</a>
+</td>
+<td class="l data">PET: DOG</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HOQ250_3.">HOQ250_3</a>
+</td>
+<td class="l data">PET: BIRD</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HOQ250_4.">HOQ250_4</a>
+</td>
+<td class="l data">PET: HAMSTER, MICE, GUINEA PIG, GERBILS</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HOQ250_5.">HOQ250_5</a>
+</td>
+<td class="l data">PET: OTHER</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HOQ270_1.">HOQ270_1</a>
+</td>
+<td class="l data">INDOOR PESTICIDE ROOMS TREATED: KITCHEN</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HOQ270_2.">HOQ270_2</a>
+</td>
+<td class="l data">INDOOR PESTICIDE ROOMS TREATED: BATHROOM</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HOQ270_3.">HOQ270_3</a>
+</td>
+<td class="l data">INDOOR PESTICIDE ROOMS TREATED: LIVING/FAMILY ROOM</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HOQ270_4.">HOQ270_4</a>
+</td>
+<td class="l data">INDOOR PESTICIDE ROOMS TREATED: BEDROOM</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HOQ270_5.">HOQ270_5</a>
+</td>
+<td class="l data">INDOOR PESTICIDE ROOMS TREATED: LAUNDRY ROOM</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HOQ270_6.">HOQ270_6</a>
+</td>
+<td class="l data">INDOOR PESTICIDE ROOMS TREATED: BASEMENT</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HOQ270_7.">HOQ270_7</a>
+</td>
+<td class="l data">INDOOR PESTICIDE ROOMS TREATED: OTHER</td>
+</tr>
+<tr>
+<td class="l data"><a href="#HOQ_RESIDENCE.">HOQ_RESIDENCE</a>
+</td>
+<td class="l data">RESIDENCE: DURATION LIVED AT ADDRESS IN YEARS</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemfooter">&nbsp;</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HOQ083_1."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HOQ083_1 - WATER FILTER: BRITA OR OTHER PITCHER WATER FILTER</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HOQ083_1</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Selected &quot;Brita or other pitcher water filter&quot; in any of HOQ083_A through HOQ083_F</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">ARRAY NEW083 HOQ083_1-HOQ083_6;
+R083=0;D083=0;
+ARRAY OLD083 HOQ083_A--HOQ083_F;
+DO OVER OLD083;
+&nbsp;&nbsp;&nbsp;&nbsp;IF OLD083=2 THEN HOQ083_1=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=3 THEN HOQ083_2=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=4 THEN HOQ083_3=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=5 THEN HOQ083_4=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=6 THEN HOQ083_5=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=8 THEN HOQ083_6=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=.R THEN R083=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=.D THEN D083=1;
+END;
+DO OVER NEW083;
+&nbsp;&nbsp;&nbsp;&nbsp;IF NEW083^=1 THEN DO;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF R083=1 THEN NEW083=.R;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF D083=1 THEN NEW083=.D;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF NEW083=. THEN NEW083=2;
+&nbsp;&nbsp;&nbsp;&nbsp;END;
+END;
+DROP R083 D083;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HOQ083_1.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">      162</td>
+<td class="c M2_HEADER2">      162</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      762</td>
+<td class="c M2_HEADER2">      924</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.D] Don&#39;t know</td>
+<td class="c M2_HEADER2">       29</td>
+<td class="c M2_HEADER2">      953</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.R] Refused   </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">      954</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HOQ083_2."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HOQ083_2 - WATER FILTER: CERAMIC OR CHARCOAL FILTER</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HOQ083_2</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Selected &quot;Ceramic or charcoal filter&quot; in any of HOQ083_A through HOQ083_F</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">ARRAY NEW083 HOQ083_1-HOQ083_6;
+R083=0;D083=0;
+ARRAY OLD083 HOQ083_A--HOQ083_F;
+DO OVER OLD083;
+&nbsp;&nbsp;&nbsp;&nbsp;IF OLD083=2 THEN HOQ083_1=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=3 THEN HOQ083_2=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=4 THEN HOQ083_3=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=5 THEN HOQ083_4=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=6 THEN HOQ083_5=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=8 THEN HOQ083_6=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=.R THEN R083=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=.D THEN D083=1;
+END;
+DO OVER NEW083;
+&nbsp;&nbsp;&nbsp;&nbsp;IF NEW083^=1 THEN DO;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF R083=1 THEN NEW083=.R;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF D083=1 THEN NEW083=.D;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF NEW083=. THEN NEW083=2;
+&nbsp;&nbsp;&nbsp;&nbsp;END;
+END;
+DROP R083 D083;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HOQ083_2.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       92</td>
+<td class="c M2_HEADER2">       92</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      832</td>
+<td class="c M2_HEADER2">      924</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.D] Don&#39;t know</td>
+<td class="c M2_HEADER2">       29</td>
+<td class="c M2_HEADER2">      953</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.R] Refused   </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">      954</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HOQ083_3."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HOQ083_3 - WATER FILTER: WATER SOFTENER</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HOQ083_3</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Selected &quot;Water softener&quot; in any of HOQ083_A through HOQ083_F</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">ARRAY NEW083 HOQ083_1-HOQ083_6;
+R083=0;D083=0;
+ARRAY OLD083 HOQ083_A--HOQ083_F;
+DO OVER OLD083;
+&nbsp;&nbsp;&nbsp;&nbsp;IF OLD083=2 THEN HOQ083_1=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=3 THEN HOQ083_2=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=4 THEN HOQ083_3=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=5 THEN HOQ083_4=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=6 THEN HOQ083_5=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=8 THEN HOQ083_6=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=.R THEN R083=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=.D THEN D083=1;
+END;
+DO OVER NEW083;
+&nbsp;&nbsp;&nbsp;&nbsp;IF NEW083^=1 THEN DO;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF R083=1 THEN NEW083=.R;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF D083=1 THEN NEW083=.D;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF NEW083=. THEN NEW083=2;
+&nbsp;&nbsp;&nbsp;&nbsp;END;
+END;
+DROP R083 D083;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HOQ083_3.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">      338</td>
+<td class="c M2_HEADER2">      338</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      586</td>
+<td class="c M2_HEADER2">      924</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.D] Don&#39;t know</td>
+<td class="c M2_HEADER2">       29</td>
+<td class="c M2_HEADER2">      953</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.R] Refused   </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">      954</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HOQ083_4."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HOQ083_4 - WATER FILTER: AERATOR</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HOQ083_4</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Selected &quot;Aerator&quot; in any of HOQ083_A through HOQ083_F</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">ARRAY NEW083 HOQ083_1-HOQ083_6;
+R083=0;D083=0;
+ARRAY OLD083 HOQ083_A--HOQ083_F;
+DO OVER OLD083;
+&nbsp;&nbsp;&nbsp;&nbsp;IF OLD083=2 THEN HOQ083_1=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=3 THEN HOQ083_2=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=4 THEN HOQ083_3=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=5 THEN HOQ083_4=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=6 THEN HOQ083_5=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=8 THEN HOQ083_6=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=.R THEN R083=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=.D THEN D083=1;
+END;
+DO OVER NEW083;
+&nbsp;&nbsp;&nbsp;&nbsp;IF NEW083^=1 THEN DO;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF R083=1 THEN NEW083=.R;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF D083=1 THEN NEW083=.D;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF NEW083=. THEN NEW083=2;
+&nbsp;&nbsp;&nbsp;&nbsp;END;
+END;
+DROP R083 D083;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HOQ083_4.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       11</td>
+<td class="c M2_HEADER2">       11</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      913</td>
+<td class="c M2_HEADER2">      924</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.D] Don&#39;t know</td>
+<td class="c M2_HEADER2">       29</td>
+<td class="c M2_HEADER2">      953</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.R] Refused   </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">      954</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HOQ083_5."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HOQ083_5 - WATER FILTER: REVERSE OSMOSIS</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HOQ083_5</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Selected &quot;Reverse osmosis&quot; in any of HOQ083_A through HOQ083_F</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">ARRAY NEW083 HOQ083_1-HOQ083_6;
+R083=0;D083=0;
+ARRAY OLD083 HOQ083_A--HOQ083_F;
+DO OVER OLD083;
+&nbsp;&nbsp;&nbsp;&nbsp;IF OLD083=2 THEN HOQ083_1=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=3 THEN HOQ083_2=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=4 THEN HOQ083_3=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=5 THEN HOQ083_4=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=6 THEN HOQ083_5=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=8 THEN HOQ083_6=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=.R THEN R083=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=.D THEN D083=1;
+END;
+DO OVER NEW083;
+&nbsp;&nbsp;&nbsp;&nbsp;IF NEW083^=1 THEN DO;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF R083=1 THEN NEW083=.R;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF D083=1 THEN NEW083=.D;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF NEW083=. THEN NEW083=2;
+&nbsp;&nbsp;&nbsp;&nbsp;END;
+END;
+DROP R083 D083;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HOQ083_5.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       46</td>
+<td class="c M2_HEADER2">       46</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      878</td>
+<td class="c M2_HEADER2">      924</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.D] Don&#39;t know</td>
+<td class="c M2_HEADER2">       29</td>
+<td class="c M2_HEADER2">      953</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.R] Refused   </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">      954</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HOQ083_6."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HOQ083_6 - WATER FILTER: OTHER</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HOQ083_6</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Selected &quot;Other&quot; in any of HOQ083_A through HOQ083_F</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">ARRAY NEW083 HOQ083_1-HOQ083_6;
+R083=0;D083=0;
+ARRAY OLD083 HOQ083_A--HOQ083_F;
+DO OVER OLD083;
+&nbsp;&nbsp;&nbsp;&nbsp;IF OLD083=2 THEN HOQ083_1=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=3 THEN HOQ083_2=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=4 THEN HOQ083_3=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=5 THEN HOQ083_4=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=6 THEN HOQ083_5=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=8 THEN HOQ083_6=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=.R THEN R083=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD083=.D THEN D083=1;
+END;
+DO OVER NEW083;
+&nbsp;&nbsp;&nbsp;&nbsp;IF NEW083^=1 THEN DO;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF R083=1 THEN NEW083=.R;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF D083=1 THEN NEW083=.D;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF NEW083=. THEN NEW083=2;
+&nbsp;&nbsp;&nbsp;&nbsp;END;
+END;
+DROP R083 D083;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HOQ083_6.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       80</td>
+<td class="c M2_HEADER2">       80</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      844</td>
+<td class="c M2_HEADER2">      924</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.D] Don&#39;t know</td>
+<td class="c M2_HEADER2">       29</td>
+<td class="c M2_HEADER2">      953</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.R] Refused   </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">      954</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HOQ250_1."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HOQ250_1 - PET: CAT</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HOQ250_1</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Selected &quot;Cat&quot; in any of HOQ250_A through HOQ250_E</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">ARRAY NEW250 HOQ250_1-HOQ250_5;
+R250=0;D250=0;
+ARRAY OLD250 HOQ250_A--HOQ250_E;
+DO OVER OLD250;
+&nbsp;&nbsp;&nbsp;&nbsp;IF OLD250=1 THEN HOQ250_1=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=2 THEN HOQ250_2=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=3 THEN HOQ250_3=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=4 THEN HOQ250_4=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=5 THEN HOQ250_5=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=.R THEN R250=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=.D THEN D250=1;
+END;
+DO OVER NEW250;
+&nbsp;&nbsp;&nbsp;&nbsp;IF NEW250^=1 THEN DO;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF R250=1 THEN NEW250=.R;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF D250=1 THEN NEW250=.D;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF NEW250=. THEN NEW250=2;
+&nbsp;&nbsp;&nbsp;&nbsp;END;
+END;
+DROP R250 D250;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HOQ250_1.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">      268</td>
+<td class="c M2_HEADER2">      268</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      683</td>
+<td class="c M2_HEADER2">      951</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.D] Don&#39;t know</td>
+<td class="c M2_HEADER2">        2</td>
+<td class="c M2_HEADER2">      953</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.R] Refused   </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">      954</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HOQ250_2."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HOQ250_2 - PET: DOG</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HOQ250_2</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Selected &quot;Dog&quot; in any of HOQ250_A through HOQ250_E</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">ARRAY NEW250 HOQ250_1-HOQ250_5;
+R250=0;D250=0;
+ARRAY OLD250 HOQ250_A--HOQ250_E;
+DO OVER OLD250;
+&nbsp;&nbsp;&nbsp;&nbsp;IF OLD250=1 THEN HOQ250_1=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=2 THEN HOQ250_2=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=3 THEN HOQ250_3=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=4 THEN HOQ250_4=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=5 THEN HOQ250_5=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=.R THEN R250=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=.D THEN D250=1;
+END;
+DO OVER NEW250;
+&nbsp;&nbsp;&nbsp;&nbsp;IF NEW250^=1 THEN DO;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF R250=1 THEN NEW250=.R;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF D250=1 THEN NEW250=.D;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF NEW250=. THEN NEW250=2;
+&nbsp;&nbsp;&nbsp;&nbsp;END;
+END;
+DROP R250 D250;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HOQ250_2.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">      386</td>
+<td class="c M2_HEADER2">      386</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      565</td>
+<td class="c M2_HEADER2">      951</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.D] Don&#39;t know</td>
+<td class="c M2_HEADER2">        2</td>
+<td class="c M2_HEADER2">      953</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.R] Refused   </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">      954</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HOQ250_3."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HOQ250_3 - PET: BIRD</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HOQ250_3</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Selected &quot;Bird&quot; in any of HOQ250_A through HOQ250_E</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">ARRAY NEW250 HOQ250_1-HOQ250_5;
+R250=0;D250=0;
+ARRAY OLD250 HOQ250_A--HOQ250_E;
+DO OVER OLD250;
+&nbsp;&nbsp;&nbsp;&nbsp;IF OLD250=1 THEN HOQ250_1=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=2 THEN HOQ250_2=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=3 THEN HOQ250_3=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=4 THEN HOQ250_4=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=5 THEN HOQ250_5=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=.R THEN R250=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=.D THEN D250=1;
+END;
+DO OVER NEW250;
+&nbsp;&nbsp;&nbsp;&nbsp;IF NEW250^=1 THEN DO;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF R250=1 THEN NEW250=.R;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF D250=1 THEN NEW250=.D;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF NEW250=. THEN NEW250=2;
+&nbsp;&nbsp;&nbsp;&nbsp;END;
+END;
+DROP R250 D250;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HOQ250_3.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       26</td>
+<td class="c M2_HEADER2">       26</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      925</td>
+<td class="c M2_HEADER2">      951</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.D] Don&#39;t know</td>
+<td class="c M2_HEADER2">        2</td>
+<td class="c M2_HEADER2">      953</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.R] Refused   </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">      954</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HOQ250_4."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HOQ250_4 - PET: HAMSTER, MICE, GUINEA PIG, GERBILS</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HOQ250_4</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Selected &quot;Hamster, mice, guinea pig, gerbils&quot; in any of HOQ250_A through HOQ250_E</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">ARRAY NEW250 HOQ250_1-HOQ250_5;
+R250=0;D250=0;
+ARRAY OLD250 HOQ250_A--HOQ250_E;
+DO OVER OLD250;
+&nbsp;&nbsp;&nbsp;&nbsp;IF OLD250=1 THEN HOQ250_1=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=2 THEN HOQ250_2=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=3 THEN HOQ250_3=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=4 THEN HOQ250_4=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=5 THEN HOQ250_5=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=.R THEN R250=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=.D THEN D250=1;
+END;
+DO OVER NEW250;
+&nbsp;&nbsp;&nbsp;&nbsp;IF NEW250^=1 THEN DO;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF R250=1 THEN NEW250=.R;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF D250=1 THEN NEW250=.D;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF NEW250=. THEN NEW250=2;
+&nbsp;&nbsp;&nbsp;&nbsp;END;
+END;
+DROP R250 D250;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HOQ250_4.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       19</td>
+<td class="c M2_HEADER2">       19</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      932</td>
+<td class="c M2_HEADER2">      951</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.D] Don&#39;t know</td>
+<td class="c M2_HEADER2">        2</td>
+<td class="c M2_HEADER2">      953</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.R] Refused   </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">      954</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HOQ250_5."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HOQ250_5 - PET: OTHER</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HOQ250_5</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Selected &quot;Other&quot; in any of HOQ250_A through HOQ250_E</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">ARRAY NEW250 HOQ250_1-HOQ250_5;
+R250=0;D250=0;
+ARRAY OLD250 HOQ250_A--HOQ250_E;
+DO OVER OLD250;
+&nbsp;&nbsp;&nbsp;&nbsp;IF OLD250=1 THEN HOQ250_1=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=2 THEN HOQ250_2=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=3 THEN HOQ250_3=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=4 THEN HOQ250_4=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=5 THEN HOQ250_5=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=.R THEN R250=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD250=.D THEN D250=1;
+END;
+DO OVER NEW250;
+&nbsp;&nbsp;&nbsp;&nbsp;IF NEW250^=1 THEN DO;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF R250=1 THEN NEW250=.R;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF D250=1 THEN NEW250=.D;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF NEW250=. THEN NEW250=2;
+&nbsp;&nbsp;&nbsp;&nbsp;END;
+END;
+DROP R250 D250;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HOQ250_5.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">      110</td>
+<td class="c M2_HEADER2">      110</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      841</td>
+<td class="c M2_HEADER2">      951</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.D] Don&#39;t know</td>
+<td class="c M2_HEADER2">        2</td>
+<td class="c M2_HEADER2">      953</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.R] Refused   </td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">      954</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HOQ270_1."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HOQ270_1 - INDOOR PESTICIDE ROOMS TREATED: KITCHEN</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HOQ270_1</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Selected &quot;Kitchen&quot; in any of HOQ270_A through HOQ270_G</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">IF HOQ265=1 THEN DO;
+&nbsp;&nbsp;&nbsp;&nbsp;ARRAY NEW270 HOQ270_1-HOQ270_7;
+&nbsp;&nbsp;&nbsp;&nbsp;R270=0;D270=0;
+&nbsp;&nbsp;&nbsp;&nbsp;ARRAY OLD270 HOQ270_A--HOQ270_G;
+&nbsp;&nbsp;&nbsp;&nbsp;DO I=1 TO DIM(OLD270);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF OLD270{I} IN (1:6) THEN NEW270{OLD270{I}}=1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD270{I}=8 THEN NEW270{7}=1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD270{I}=.R THEN R270=1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD270{I}=.D THEN D270=1;
+&nbsp;&nbsp;&nbsp;&nbsp;END;
+&nbsp;&nbsp;&nbsp;&nbsp;DO I=1 TO DIM(NEW270);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF NEW270{I}^=1 THEN DO;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF R270=1 THEN NEW270{I}=.R;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF D270=1 THEN NEW270{I}=.D;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF NEW270{I}=. THEN NEW270{I}=2;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;END;
+&nbsp;&nbsp;&nbsp;&nbsp;END;
+&nbsp;&nbsp;&nbsp;&nbsp;DROP R270 D270 I;
+END;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74 and reported &quot;Yes&quot; to HOQ265_R2</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HOQ270_1.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">      153</td>
+<td class="c M2_HEADER2">      153</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">       96</td>
+<td class="c M2_HEADER2">      249</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.D] Don&#39;t know</td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">      250</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[. ] Missing   </td>
+<td class="c M2_HEADER2">      704</td>
+<td class="c M2_HEADER2">      954</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HOQ270_2."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HOQ270_2 - INDOOR PESTICIDE ROOMS TREATED: BATHROOM</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HOQ270_2</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Selected &quot;Bathroom&quot; in any of HOQ270_A through HOQ270_G</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">IF HOQ265=1 THEN DO;
+&nbsp;&nbsp;&nbsp;&nbsp;ARRAY NEW270 HOQ270_1-HOQ270_7;
+&nbsp;&nbsp;&nbsp;&nbsp;R270=0;D270=0;
+&nbsp;&nbsp;&nbsp;&nbsp;ARRAY OLD270 HOQ270_A--HOQ270_G;
+&nbsp;&nbsp;&nbsp;&nbsp;DO I=1 TO DIM(OLD270);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF OLD270{I} IN (1:6) THEN NEW270{OLD270{I}}=1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD270{I}=8 THEN NEW270{7}=1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD270{I}=.R THEN R270=1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD270{I}=.D THEN D270=1;
+&nbsp;&nbsp;&nbsp;&nbsp;END;
+&nbsp;&nbsp;&nbsp;&nbsp;DO I=1 TO DIM(NEW270);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF NEW270{I}^=1 THEN DO;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF R270=1 THEN NEW270{I}=.R;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF D270=1 THEN NEW270{I}=.D;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF NEW270{I}=. THEN NEW270{I}=2;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;END;
+&nbsp;&nbsp;&nbsp;&nbsp;END;
+&nbsp;&nbsp;&nbsp;&nbsp;DROP R270 D270 I;
+END;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74 and reported &quot;Yes&quot; to HOQ265_R2</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HOQ270_2.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       88</td>
+<td class="c M2_HEADER2">       88</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      161</td>
+<td class="c M2_HEADER2">      249</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.D] Don&#39;t know</td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">      250</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[. ] Missing   </td>
+<td class="c M2_HEADER2">      704</td>
+<td class="c M2_HEADER2">      954</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HOQ270_3."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HOQ270_3 - INDOOR PESTICIDE ROOMS TREATED: LIVING/FAMILY ROOM</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HOQ270_3</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Selected &quot;Living Room or Family Room&quot; in any of HOQ270_A through HOQ270_G</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">IF HOQ265=1 THEN DO;
+&nbsp;&nbsp;&nbsp;&nbsp;ARRAY NEW270 HOQ270_1-HOQ270_7;
+&nbsp;&nbsp;&nbsp;&nbsp;R270=0;D270=0;
+&nbsp;&nbsp;&nbsp;&nbsp;ARRAY OLD270 HOQ270_A--HOQ270_G;
+&nbsp;&nbsp;&nbsp;&nbsp;DO I=1 TO DIM(OLD270);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF OLD270{I} IN (1:6) THEN NEW270{OLD270{I}}=1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD270{I}=8 THEN NEW270{7}=1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD270{I}=.R THEN R270=1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD270{I}=.D THEN D270=1;
+&nbsp;&nbsp;&nbsp;&nbsp;END;
+&nbsp;&nbsp;&nbsp;&nbsp;DO I=1 TO DIM(NEW270);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF NEW270{I}^=1 THEN DO;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF R270=1 THEN NEW270{I}=.R;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF D270=1 THEN NEW270{I}=.D;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF NEW270{I}=. THEN NEW270{I}=2;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;END;
+&nbsp;&nbsp;&nbsp;&nbsp;END;
+&nbsp;&nbsp;&nbsp;&nbsp;DROP R270 D270 I;
+END;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74 and reported &quot;Yes&quot; to HOQ265_R2</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HOQ270_3.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       91</td>
+<td class="c M2_HEADER2">       91</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      158</td>
+<td class="c M2_HEADER2">      249</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.D] Don&#39;t know</td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">      250</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[. ] Missing   </td>
+<td class="c M2_HEADER2">      704</td>
+<td class="c M2_HEADER2">      954</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HOQ270_4."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HOQ270_4 - INDOOR PESTICIDE ROOMS TREATED: BEDROOM</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HOQ270_4</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Selected &quot;Bedroom&quot; in any of HOQ270_A through HOQ270_G</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">IF HOQ265=1 THEN DO;
+&nbsp;&nbsp;&nbsp;&nbsp;ARRAY NEW270 HOQ270_1-HOQ270_7;
+&nbsp;&nbsp;&nbsp;&nbsp;R270=0;D270=0;
+&nbsp;&nbsp;&nbsp;&nbsp;ARRAY OLD270 HOQ270_A--HOQ270_G;
+&nbsp;&nbsp;&nbsp;&nbsp;DO I=1 TO DIM(OLD270);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF OLD270{I} IN (1:6) THEN NEW270{OLD270{I}}=1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD270{I}=8 THEN NEW270{7}=1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD270{I}=.R THEN R270=1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD270{I}=.D THEN D270=1;
+&nbsp;&nbsp;&nbsp;&nbsp;END;
+&nbsp;&nbsp;&nbsp;&nbsp;DO I=1 TO DIM(NEW270);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF NEW270{I}^=1 THEN DO;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF R270=1 THEN NEW270{I}=.R;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF D270=1 THEN NEW270{I}=.D;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF NEW270{I}=. THEN NEW270{I}=2;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;END;
+&nbsp;&nbsp;&nbsp;&nbsp;END;
+&nbsp;&nbsp;&nbsp;&nbsp;DROP R270 D270 I;
+END;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74 and reported &quot;Yes&quot; to HOQ265_R2</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HOQ270_4.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       59</td>
+<td class="c M2_HEADER2">       59</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      190</td>
+<td class="c M2_HEADER2">      249</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.D] Don&#39;t know</td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">      250</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[. ] Missing   </td>
+<td class="c M2_HEADER2">      704</td>
+<td class="c M2_HEADER2">      954</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HOQ270_5."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HOQ270_5 - INDOOR PESTICIDE ROOMS TREATED: LAUNDRY ROOM</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HOQ270_5</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Selected &quot;Laundry Room&quot; in any of HOQ270_A through HOQ270_G</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">IF HOQ265=1 THEN DO;
+&nbsp;&nbsp;&nbsp;&nbsp;ARRAY NEW270 HOQ270_1-HOQ270_7;
+&nbsp;&nbsp;&nbsp;&nbsp;R270=0;D270=0;
+&nbsp;&nbsp;&nbsp;&nbsp;ARRAY OLD270 HOQ270_A--HOQ270_G;
+&nbsp;&nbsp;&nbsp;&nbsp;DO I=1 TO DIM(OLD270);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF OLD270{I} IN (1:6) THEN NEW270{OLD270{I}}=1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD270{I}=8 THEN NEW270{7}=1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD270{I}=.R THEN R270=1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD270{I}=.D THEN D270=1;
+&nbsp;&nbsp;&nbsp;&nbsp;END;
+&nbsp;&nbsp;&nbsp;&nbsp;DO I=1 TO DIM(NEW270);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF NEW270{I}^=1 THEN DO;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF R270=1 THEN NEW270{I}=.R;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF D270=1 THEN NEW270{I}=.D;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF NEW270{I}=. THEN NEW270{I}=2;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;END;
+&nbsp;&nbsp;&nbsp;&nbsp;END;
+&nbsp;&nbsp;&nbsp;&nbsp;DROP R270 D270 I;
+END;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74 and reported &quot;Yes&quot; to HOQ265_R2</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HOQ270_5.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       30</td>
+<td class="c M2_HEADER2">       30</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      219</td>
+<td class="c M2_HEADER2">      249</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.D] Don&#39;t know</td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">      250</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[. ] Missing   </td>
+<td class="c M2_HEADER2">      704</td>
+<td class="c M2_HEADER2">      954</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HOQ270_6."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HOQ270_6 - INDOOR PESTICIDE ROOMS TREATED: BASEMENT</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HOQ270_6</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Selected &quot;Basement&quot; in any of HOQ270_A through HOQ270_G</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">IF HOQ265=1 THEN DO;
+&nbsp;&nbsp;&nbsp;&nbsp;ARRAY NEW270 HOQ270_1-HOQ270_7;
+&nbsp;&nbsp;&nbsp;&nbsp;R270=0;D270=0;
+&nbsp;&nbsp;&nbsp;&nbsp;ARRAY OLD270 HOQ270_A--HOQ270_G;
+&nbsp;&nbsp;&nbsp;&nbsp;DO I=1 TO DIM(OLD270);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF OLD270{I} IN (1:6) THEN NEW270{OLD270{I}}=1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD270{I}=8 THEN NEW270{7}=1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD270{I}=.R THEN R270=1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD270{I}=.D THEN D270=1;
+&nbsp;&nbsp;&nbsp;&nbsp;END;
+&nbsp;&nbsp;&nbsp;&nbsp;DO I=1 TO DIM(NEW270);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF NEW270{I}^=1 THEN DO;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF R270=1 THEN NEW270{I}=.R;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF D270=1 THEN NEW270{I}=.D;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF NEW270{I}=. THEN NEW270{I}=2;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;END;
+&nbsp;&nbsp;&nbsp;&nbsp;END;
+&nbsp;&nbsp;&nbsp;&nbsp;DROP R270 D270 I;
+END;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74 and reported &quot;Yes&quot; to HOQ265_R2</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HOQ270_6.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       72</td>
+<td class="c M2_HEADER2">       72</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      177</td>
+<td class="c M2_HEADER2">      249</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.D] Don&#39;t know</td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">      250</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[. ] Missing   </td>
+<td class="c M2_HEADER2">      704</td>
+<td class="c M2_HEADER2">      954</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HOQ270_7."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HOQ270_7 - INDOOR PESTICIDE ROOMS TREATED: OTHER</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HOQ270_7</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_YES_NO</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Selected &quot;Other&quot; in any of HOQ270_A through HOQ270_G</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">IF HOQ265=1 THEN DO;
+&nbsp;&nbsp;&nbsp;&nbsp;ARRAY NEW270 HOQ270_1-HOQ270_7;
+&nbsp;&nbsp;&nbsp;&nbsp;R270=0;D270=0;
+&nbsp;&nbsp;&nbsp;&nbsp;ARRAY OLD270 HOQ270_A--HOQ270_G;
+&nbsp;&nbsp;&nbsp;&nbsp;DO I=1 TO DIM(OLD270);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF OLD270{I} IN (1:6) THEN NEW270{OLD270{I}}=1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD270{I}=8 THEN NEW270{7}=1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD270{I}=.R THEN R270=1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF OLD270{I}=.D THEN D270=1;
+&nbsp;&nbsp;&nbsp;&nbsp;END;
+&nbsp;&nbsp;&nbsp;&nbsp;DO I=1 TO DIM(NEW270);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF NEW270{I}^=1 THEN DO;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF R270=1 THEN NEW270{I}=.R;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF D270=1 THEN NEW270{I}=.D;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF NEW270{I}=. THEN NEW270{I}=2;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;END;
+&nbsp;&nbsp;&nbsp;&nbsp;END;
+&nbsp;&nbsp;&nbsp;&nbsp;DROP R270 D270 I;
+END;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74 and reported &quot;Yes&quot; to HOQ265_R2</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HOQ270_7.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Yes        </td>
+<td class="c M2_HEADER2">       38</td>
+<td class="c M2_HEADER2">       38</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] No         </td>
+<td class="c M2_HEADER2">      211</td>
+<td class="c M2_HEADER2">      249</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[.D] Don&#39;t know</td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">      250</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[. ] Missing   </td>
+<td class="c M2_HEADER2">      704</td>
+<td class="c M2_HEADER2">      954</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="HOQ_RESIDENCE."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemtitle">HOQ_RESIDENCE - RESIDENCE: DURATION LIVED AT ADDRESS IN YEARS</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">HOQ_RESIDENCE</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_NUMERIC</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Number of years lived at residence; if HOQ060_U=2 then HOQ060_N, if HOQ060_U=1 then HOQ060_N/12.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">HOQ_RESIDENCE=.;
+IF HOQ060_U=1 THEN HOQ_RESIDENCE=HOQ060_N/12;
+ELSE IF HOQ060_U=2 THEN HOQ_RESIDENCE=HOQ060_N;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 21 – 74</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="HOQ_RESIDENCE.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M1_HEADER1">N</th>
+<th class="c M1_HEADER2">Mean</th>
+<th class="c M1_HEADER2">Median</th>
+<th class="c M1_HEADER2">Std Dev</th>
+<th class="c M1_HEADER2">Minimum</th>
+<th class="c M1_HEADER2">Maximum</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="c data">      943</td>
+<td class="c data"> 11.61</td>
+<td class="c data">  7.00</td>
+<td class="c data"> 12.36</td>
+<td class="c data">   0.0</td>
+<td class="c data">  71.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+</body>
+</html>

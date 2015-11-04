@@ -1,0 +1,33 @@
+name = BottomUp
+description = A theme I made from scratch so that I can test individual elements in the SMPH template.
+core = 7.x
+engine = phptemplate
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+
+regions[content]             = 'Content'
+regions[main_menu]           = 'Main Menu'
+
+regions[header]              = 'header'
+regions[topLinks]            = 'topLinks'
+regions[masterContainer]     = 'masterContainer'
+regions[navBar]              = 'navBar'
+regions[pageHeader]          = 'pageHeader'
+regions[newsTickerWrapper]   = 'newsTickerWrapper'
+regions[contentContainer]    = 'contentContainer'
+regions[leftNavContainer]    = 'leftNavContainer'
+regions[mainContainer]       = 'mainContainer'
+regions[footer]              = 'footer'
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;
+;; Settings
+;;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/craig_style.css
+

@@ -1,0 +1,1401 @@
+<html>
+<head>
+<style>
+body{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-style: normal;
+  font-weight: normal;
+  width:6.85in
+}
+
+/* word styles */
+p.LocatorRecord, li.LocatorRecord, div.LocatorRecord {
+	mso-style-name:"Locator Record";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-indent:-.5in;
+	font-size:normal;
+	font-family:"Arial","sans-serif";
+}
+p.HeaderText, li.HeaderText, div.HeaderText {
+	mso-style-name:"Header Text";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:normal;
+	font-family:"Arial","sans-serif";
+}
+
+/* variable list */
+.vl {
+  border-collapse: separate;
+  border-width: 1px;
+  border-style: solid;
+  width: 6.7in;
+}
+.vl tbody tr:nth-child(even) td {
+  background-color: #EEEEEE;
+  color: #000000;
+  font-size: normal;
+}
+.vl tbody tr:nth-child(odd) td {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: normal;
+}
+
+/* variable info */
+.vi {
+  border-width: 0px;
+  width: 6.7in;
+}
+
+/* main tables */
+
+.main{
+  background-color: #FFFFFF;
+  border-width: 1px;
+  border-color: #C1C1C1;
+  border-style: solid;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-style: normal;
+  font-weight: normal;
+  width: 6.7in;
+  text-align: center;
+}
+
+.main tbody tr:nth-child(even) td {
+  background-color: #EEEEEE;
+  color: #000000;
+  font-size: normal;
+}
+.main tbody tr:nth-child(odd) td {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: normal;
+}
+
+/* sas styles */
+.systitleandfootercontainer{
+  background-color: #FAFBFE;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  width: 100%;
+}
+
+.systemfooter{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: normal;
+  font-style: normal;
+  font-weight: normal;
+  padding-bottom: 0.5in;
+  text-align: right;
+}
+
+#menu {
+  position: fixed;
+  right: 0;
+  top: 5%;
+  width: 30%;
+  margin-top: -2.5em;
+}
+
+@media print{
+body{background-color: white;}
+h1{color: black;}
+a{text-decoration: none; color: black;}
+.systemfooter{display: none;}
+.systemtitle{background-color: black; color: white;}
+}
+h1 {
+  color: #772211;
+  font-size: large;
+}
+
+.vl_header1{
+  background-color: #F9F2ED;
+  border: 0px solid #000000;
+  color: #000000;
+  font-size: medium;
+  width: 2in;
+  vertical-align: bottom;
+  text-align: left;
+}
+
+.vl_header2{
+  background-color: #F9F2ED;
+  border: 0px solid #000000;
+  color: #000000;
+  font-size: medium;
+  width: 4.7in;
+  vertical-align: bottom;
+  text-align: left;
+}
+
+.vi_attr {
+  background-color: #F9F2ED;
+  width: 1.5in;
+  font-weight: bold;
+  vertical-align: top;
+}
+
+.m1_header1 {
+  width: 0.7in;
+  background-color: #F9F2ED;
+  text-align: center;
+}
+
+.m1_header2 {
+  width: 1.2in;
+  background-color: #F9F2ED;
+  text-align: center;
+}
+
+.m2_header1 {
+  width: 4.7in;
+  background-color: #F9F2ED;
+  text-align: left;
+}
+
+.m2_header2 {
+  width: 1in;
+  background-color: #F9F2ED;
+  text-align: center;
+}
+
+.systemtitle
+{
+  background-color: #772211;
+  color: #FFFFFF;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+  border: 1px solid #000000;
+  text-align: left;
+}
+
+</style>
+<title>SHOW 2014 Codebook: STRESS_DER</title>
+<body>
+<div class=WordSection1>
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;border:none'>
+<tr><td width=658 valign=top style='width:6.85in;border:solid windowtext 1.0pt; border-bottom:none;padding:0in 5.4pt 0in 5.4pt'>
+  <h1>LOCATOR RECORD</h1>
+</td> </tr>
+<tr><td width=658 valign=top style='width:6.85in;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+ <p class=LocatorRecord>Title: <b>Derived Variables - Stress</b></p>
+  <p class=LocatorRecord>Years of Content: <b>2014</b></p>
+  <p class=LocatorRecord>First Published: <b>March 2015</b></p>
+  <p class=LocatorRecord>Last Revised: <b>   August 2015</b></p>
+  <p class=LocatorRecord>Subject: <b>Stress, Anxiety, and Depression</b></p>
+  <p class=LocatorRecord>Raw Data Source(s): <b>Stress</b></p>
+  <p class=LocatorRecord>Data File: <b>stress_der_2014.sas7bdat</b></p>
+</td></tr></table>
+<h1><a name='Component_Description'></a>Component Description</h1>
+<blockquote>These are the derived variables for the STRESS module included in the self-administered questionnaire portion of the SHOW survey.</blockquote>
+<h1><a name='Analytic_Notes'></a>Analytic Notes</h1>
+<blockquote>Scores and related statistics were calculated for all respondents who answered all 7 questions for each of the stress, anxiety, and depression constructs. Interpretation of values obtained from incomplete surveys should be taken in the context.</blockquote>
+<h1><a name='References'></a>References</h1>
+<blockquote>Lovibond, S.H. & Lovibond, P.F. (1995).  Manual for the Depression Anxiety Stress Scales. (2nd. Ed.)  Sydney: Psychology Foundation.</blockquote>
+<div class="branch">
+<a name="varlist"></a>
+<div>
+<div align="center">
+<table class="VL" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c VL_HEADER1">Variable Name</th>
+<th class="c VL_HEADER2">SAS Label</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data"><a href="#SPID.">SPID</a>
+</td>
+<td class="l data">SURVEY PARTICIPANT IDENTIFICATION NUMBER</td>
+</tr>
+<tr>
+<td class="l data"><a href="#ANX_ANS_DASS7.">ANX_ANS_DASS7</a>
+</td>
+<td class="l data">DASS QUESTIONS ANSWERED: ANXIETY</td>
+</tr>
+<tr>
+<td class="l data"><a href="#ANX_SCORE_DASS7.">ANX_SCORE_DASS7</a>
+</td>
+<td class="l data">DASS SCORE: ANXIETY</td>
+</tr>
+<tr>
+<td class="l data"><a href="#ANX_SEVERITY_DASS7.">ANX_SEVERITY_DASS7</a>
+</td>
+<td class="l data">DASS SEVERITY: ANXIETY</td>
+</tr>
+<tr>
+<td class="l data"><a href="#ANX_Z_DASS7.">ANX_Z_DASS7</a>
+</td>
+<td class="l data">DASS Z-SCORE: ANXIETY</td>
+</tr>
+<tr>
+<td class="l data"><a href="#DEP_ANS_DASS7.">DEP_ANS_DASS7</a>
+</td>
+<td class="l data">DASS QUESTIONS ANSWERED: DEPRESSION</td>
+</tr>
+<tr>
+<td class="l data"><a href="#DEP_SCORE_DASS7.">DEP_SCORE_DASS7</a>
+</td>
+<td class="l data">DASS SCORE: DEPRESSION</td>
+</tr>
+<tr>
+<td class="l data"><a href="#DEP_SEVERITY_DASS7.">DEP_SEVERITY_DASS7</a>
+</td>
+<td class="l data">DASS SEVERITY: DEPRESSION</td>
+</tr>
+<tr>
+<td class="l data"><a href="#DEP_Z_DASS7.">DEP_Z_DASS7</a>
+</td>
+<td class="l data">DASS Z-SCORE: DEPRESSION</td>
+</tr>
+<tr>
+<td class="l data"><a href="#STR_ANS_DASS7.">STR_ANS_DASS7</a>
+</td>
+<td class="l data">DASS QUESTIONS ANSWERED: STRESS</td>
+</tr>
+<tr>
+<td class="l data"><a href="#STR_SCORE_DASS7.">STR_SCORE_DASS7</a>
+</td>
+<td class="l data">DASS SCORE: STRESS</td>
+</tr>
+<tr>
+<td class="l data"><a href="#STR_SEVERITY_DASS7.">STR_SEVERITY_DASS7</a>
+</td>
+<td class="l data">DASS SEVERITY: STRESS</td>
+</tr>
+<tr>
+<td class="l data"><a href="#STR_Z_DASS7.">STR_Z_DASS7</a>
+</td>
+<td class="l data">DASS Z-SCORE: STRESS</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">&nbsp;</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="DEP_ANS_DASS7."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">DEP_ANS_DASS7 - DASS QUESTIONS ANSWERED: DEPRESSION</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">DEP_ANS_DASS7</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_NUMERIC</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Number of DASS questions answered (STRESS110  STRESS130 STRESS190 STRESS220 STRESS250 STRESS260 STRESS290) related to depression.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">ARRAY DEP
+STRESS110  STRESS130 STRESS190 STRESS220 STRESS250 STRESS260 STRESS290;
+DEP_ANS = N(OF DEP{*});</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="DEP_ANS_DASS7.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M1_HEADER1">N</th>
+<th class="c M1_HEADER2">Mean</th>
+<th class="c M1_HEADER2">Median</th>
+<th class="c M1_HEADER2">Std Dev</th>
+<th class="c M1_HEADER2">Minimum</th>
+<th class="c M1_HEADER2">Maximum</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="c data">      495</td>
+<td class="c data">  6.81</td>
+<td class="c data">  7.00</td>
+<td class="c data">  0.82</td>
+<td class="c data">   0.0</td>
+<td class="c data">   7.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="ANX_ANS_DASS7."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANX_ANS_DASS7 - DASS QUESTIONS ANSWERED: ANXIETY</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">ANX_ANS_DASS7</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_NUMERIC</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Number of DASS questions answered ( STRESS100 STRESS120 STRESS150 STRESS170 STRESS180 STRESS240 STRESS280) related to anxiety.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">ARRAY ANX
+  STRESS100 STRESS120 STRESS150 STRESS170 STRESS180 STRESS240 STRESS280;
+ANX_ANS = N(OF ANX{*});</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="ANX_ANS_DASS7.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M1_HEADER1">N</th>
+<th class="c M1_HEADER2">Mean</th>
+<th class="c M1_HEADER2">Median</th>
+<th class="c M1_HEADER2">Std Dev</th>
+<th class="c M1_HEADER2">Minimum</th>
+<th class="c M1_HEADER2">Maximum</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="c data">      495</td>
+<td class="c data">  6.81</td>
+<td class="c data">  7.00</td>
+<td class="c data">  0.90</td>
+<td class="c data">   0.0</td>
+<td class="c data">   7.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="STR_ANS_DASS7."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">STR_ANS_DASS7 - DASS QUESTIONS ANSWERED: STRESS</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">STR_ANS_DASS7</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_NUMERIC</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Number of DASS questions answered ( STRESS090 STRESS140 STRESS160 STRESS200 STRESS210 STRESS230 STRESS270) related to stress.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">ARRAY STR
+STRESS090 STRESS140 STRESS160 STRESS200 STRESS210 STRESS230 STRESS270;
+STR_ANS = N(OF STR{*});</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="STR_ANS_DASS7.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M1_HEADER1">N</th>
+<th class="c M1_HEADER2">Mean</th>
+<th class="c M1_HEADER2">Median</th>
+<th class="c M1_HEADER2">Std Dev</th>
+<th class="c M1_HEADER2">Minimum</th>
+<th class="c M1_HEADER2">Maximum</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="c data">      495</td>
+<td class="c data">  6.81</td>
+<td class="c data">  7.00</td>
+<td class="c data">  0.83</td>
+<td class="c data">   0.0</td>
+<td class="c data">   7.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="DEP_SCORE_DASS7."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">DEP_SCORE_DASS7 - DASS SCORE: DEPRESSION</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">DEP_SCORE_DASS7</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_NUMERIC</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Calculated DASS score for depression.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">ARRAY DEP
+STRESS110  STRESS130 STRESS190 STRESS220 STRESS250 STRESS260 STRESS290;
+IF DEP_ANS=7 THEN DEP_SCORE</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+ and answered all 7  questions on the DASS depression scale</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="DEP_SCORE_DASS7.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M1_HEADER1">N</th>
+<th class="c M1_HEADER2">Mean</th>
+<th class="c M1_HEADER2">Median</th>
+<th class="c M1_HEADER2">Std Dev</th>
+<th class="c M1_HEADER2">Minimum</th>
+<th class="c M1_HEADER2">Maximum</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="c data">      461</td>
+<td class="c data">  9.65</td>
+<td class="c data">  8.00</td>
+<td class="c data">  3.63</td>
+<td class="c data">   7.0</td>
+<td class="c data">  28.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="ANX_SCORE_DASS7."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANX_SCORE_DASS7 - DASS SCORE: ANXIETY</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">ANX_SCORE_DASS7</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_NUMERIC</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Calculated DASS score for anxiety.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">ARRAY ANX
+STRESS100 STRESS120 STRESS150 STRESS170 STRESS180 STRESS240 STRESS280;
+IF ANX_ANS=7 THEN ANX_SCORE =</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+ and answered all 7  questions on the DASS anxiety scale</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="ANX_SCORE_DASS7.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M1_HEADER1">N</th>
+<th class="c M1_HEADER2">Mean</th>
+<th class="c M1_HEADER2">Median</th>
+<th class="c M1_HEADER2">Std Dev</th>
+<th class="c M1_HEADER2">Minimum</th>
+<th class="c M1_HEADER2">Maximum</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="c data">      464</td>
+<td class="c data">  8.66</td>
+<td class="c data">  8.00</td>
+<td class="c data">  2.19</td>
+<td class="c data">   7.0</td>
+<td class="c data">  20.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="STR_SCORE_DASS7."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">STR_SCORE_DASS7 - DASS SCORE: STRESS</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">STR_SCORE_DASS7</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_NUMERIC</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Calculated DASS score for stress.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">ARRAY STR
+STRESS090 STRESS140 STRESS160 STRESS200 STRESS210 STRESS230 STRESS270;
+IF STR_ANS=7 THEN STR_SCORE</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+ and answered all 7  questions on the DASS stress scale</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="STR_SCORE_DASS7.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M1_HEADER1">N</th>
+<th class="c M1_HEADER2">Mean</th>
+<th class="c M1_HEADER2">Median</th>
+<th class="c M1_HEADER2">Std Dev</th>
+<th class="c M1_HEADER2">Minimum</th>
+<th class="c M1_HEADER2">Maximum</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="c data">      461</td>
+<td class="c data"> 10.62</td>
+<td class="c data"> 10.00</td>
+<td class="c data">  3.11</td>
+<td class="c data">   7.0</td>
+<td class="c data">  25.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="DEP_Z_DASS7."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">DEP_Z_DASS7 - DASS Z-SCORE: DEPRESSION</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">DEP_Z_DASS7</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_NUMERIC</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Calculated DASS Z-score for depression.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">DEP_Z=(DEP_SCORE-6.34)/6.97;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+ and answered all 7 questions on the DASS depression scale</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="DEP_Z_DASS7.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M1_HEADER1">N</th>
+<th class="c M1_HEADER2">Mean</th>
+<th class="c M1_HEADER2">Median</th>
+<th class="c M1_HEADER2">Std Dev</th>
+<th class="c M1_HEADER2">Minimum</th>
+<th class="c M1_HEADER2">Maximum</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="c data">      461</td>
+<td class="c data">  0.48</td>
+<td class="c data">  0.24</td>
+<td class="c data">  0.52</td>
+<td class="c data">   0.1</td>
+<td class="c data">   3.1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="ANX_Z_DASS7."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANX_Z_DASS7 - DASS Z-SCORE: ANXIETY</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">ANX_Z_DASS7</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_NUMERIC</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Calculated DASS Z-score for anxiety.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">ANX_Z=(ANX_SCORE-4.7)/4.91;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+ and answered all 7  questions on the DASS anxiety scale</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="ANX_Z_DASS7.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M1_HEADER1">N</th>
+<th class="c M1_HEADER2">Mean</th>
+<th class="c M1_HEADER2">Median</th>
+<th class="c M1_HEADER2">Std Dev</th>
+<th class="c M1_HEADER2">Minimum</th>
+<th class="c M1_HEADER2">Maximum</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="c data">      464</td>
+<td class="c data">  0.81</td>
+<td class="c data">  0.67</td>
+<td class="c data">  0.45</td>
+<td class="c data">   0.5</td>
+<td class="c data">   3.1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="STR_Z_DASS7."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">STR_Z_DASS7 - DASS Z-SCORE: STRESS</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">STR_Z_DASS7</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_NUMERIC</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Calculated DASS Z-score for stress.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">STR_Z=(STR_SCORE-10.11)/7.91;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+ and answered all 7  questions on the DASS stress scale</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="STR_Z_DASS7.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M1_HEADER1">N</th>
+<th class="c M1_HEADER2">Mean</th>
+<th class="c M1_HEADER2">Median</th>
+<th class="c M1_HEADER2">Std Dev</th>
+<th class="c M1_HEADER2">Minimum</th>
+<th class="c M1_HEADER2">Maximum</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="c data">      461</td>
+<td class="c data">  0.06</td>
+<td class="c data" nowrap> -0.01</td>
+<td class="c data">  0.39</td>
+<td class="c data" nowrap>  -0.4</td>
+<td class="c data">   1.9</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="DEP_SEVERITY_DASS7."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">DEP_SEVERITY_DASS7 - DASS SEVERITY: DEPRESSION</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">DEP_SEVERITY_DASS7</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_SEVERITY</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Calculated DASS severity rating for depression.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">ARRAY Z_SCORE DEP_Z ANX_Z STR_Z;
+ARRAY SEVERITY DEP_SEVERITY ANX_SEVERITY STR_SEVERITY;
+DO OVER Z_SCORE;
+&nbsp;&nbsp;&nbsp;&nbsp;IF MISSING(Z_SCORE) THEN SEVERITY=.;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF Z_SCORE&lt;0.5 THEN SEVERITY=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF Z_SCORE&lt;=1.0 THEN SEVERITY=2;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF Z_SCORE&lt;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+ and answered all 7 questions on the DASS depression scale</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="DEP_SEVERITY_DASS7.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Normal          </td>
+<td class="c M2_HEADER2">      309</td>
+<td class="c M2_HEADER2">      309</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] Mild            </td>
+<td class="c M2_HEADER2">       99</td>
+<td class="c M2_HEADER2">      408</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[3] Moderate        </td>
+<td class="c M2_HEADER2">       42</td>
+<td class="c M2_HEADER2">      450</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[4] Severe          </td>
+<td class="c M2_HEADER2">       10</td>
+<td class="c M2_HEADER2">      460</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[5] Extremely severe</td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">      461</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[. ] Missing        </td>
+<td class="c M2_HEADER2">       34</td>
+<td class="c M2_HEADER2">      495</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="ANX_SEVERITY_DASS7."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANX_SEVERITY_DASS7 - DASS SEVERITY: ANXIETY</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">ANX_SEVERITY_DASS7</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_SEVERITY</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Calculated DASS severity rating for anxiety.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">ARRAY Z_SCORE DEP_Z ANX_Z STR_Z;
+ARRAY SEVERITY DEP_SEVERITY ANX_SEVERITY STR_SEVERITY;
+DO OVER Z_SCORE;
+&nbsp;&nbsp;&nbsp;&nbsp;IF MISSING(Z_SCORE) THEN SEVERITY=.;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF Z_SCORE&lt;0.5 THEN SEVERITY=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF Z_SCORE&lt;=1.0 THEN SEVERITY=2;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF Z_SCORE&lt;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+ and answered all 7  questions on the DASS anxiety scale</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="ANX_SEVERITY_DASS7.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Normal          </td>
+<td class="c M2_HEADER2">      178</td>
+<td class="c M2_HEADER2">      178</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] Mild            </td>
+<td class="c M2_HEADER2">      174</td>
+<td class="c M2_HEADER2">      352</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[3] Moderate        </td>
+<td class="c M2_HEADER2">       96</td>
+<td class="c M2_HEADER2">      448</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[4] Severe          </td>
+<td class="c M2_HEADER2">       15</td>
+<td class="c M2_HEADER2">      463</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[5] Extremely severe</td>
+<td class="c M2_HEADER2">        1</td>
+<td class="c M2_HEADER2">      464</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[. ] Missing        </td>
+<td class="c M2_HEADER2">       31</td>
+<td class="c M2_HEADER2">      495</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<a name="STR_SEVERITY_DASS7."></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">STR_SEVERITY_DASS7 - DASS SEVERITY: STRESS</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="VI" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="l VI_ATTR">Variable Name</td>
+<td class="l data">STR_SEVERITY_DASS7</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Variable Format</td>
+<td class="l data">FMT_SEVERITY</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Description</td>
+<td class="l data">Calculated DASS severity rating for stress.</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Calculation</td>
+<td class="l data">ARRAY Z_SCORE DEP_Z ANX_Z STR_Z;
+ARRAY SEVERITY DEP_SEVERITY ANX_SEVERITY STR_SEVERITY;
+DO OVER Z_SCORE;
+&nbsp;&nbsp;&nbsp;&nbsp;IF MISSING(Z_SCORE) THEN SEVERITY=.;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF Z_SCORE&lt;0.5 THEN SEVERITY=1;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF Z_SCORE&lt;=1.0 THEN SEVERITY=2;
+&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF Z_SCORE&lt;</td>
+</tr>
+<tr>
+<td class="l VI_ATTR">Target Population</td>
+<td class="l data">Age: 18+ and answered all 7  questions on the DASS stress scale</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="STR_SEVERITY_DASS7.1"></a>
+<div>
+<div align="center">
+<table class="MAIN" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c M2_HEADER1">Value</th>
+<th class="c M2_HEADER2">Count</th>
+<th class="c M2_HEADER2">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l M2_HEADER1">[1] Normal          </td>
+<td class="c M2_HEADER2">      419</td>
+<td class="c M2_HEADER2">      419</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[2] Mild            </td>
+<td class="c M2_HEADER2">       33</td>
+<td class="c M2_HEADER2">      452</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[3] Moderate        </td>
+<td class="c M2_HEADER2">        9</td>
+<td class="c M2_HEADER2">      461</td>
+</tr>
+<tr>
+<td class="l M2_HEADER1">[. ] Missing        </td>
+<td class="c M2_HEADER2">       34</td>
+<td class="c M2_HEADER2">      495</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter"><a href='#varlist'>Back to Variable Listing</a></td>
+</tr>
+</table><br>
+</div>
+</body>
+</html>

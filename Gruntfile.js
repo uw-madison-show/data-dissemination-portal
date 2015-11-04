@@ -32,7 +32,7 @@ module.exports = function(grunt) {
             dev: {
                 options: {
                     port: 8010,
-                    base: 'C:\\Users\\moehr\\Documents\\GitHub\\data-dissemination-portal\\data'
+                    base: 'C:\\Users\\moehr\\Documents\\GitHub\\data-dissemination-portal'
                 }
             }
         }

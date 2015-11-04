@@ -278,7 +278,7 @@
       }
 
       // on load 
-      $.getJSON( 'codebook_menu.json' , function( instruments ) {
+      $.getJSON( '/data/codebooks/codebook_menu.json' , function( instruments ) {
         // make the menu items
         $.each( instruments, function(key, value) {
           // // console.log( key );

@@ -177,7 +177,7 @@
               raw_cb[this_codebook.year] = [];
             }
             raw_cb[this_codebook.year].push({
-                                              "src" : "./instruments/" + this_codebook.instr + "_" + this_codebook.year + ".html",
+                                              "src" : "/data/codebooks/instruments/" + this_codebook.instr + "_" + this_codebook.year + ".html",
                                               "text" : this_codebook.title,
                                               "title" : "[Raw] " + this_codebook.subject
                                             });

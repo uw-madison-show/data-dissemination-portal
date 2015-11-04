@@ -12,7 +12,10 @@ module.exports = function(grunt) {
     grunt.initConfig({
         watch: {
             all: {
-                files: ['**/*.php', '**/*.html', '**/*.css', '**/*.js']
+                files: ['**/*.php', '**/*.html', '**/*.css', '**/*.js'],
+                options: {
+                    interval: 1500
+                }
             }
         },
         browserSync: {
@@ -21,7 +24,7 @@ module.exports = function(grunt) {
                     src: '**/*.php'
                 },
                 options: {
-                    proxy: '127.0.0.1:8010', //our PHP server
+                    proxy: '127.0.0.1:8010/data', //our PHP server
                     port: 8080, // our new port
                     open: true,
                     watchTask: true
@@ -32,7 +35,7 @@ module.exports = function(grunt) {
             dev: {
                 options: {
                     port: 8010,
-                    base: 'C:\\Users\\moehr\\Documents\\GitHub\\data-dissemination-portal'
+                    //base: 'C:\\Users\\moehr\\Documents\\GitHub\\data-dissemination-portal'
                 }
             }
         }

@@ -137,7 +137,7 @@
                 <div class="form-group">
                   <label for="captcha" class="col-xs-4 control-label">Please type the letters:</label>
                   <div class="col-xs-4">
-                    <img src="captcha.php" class="imgcaptcha" alt="Captcha Image" style="float:left;"/>
+                    <img src="./includes/captcha.php" class="imgcaptcha" alt="Captcha Image" style="float:left;"/>
                     <input id="captcha" name="captcha" type="text" required="required" class="form-control" aria-label="Contact data at show dot wisc dot edu for a password">    
                   </div>
                 </div>

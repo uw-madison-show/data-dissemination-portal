@@ -1,4 +1,8 @@
 codebooks/instruments/
+data/codebooks/instruments/
+codebooks/annotated/
+data/codebooks/annotated/
+node_modules/
 
 #################
 ## Eclipse

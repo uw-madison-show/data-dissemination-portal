@@ -3,7 +3,6 @@
 // stolen from https://github.com/idleberg/Bootstrap-Listr/releases/tag/2.2.4
 // heavily changed by Matt Moehr 2015-04-11
 
-
 /*** FUNCTIONS ***/
 
 function set_bootstrap_theme() {
@@ -354,6 +353,13 @@ $sort = array(
 // Files you want to hide from the listing
 $ignore_list = array();
 
+// Get protocol
+// if ($_SERVER['HTTPS']) {
+//     $protocol = "https://";
+// } else {
+//     $protocol = "http://";
+// }
+
 // Get this folder and files name.
 $this_script    = basename(__FILE__);
 
@@ -363,18 +369,11 @@ $this_folder    = str_replace($this_script, '', $this_folder);
 $this_folder    = str_replace('index.php', '', $this_folder);
 $this_folder    = str_replace('//', '/', $this_folder);
 
-$navigation_dir = './public-files/' . $this_folder;
+$navigation_dir = './public-files/' .$this_folder;
 $root_dir       = dirname($_SERVER['PHP_SELF']);
 
 $absolute_path  = str_replace(str_replace("%2F", "/", rawurlencode($this_folder)), '', $_SERVER['REQUEST_URI']);
 $dir_name       = explode("/", $this_folder);
-
-// Get protocol
-// if ($_SERVER['HTTPS']) {
-//     $protocol = "https://";
-// } else {
-//     $protocol = "http://";
-// }
 
 
 if(substr($navigation_dir, -1) != "/"){
@@ -422,13 +421,13 @@ $folder_list = array();
 $total_size = 0;
 
 
-// Load icon set
-    try {
-        $icons = load_iconset("fa");
-    } catch (Exception $e) {
-        echo 'Caught exception: ',  $e->getMessage(), "\n";
-        die();
-    }
+// Load font awesome icon set
+try {
+    $icons = load_iconset("fa");
+} catch (Exception $e) {
+    echo 'Caught exception: ',  $e->getMessage(), "\n";
+    die();
+}
 
 
 // Set icons for included extension
@@ -441,33 +440,10 @@ if (!empty($icons['files'])) {
     }
 }
 
-switch ($options['bootstrap']['icons']) {
-    case "glyphicon":
-    case "glyphicons":
-        $icons['prefix'] = "glyphicon";
-        $icons['home']   = "<span class=\"glyphicon ".$icons['home']."\"></span>";
-        $icons['search'] = "          <span class=\"glyphicon ".$icons['search']." form-control-feedback\"></span>" . PHP_EOL;
-        $icons['folder'] = 'glyphicon '.$icons['folder'];
-        break;
-    case "fontawesome":
-    case "fa":
-    case "fa-files":
-        $icons['prefix'] = "fa";
-        $icons['home']   = "<i class=\"fa ".$icons['home']." fa-lg fa-fw\"></i> ";
-        $icons['search'] = "          <i class=\"fa ".$icons['search']." form-control-feedback\"></i>" . PHP_EOL;
-        $icons['folder'] = 'fa '. $icons['folder'].' ' . $options['bootstrap']['fontawesome_style'];
-        if ($options['general']['share_icons'] == true) { 
-            $icons_dropbox  = "<i class=\"fa fa-dropbox fa-fw\"></i> ";
-            $icons_email    = "<i class=\"fa fa-envelope fa-fw\"></i> ";
-            $icons_facebook = "<i class=\"fa fa-facebook fa-fw\"></i> ";
-            $icons_gplus    = "<i class=\"fa fa-google-plus fa-fw\"></i> ";
-            $icons_twitter  = "<i class=\"fa fa-twitter fa-fw\"></i> ";
-        }
-        break;
-    default:
-        $icons['home']   = $_SERVER['HTTP_HOST'];
-        $icons['search'] = null;
-}
+
+$icons['home']   = $_SERVER['HTTP_HOST'];
+$icons['search'] = null;
+
 
 if ($options['general']['enable_viewer']) {
     $audio_files     = explode(',', $options['viewer']['audio']);
@@ -483,17 +459,11 @@ if ($options['general']['enable_viewer']) {
     }
 }
 
-if ($options['general']['text_direction'] == 'rtl') {
-    $direction     = " dir=\"rtl\"";
-    $right         = "left";
-    $left          = "right";
-    $search_offset = null;
-} else {
-    $direction     = " dir=\"ltr\"";
-    $right         = "right";
-    $left          = "left";
-    $search_offset = " col-xs-offset-6 col-sm-offset-8 col-md-offset-9";
-}
+$direction     = " dir=\"ltr\"";
+$right         = "right";
+$left          = "left";
+$search_offset = " col-xs-offset-6 col-sm-offset-8 col-md-offset-9";
+
 
 $bootstrap_cdn = set_bootstrap_theme();
 
@@ -630,11 +600,11 @@ if ($handle = opendir($navigation_dir))
                 $item['iso_mtime']  =   gmdate("Y-m-d H:i:s", $item['mtime']);
             }
             
-            // Add files to the file list...
+            // Add files to the folder list...
             if(is_dir($navigation_dir.$file)){
                 array_push($folder_list, $item);
             }
-            // ...and folders to the folder list.
+            // ...and files to the file list.
             else{
                 array_push($file_list, $item);
             }
@@ -768,53 +738,25 @@ if(($folder_list) || ($file_list) ) {
     if($folder_list):    
         foreach($folder_list as $item) :
 
-            if ($options['bootstrap']['tablerow_folders'] != null) {
-                $tr_folders = ' class="'.$options['bootstrap']['tablerow_folders'].'"';
-            } else {
-                $tr_folders = null;
-            }
+            $table_body .= "<tr>" . PHP_EOL;
 
-            $table_body .= "          <tr$tr_folders>" . PHP_EOL;
+            $table_body .= "<td>";
 
-            if ($table_options['count']) {
-                $table_body .= "            <td class=\"text-muted text-".$right."\" data-sort-value=\"$row_counter\">$row_counter</td>";
-            }
+            // add an icon
+            $table_body .= "<".$icons['tag']." class=\"".$icons['folder']."\"></".$icons['tag'].">&nbsp;";
 
-            $table_body .= "            <td";
-            if ($options['general']['enable_sort']) {
-                $table_body .= " class=\"text-".$left."\" data-sort-value=\"". htmlentities(utf8_encode($item['lbname']), ENT_QUOTES, 'utf-8') . "\"" ;
-            }
-            $table_body .= ">";
-            if ($options['bootstrap']['icons'] !== null ) {
-                $table_body .= "<".$icons['tag']." class=\"".$icons['folder']."\"></".$icons['tag'].">&nbsp;";
-            }
-
-            if ($options['bootstrap']['tablerow_links'] != null) {
-                $tr_links = ' class="'.$options['bootstrap']['tablerow_links'].'"';
-            } else {
-                $tr_links = null;
-            }
-
-            $table_body .= "<a href=\"" . htmlentities(rawurlencode($item['bname']), ENT_QUOTES, 'utf-8') . "/\" $tr_links><strong>" . utf8ify($item['bname']) . "</strong></a></td>" . PHP_EOL;
+            // add the link to the folder
+            $table_body .= "<a href=\"" . $navigation_dir . htmlentities(rawurlencode($item['bname']), ENT_QUOTES, 'utf-8') . "/\" ><strong>" . utf8ify($item['bname']) . "</strong></a></td>" . PHP_EOL;
             
             if ($table_options['size']) {
-                $table_body .= "            <td";
-                if ($options['general']['enable_sort']) {
-                    $table_body .= " class=\"text-".$right."\" data-sort-value=\"0\"";
-                }
-                $table_body .= ">&mdash;</td>" . PHP_EOL;
+                $table_body .= "<td>&mdash;</td>" . PHP_EOL;
             }
 
             if ($table_options['age']) {
-                $table_body .= "            <td";
-                if ($options['general']['enable_sort']) {
-                    $table_body .= " class=\"text-".$right."\" data-sort-value=\"" . $item['mtime'] . "\"";
-                    $table_body .= " title=\"" . $item['iso_mtime'] . "\"";
-                }
-                $table_body .= ">" . time_ago($item['mtime']) . "</td>" . PHP_EOL;
+                $table_body .= "<td>" . time_ago($item['mtime']) . "</td>" . PHP_EOL;
             }
 
-            $table_body .= "          </tr>" . PHP_EOL;
+            $table_body .= "</tr>" . PHP_EOL;
 
             if ($table_options['count']) {
                 $row_counter += 1;

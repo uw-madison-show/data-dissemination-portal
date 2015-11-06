@@ -24,7 +24,7 @@ module.exports = function(grunt) {
                     src: '**/*.php'
                 },
                 options: {
-                    proxy: '127.0.0.1:8010/data', //our PHP server
+                    proxy: '127.0.0.1:8010', //our PHP server
                     port: 8080, // our new port
                     open: true,
                     watchTask: true

@@ -5,6 +5,9 @@
     <?php
       $include_folder = $_SERVER['DOCUMENT_ROOT'] . '/data/includes/';
       include( $include_folder . 'head.php' );
+
+      // Get this scripts folder
+      $this_script    = basename(__FILE__);
     ?>
 
   </head>

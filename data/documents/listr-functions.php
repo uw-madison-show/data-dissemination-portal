@@ -353,6 +353,20 @@ $sort = array(
 // Files you want to hide from the listing
 $ignore_list = array();
 
+$this_folder    = (isset($_GET['path'])) ? $_GET['path'] : "";
+$this_folder    = str_replace('..', '', $this_folder);
+$this_folder    = str_replace($this_script, '', $this_folder);
+$this_folder    = str_replace('index.php', '', $this_folder);
+$this_folder    = str_replace('//', '/', $this_folder);
+
+$absolute_path  = str_replace(str_replace("%2F", "/", rawurlencode($this_folder)), '', $_SERVER['REQUEST_URI']);
+$root_dir       = dirname($_SERVER['PHP_SELF']);
+$public_doc_folder = 'public-files/';
+$navigation_dir = './'. $public_doc_folder . $this_folder;
+
+$dir_name       = explode("/", $this_folder);
+
+
 // Get protocol
 // if ($_SERVER['HTTPS']) {
 //     $protocol = "https://";
@@ -360,20 +374,6 @@ $ignore_list = array();
 //     $protocol = "http://";
 // }
 
-// Get this folder and files name.
-$this_script    = basename(__FILE__);
-
-$this_folder    = (isset($_GET['path'])) ? $_GET['path'] : "";
-$this_folder    = str_replace('..', '', $this_folder);
-$this_folder    = str_replace($this_script, '', $this_folder);
-$this_folder    = str_replace('index.php', '', $this_folder);
-$this_folder    = str_replace('//', '/', $this_folder);
-
-$navigation_dir = './public-files/' .$this_folder;
-$root_dir       = dirname($_SERVER['PHP_SELF']);
-
-$absolute_path  = str_replace(str_replace("%2F", "/", rawurlencode($this_folder)), '', $_SERVER['REQUEST_URI']);
-$dir_name       = explode("/", $this_folder);
 
 
 if(substr($navigation_dir, -1) != "/"){
@@ -746,7 +746,7 @@ if(($folder_list) || ($file_list) ) {
             $table_body .= "<".$icons['tag']." class=\"".$icons['folder']."\"></".$icons['tag'].">&nbsp;";
 
             // add the link to the folder
-            $table_body .= "<a href=\"" . $navigation_dir . htmlentities(rawurlencode($item['bname']), ENT_QUOTES, 'utf-8') . "/\" ><strong>" . utf8ify($item['bname']) . "</strong></a></td>" . PHP_EOL;
+            $table_body .= "<a href=\"" . $root_dir . '/' . $public_doc_folder . htmlentities(rawurlencode($item['bname']), ENT_QUOTES, 'utf-8') . "/\" ><strong>" . utf8ify($item['bname']) . "</strong></a></td>" . PHP_EOL;
             
             if ($table_options['size']) {
                 $table_body .= "<td>&mdash;</td>" . PHP_EOL;

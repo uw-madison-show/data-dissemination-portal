@@ -1,0 +1,27 @@
+data work.blood_draw_2;
+    set blood_draw_1 (rename = (CHOL_T_Cholesterol                = TCHOL
+                                CREAT_Creatinine                  = CREATININE
+                                CREAT_GFR_Est___nonAfAmer         = CREATININEGFR
+                                GH_HbA1c                          = HEMOGLOBINA1C
+                                GLU_Glucose                       = GLUCOSE
+                                HDL_HDL_Chol                      = HDLCHOL
+                                HGMP_Hematocrit                   = HEMATOCRIT
+                                HGMP_Hemoglobin                   = HEMOGLOBIN
+                                HGMP_Mean_Corpuscular_Hemoglobin  = MEANCORPUSCULARHEMOGLOBIN
+                                HGMP_Mean_Corpuscular_Hgb_Conc_   = MEANCORPUSCULARHGBCONC
+                                HGMP_Mean_Corpuscular_Volume      = MEANCORPUSCULARVOLUME
+                                HGMP_Mean_Platelet_Volume         = MEANPLATELETVOLUME
+                                HGMP_Platelet_Count               = PLATELETCOUNT
+                                HGMP_Red_Blood_Cell_Count         = REDBLOODCELLCOUNT
+                                HGMP_Red_Cell_Distribution_Width  = REDCELLDISTRIBUTIONWIDTH
+                                HGMP_White_Blood_Count            = WHITEBLOODCOUNT
+                                TRIG_Triglycerides                = TRIGLYCERIDES
+                                myid                              = MYID
+                                colldate                          = COLLDATE
+                                testtime                          = TESTTIME
+                                recorddate                        = RECORDDATE
+                                )
+                        drop = GH_Estimated_Average_Glucose
+                        );
+    ** I guess we are dropping this mystery glucose variable;
+run;

@@ -17,4 +17,6 @@ AuthName "Codebooks"
 AuthUserFile "/var/www/vhosts/wwwtest.show.wisc.edu/httpdocs/data/codebooks/.htpasswd"
 Require valid-user
 
+RewriteEngine On
+
 ErrorDocument 401 /data/registration.php

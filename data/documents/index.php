@@ -17,16 +17,15 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-8">
-          <h3>Documentation</h3>
-          <p>
-            This repository contains information about SHOW's samples, data cleaning, and procedures for analyzing the data. Please do not cite or distribute without first getting permission from us. Let us know if you have any questions by emailing data at show dot wisc dot edu.
-          </p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-xs-8">
+        <div class="col-xs-12">
+          <div class="row">
+            <div class="col-xs-8 col-xs-offset-2">
+              <h3>Documentation</h3>
+              <p>
+                This repository contains information about SHOW's samples, data cleaning, and procedures for analyzing the data. Please do not cite or distribute without first getting permission from us. Let us know if you have any questions by emailing data at show dot wisc dot edu.
+              </p>
+            </div>
+          </div>
 
 
   
@@ -75,7 +74,9 @@
       $folders = explode('/',$path);
       $parents = count($folders) - 2;
 
-      echo "<div class='container navbar'>" . PHP_EOL;
+      echo '<div class="row">' . PHP_EOL;
+      echo '<div class="col-xs-8 col-xs-offset-2">' . PHP_EOL;
+      echo "<div class='navbar'>" . PHP_EOL;
       echo "<ol class='breadcrumb'>" . PHP_EOL;
 
       //assume a blank array element 
@@ -88,9 +89,10 @@
       }
 
       //this folder
-      echo "      <li class='active'>".htmlentities($folders[$parents])."</li>\n";
-      echo "      </ol>\n";
-      echo "    </div>\n";
+      echo "<li class='active'>".htmlentities($folders[$parents])."</li>\n";
+      echo "</ol>\n";
+      echo "</div></div></div>" . PHP_EOL;
+
 
 
     //END_BREADCRUMB
@@ -101,7 +103,13 @@
   
   //error opening folder
   if($dir_handle == false){
-    echo "<br><br><div class='container'><div class='alert alert-danger text-center'><strong>Error!</strong> failed to open folder </div></div>\n";
+    echo "
+      <br>
+        <div class='container'>
+          <div class='alert alert-danger text-center'>
+            <strong>Error!</strong> failed to open folder 
+          </div>
+        </div>" . PHP_EOL;
     // dump_vars(get_defined_vars());
     break;
   }
@@ -127,7 +135,13 @@
   
   //foldere is empty
   if(count ($folderlist) == 0 and count ($filelist) == 0){
-    echo '<br><br><div class="container"><div class="alert alert-info text-center"><strong>This folder is empty</strong></div></div>';
+    echo '
+      <br>
+        <div class="container">
+          <div class="alert alert-info text-center">
+            <strong>This folder is empty</strong>
+          </div>
+        </div>' . PHP_EOL;
     // dump_vars(get_defined_vars());
     break;
   }
@@ -135,14 +149,15 @@
   //print files table  
     //print header
     echo'
-    <div class="container">
-      <table class="table table-condensed table-hover">
-      <thead>
-        <th width="35"></th>
-        <th class="text-primary">Name</th>
-        <th width="89" class="text-primary text-center">Size</th>
-        <th class="text-primary text-center">Last modified</th>
-      </thead>'
+    <div class="row">
+      <div class="col-xs-8 col-xs-offset-2">
+        <table class="table table-condensed table-hover">
+        <thead>
+          <th width="35"></th>
+          <th class="text-primary">Name</th>
+          <th width="89" class="text-primary text-center">Size</th>
+          <th class="text-primary text-center">Last modified</th>
+        </thead>'
     ;
      
      //print folder
@@ -168,8 +183,9 @@
     }
 
     echo '
-      </table>
-    </div>'. PHP_EOL;
+          </table>
+        </div>
+      </div>'. PHP_EOL;
   //end files table print
   
 ?>

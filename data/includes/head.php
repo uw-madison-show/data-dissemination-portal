@@ -9,19 +9,16 @@
 
 <title>SHOW Data</title>
 
-
-<link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
-
 <!-- Icons -->
-<link rel="fluid-icon" href="" title="SHOW">
-<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
-<meta name="msapplication-TileImage" content="/windows-tile.png">
+<link rel="apple-touch-icon-precomposed" href="/images/favicon-144.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicon-144.png">
+<link rel="apple-touch-icon-precomposed" sizes="64x64" href="/images/favicon-64.png">
+<link rel="icon" sizes="48x48" href="/images/favicon-48.png">
+<link rel="icon" sizes="32X32" href="/images/favicon-32.png">
+<link rel="icon" sizes="24x24" href="/images/favicon-24.png">
+<link rel="icon" sizes="16x16" href="/images/favicon-16.png">
+<meta name="msapplication-TileImage" content="/images/favicon-144.png">
 <meta name="msapplication-TileColor" content="#ffffff">
-<meta name="selected-link" value="repo_source" data-pjax-transient>
-<link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
 
 <!-- jQuery -->
 <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>

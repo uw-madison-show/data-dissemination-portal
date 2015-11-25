@@ -467,12 +467,6 @@
       "title":"Annotated Questionnaire"
     },
     {
-      "subject":null,
-      "year":"2014",
-      "instr":"COMMUNITY_2014_ANNOTATED.pdf",
-      "title":"Annotated Questionnaire"
-    },
-    {
       "instr":"COG",
       "year":"2008_2009",
       "title":"Cognitive (COG)",
@@ -532,30 +526,6 @@
       "subject":null,
       "year":"2014",
       "instr":"CONSENT_2014_ANNOTATED.pdf",
-      "title":"Annotated Questionnaire"
-    },
-    {
-      "subject":null,
-      "year":"2008_2009",
-      "instr":"DIQ_2008_2009_ANNOTATED.pdf",
-      "title":"Annotated Questionnaire"
-    },
-    {
-      "subject":null,
-      "year":"2010",
-      "instr":"DIQ_2010_ANNOTATED.pdf",
-      "title":"Annotated Questionnaire"
-    },
-    {
-      "subject":null,
-      "year":"2011",
-      "instr":"DIQ_2011_ANNOTATED.pdf",
-      "title":"Annotated Questionnaire"
-    },
-    {
-      "subject":null,
-      "year":"2014",
-      "instr":"DIQ_2014_ANNOTATED.pdf",
       "title":"Annotated Questionnaire"
     },
     {
@@ -878,10 +848,29 @@
   "Diet":[
     {
       "subject":null,
-      "year":"2014",
-      "instr":"FOOD_2014_ANNOTATED.pdf",
+      "year":"2008_2009",
+      "instr":"DIQ_2008_2009_ANNOTATED.pdf",
       "title":"Annotated Questionnaire"
     },
+    {
+      "subject":null,
+      "year":"2010",
+      "instr":"DIQ_2010_ANNOTATED.pdf",
+      "title":"Annotated Questionnaire"
+    },
+    {
+      "subject":null,
+      "year":"2011",
+      "instr":"DIQ_2011_ANNOTATED.pdf",
+      "title":"Annotated Questionnaire"
+    },
+    {
+      "subject":null,
+      "year":"2014",
+      "instr":"DIQ_2014_ANNOTATED.pdf",
+      "title":"Annotated Questionnaire"
+    },
+
     {
       "instr":"DIQ",
       "year":"2008_2009",
@@ -1059,7 +1048,13 @@
       "subject":"Discrimination"
     }
   ],
-  "Eating":[
+  "Food Frequency":[
+    {
+      "subject":null,
+      "year":"2014",
+      "instr":"FOOD_2014_ANNOTATED.pdf",
+      "title":"Annotated Questionnaire"
+    },
     {
       "subject":null,
       "year":"2008_2009",
@@ -3092,6 +3087,12 @@
     }
   ],
   "Sense of Community":[
+    {
+      "subject":null,
+      "year":"2014",
+      "instr":"COMMUNITY_2014_ANNOTATED.pdf",
+      "title":"Annotated Questionnaire"
+    },
     {
       "instr":"COMMUNITY",
       "year":"2014",

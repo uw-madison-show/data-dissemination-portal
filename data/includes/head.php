@@ -10,14 +10,14 @@
 <title>SHOW Data</title>
 
 <!-- Icons -->
-<link rel="apple-touch-icon-precomposed" href="/images/favicon-144.png">
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicon-144.png">
-<link rel="apple-touch-icon-precomposed" sizes="64x64" href="/images/favicon-64.png">
-<link rel="icon" sizes="48x48" href="/images/favicon-48.png">
-<link rel="icon" sizes="32X32" href="/images/favicon-32.png">
-<link rel="icon" sizes="24x24" href="/images/favicon-24.png">
-<link rel="icon" sizes="16x16" href="/images/favicon-16.png">
-<meta name="msapplication-TileImage" content="/images/favicon-144.png">
+<link rel="apple-touch-icon-precomposed" href="/data/images/favicon-144.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/data/images/favicon-144.png">
+<link rel="apple-touch-icon-precomposed" sizes="64x64" href="/data/images/favicon-64.png">
+<link rel="icon" sizes="48x48" href="/data/images/favicon-48.png">
+<link rel="icon" sizes="32X32" href="/data/images/favicon-32.png">
+<link rel="icon" sizes="24x24" href="/data/images/favicon-24.png">
+<link rel="icon" sizes="16x16" href="/data/images/favicon-16.png">
+<meta name="msapplication-TileImage" content="/data/images/favicon-144.png">
 <meta name="msapplication-TileColor" content="#ffffff">
 
 <!-- jQuery -->

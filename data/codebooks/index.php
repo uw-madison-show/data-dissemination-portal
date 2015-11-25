@@ -140,8 +140,9 @@
         var years = [];
 
         // patterns for matching
-        var derived_pat = new RegExp(/_DER$/);
-        var annotated_pat = new RegExp(/_ANNOTATED\.[pdf|doc|html]/);
+        // set them to be case insensitive
+        var derived_pat = new RegExp(/_DER$/i);
+        var annotated_pat = new RegExp(/_ANNOTATED\.[pdf|doc|html]/i);
 
         $.each( codebooks, function(key, this_codebook) {
           // console.log( key );
@@ -167,7 +168,7 @@
             if( !annotated.hasOwnProperty(this_codebook.year) ) {
               annotated[this_codebook.year] = [];
             }
-            var abbreviation = this_codebook.instr.match(/[a-zA-Z0-9]*_/);
+            var abbreviation = this_codebook.instr.match(/[a-zA-Z0-9-]*_/);
             abbreviation = abbreviation[0].replace('_', '');
             annotated[this_codebook.year].push({
               "src" : "/data/codebooks/annotated/" + this_codebook.year + "/" + this_codebook.instr,
@@ -192,10 +193,10 @@
                            });
         years_unique.sort()
 
-         console.log(years_unique);
-         console.log(raw_cb);
-         console.log(derived_cb);
-         console.log(annotated);
+        // console.log(years_unique);
+        // console.log(raw_cb);
+        // console.log(derived_cb);
+        // console.log(annotated);
 
 
         $.each( years_unique, function(key, year) {
@@ -269,7 +270,7 @@
               $(target).append(aa);
             })
           } else {
-            $(target).append(dd); // attache the disabled link
+            $(target).append(aa); // attache the disabled link
           }
           //     $('<a>').attr('href', '#')
           //             //.attr('id', cb_year)

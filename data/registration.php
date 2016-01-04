@@ -13,7 +13,7 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-10">
+        <div class="col-xs-12">
           <?php
 
           session_start();
@@ -27,45 +27,54 @@
 
 
             echo '
-              <h2>Register</h2>
-              <p>We\'ll send you a password so you can access our codebooks. Just fill in the info.</p>
-              <form method="post" action="" class="form-horizontal">
-                <div class="form-group">
-                  <label for="name" class="col-xs-4 control-label">Your Name:</label>
-                  <div class="col-xs-4">
-                    <input id="name" name="name" type="text" class="form-control" aria-label="Your name">
-                  </div>
+              <div class="row">
+                <div class="col-xs-8 col-md-offset-2">
+                  <h2>Register</h2>
+                  <p>We\'ll send you a password so you can access our codebooks. Just fill in the info.</p>
                 </div>
+              </div>
 
-                <div class="form-group">
-                  <label for="email" class="col-xs-4 control-label">Email address:</label>
-                  <div class="col-xs-4">
-                    <input id="email" name="email" type="text" class="form-control" aria-label="Email address. We send the password here.">
-                  </div>
+              <div class="row">
+                <div class="col-xs-12">
+                  <form method="post" action="" class="form-horizontal">
+                    <div class="form-group">
+                      <label for="name" class="col-xs-4 control-label">Your Name:</label>
+                      <div class="col-xs-4">
+                        <input id="name" name="name" type="text" class="form-control" aria-label="Your name">
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="email" class="col-xs-4 control-label">Email address:</label>
+                      <div class="col-xs-4">
+                        <input id="email" name="email" type="text" class="form-control" aria-label="Email address. We send the password here.">
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="affiliation" class="col-xs-4 control-label">Your affiliation or project:</label>
+                      <div class="col-xs-4">
+                        <input id="affiliation" name="affiliation" type="text" class="form-control" placeholder="e.g. UW-Madison, Physiology" aria-label="Your affiliation">
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="captcha" class="col-xs-4 control-label">Please type the letters:</label>
+                      <div class="col-xs-4">
+                        <img src="./includes/captcha.php" class="imgcaptcha" alt="Captcha Image" style="float:left;"/>
+                        <input id="captcha" name="captcha" type="text" required="required" class="form-control" aria-label="Contact data at show dot wisc dot edu for a password">    
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <div class="col-xs-offset-4 col-xs-4">
+                        <button id="signup-btn" name="signup" type="submit" class="btn btn-large">Request Password</button>
+                      </div>
+                    </div>
+
+                  </form>
                 </div>
-
-                <div class="form-group">
-                  <label for="affiliation" class="col-xs-4 control-label">Your affiliation or project:</label>
-                  <div class="col-xs-4">
-                    <input id="affiliation" name="affiliation" type="text" class="form-control" placeholder="e.g. UW-Madison, Physiology" aria-label="Your affiliation">
-                  </div>
-                </div>
-
-                <div class="form-group">
-                  <label for="captcha" class="col-xs-4 control-label">Please type the letters:</label>
-                  <div class="col-xs-4">
-                    <img src="./includes/captcha.php" class="imgcaptcha" alt="Captcha Image" style="float:left;"/>
-                    <input id="captcha" name="captcha" type="text" required="required" class="form-control" aria-label="Contact data at show dot wisc dot edu for a password">    
-                  </div>
-                </div>
-
-                <div class="form-group">
-                  <div class="col-xs-offset-4 col-xs-4">
-                    <button id="signup-btn" name="signup" type="submit" class="btn btn-large">Request Password</button>
-                  </div>
-                </div>
-
-              </form>                      
+              </div>                
                        
                 ';
           }

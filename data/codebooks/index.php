@@ -69,6 +69,10 @@
         height: 98%;
         width: inherit;
       }
+      a.instrument-list-item-link {
+        font-weight: bolder;
+        color: #505050;
+      }
       .list-group-item.codebook-list-year-header {
         font-weight: bold;
         background-color: lightblue;
@@ -77,6 +81,7 @@
       #codebook-list a.list-group-item {
         margin-left: 5px;
       }
+
     </style>
   </head>
   <body id="page-top" style="padding-top: 55px;">
@@ -89,10 +94,12 @@
     <div class="container-fluid">
       <div class="row full-page" >
         <div class="col-fixed-1">
+          <h3>Survey Topics</h3>
           <ul id="instrument-list">
           </ul>
         </div>
         <div class="col-fixed-2">
+          <h3>Codebooks by Year</h3>
           <div id="codebook-list" class="list-group">
           </div>
         </div>

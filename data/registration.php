@@ -133,7 +133,7 @@
                               'X-Mailer: PHP/'. phpversion();
 
                   $message =  'Hi ' . htmlentities($_POST['name']) .',' ."\r\n".
-                              'Welcome to SHOW\'s codebooks. We hope you will find them useful in your research. If you have any trouble, please don\'t hesitate to get in touch with any of our data team by sending and email to data@show.wisc.edu. And here is the log in information:'.
+                              'Welcome to SHOW\'s codebooks. We hope you will find them useful in your research. If you have any trouble, please don\'t hesitate to get in touch with any of our data team by sending an email to data@show.wisc.edu. And here is the log in information:'.
                               "\r\n".
                               "\r\n".
                               'Site: www.showcodebook.org'. "\r\n".
@@ -170,6 +170,14 @@
               // $all_vars = get_defined_vars();
               // print_r($all_vars);
               // echo('</pre>');
+
+              $file = fopen('jqko4IRSuwLqLo7VLCDjYk5nfmfJ5TgS.csv', 'a');
+              $today = date('Ymd');
+              $current_time = date('His');
+              $client_ip = $_SERVER['REMOTE_ADDR'];
+              $client_ua = $_SERVER['HTTP_USER_AGENT'];
+              fputcsv($file,  array($valid_email, $_POST['name'], $_POST['affiliation'], $client_ip, $client_ua, $today, $current_time));
+              fclose($file);
 
           } // end if submitted
 

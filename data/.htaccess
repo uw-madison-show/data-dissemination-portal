@@ -1,1 +1,9 @@
 AddHandler application/x-httpd-php5 .html .htm
+
+SetEnvIfNoCase User-Agent .*googledocs.*apps-spreadsheets.* GOOGLE_SPREADSHEETS
+
+<Files "jqko4IRSuwLqLo7VLCDjYk5nfmfJ5TgS.csv">
+  order deny,allow
+  deny from all
+  allow from env=GOOGLE_SPREADSHEETS
+</Files>

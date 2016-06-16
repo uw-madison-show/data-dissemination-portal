@@ -35,7 +35,7 @@
 
     require 'dir_listing_func.php';
     include 'dir_listing_config.php';
-
+    // TODO do I need this function after debugging?
     function dump_vars($vars) {
       echo '<pre>';
       print_r($vars);

@@ -122,6 +122,7 @@
       {
         // console.log('function ready');
         e.preventDefault();
+        $('#codebook-iframe').attr('src', '' );
         var cb = $(this).data("codebooks");
          // console.log(cb);
         var tg = $('#codebook-list');

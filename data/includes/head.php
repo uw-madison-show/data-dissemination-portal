@@ -27,6 +27,9 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
 
+<!-- Custom CSS -->
+<link rel="stylesheet" type="text/css" href="/data/css/data_styles.css"/>
+
 <!-- CDN fallbacks to local copies -->
 <script>
   if (!window.jQuery) {

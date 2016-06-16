@@ -1,0 +1,33 @@
+/*
+Matt Moehr
+2016-06-16
+Extra styles for the SHOW data dissemination portal.
+Site uses Bootstrap 3 for most styles.
+*/
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 2px;
+  background: #ccc;
+  color: #333;
+}
+
+footer p {
+  font-weight: bolder;
+  font-size: .9em;
+  font-family: serif;
+}
+
+footer a, footer a:focus, footer a:hover {
+  color: #333;
+}
+
+h1 a, h1 a:focus, h1 a:hover,
+h2 a, h2 a:focus, h2 a:hover,
+h3 a, h3 a:focus, h3 a:hover,
+h4 a, h4 a:focus, h4 a:hover,
+h5 a, h5 a:focus, h5 a:hover {
+  color: #333;
+}

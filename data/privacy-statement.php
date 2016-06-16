@@ -42,5 +42,6 @@
   </div>
 
 
+  <?php include( ($include_folder . 'footer.php') ); ?>
 </body>
 </html>

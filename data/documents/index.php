@@ -194,6 +194,6 @@
     </div>
 
     <!-- <?php dump_vars(get_defined_vars()); ?> -->
-
+  <?php include( ($include_folder . 'footer.php') ); ?>
   </body>
 </html>

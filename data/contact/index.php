@@ -29,6 +29,9 @@
           <p>call the main show number and ask for Tammy, Maria, Andy, or Matt: </p>
           <p>for general questions about show see our contact page on the public website.</p>
         </div>
+      </div>
+    </div>
 
-</body>
+    <?php include( ($include_folder . 'footer.php') ); ?>
+  </body>
 </html>

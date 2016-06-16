@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class=" is-copy-enabled">
+<html lang="en" class="is-copy-enabled">
   <head>
 
     <?php

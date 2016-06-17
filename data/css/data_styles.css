@@ -31,3 +31,28 @@ h4 a, h4 a:focus, h4 a:hover,
 h5 a, h5 a:focus, h5 a:hover {
   color: #333;
 }
+
+
+/* tooltips for hiding emails from spammers
+/* bootstrap already has tooltip class thus the mjm prefix
+*/
+.mjm-tooltip-text {
+  visibility: hidden;
+  width: auto;
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+  border-radius: 2px;
+  color: #333;
+  font-weight: bolder;
+  text-align: center;
+  padding: 5px;
+  margin-top: -5px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.mjm-tooltip:hover .mjm-tooltip-text {
+  visibility: visible;
+}

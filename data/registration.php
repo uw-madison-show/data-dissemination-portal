@@ -19,6 +19,7 @@
           session_start();
 
           // have i been submitted?
+          $submitted = FALSE;
           $submitted = isset($_POST['signup']);
 
 
@@ -91,7 +92,7 @@
             if ( !(strtoupper($_REQUEST['captcha']) == strtoupper($_SESSION['vercode'])) ) {
               echo '
                 <div class="alert alert-warning" role="alert">
-                  <p>Sorry, looks like you got those letters and numbers wrong. If you\'re haveing problems reading them, just send as an email to the address [ data at show dot wisc dot edu ], and we\'ll reply with a password.</p>
+                  <p>Sorry, looks like you got those letters and numbers wrong. If you\'re haveing problems reading them, just send us an email to the address [ data at show dot wisc dot edu ], and we\'ll reply with a password.</p>
                 </div>
               ';
             } else {
@@ -186,6 +187,7 @@
         </div>
       </div>
     </div>
+    <?php include( './includes/footer.php' ); ?>
   </body>
 </html>
 

@@ -1,4 +1,36 @@
 {
+  "ID variables":[
+    {
+      "instr":"KEY",
+      "year":"2008_2009",
+      "title":"Key (KEY)",
+      "subject":"Key variables required for almost all analyses"
+    },
+    {
+      "instr":"KEY",
+      "year":"2010",
+      "title":"Key (KEY)",
+      "subject":"Key variables required for almost all analyses"
+    },
+    {
+      "instr":"KEY",
+      "year":"2011",
+      "title":"Key (KEY)",
+      "subject":"Key variables required for almost all analyses"
+    },
+    {
+      "instr":"KEY",
+      "year":"2012",
+      "title":"Key (KEY)",
+      "subject":"Key variables required for almost all analyses"
+    },
+    {
+      "instr":"KEY",
+      "year":"2013",
+      "title":"Key (KEY)",
+      "subject":"Key variables required for almost all analyses"
+    }
+  ],
   "Accelerometry":[
     {
       "instr":"ACC",
@@ -29,6 +61,18 @@
       "year":"2014",
       "instr":"ACM_2014_ANNOTATED.pdf",
       "title":"Annotated Questionnaire"
+    },
+    {
+      "subject":"Accelerometry",
+      "year":"2015",
+      "instr":"ACC",
+      "title":"Accelerometry participation"
+    },
+    {
+      "instr":"ACM",
+      "year":"2015",
+      "title":"Accelerometry for minors (ACM)",
+      "subject":"Accelerometry participation for minors"
     }
   ],
   "Alcohol":[
@@ -93,6 +137,12 @@
       "subject":"Alcohol Use"
     },
     {
+      "instr":"ALQ",
+      "year":"2015",
+      "title":"History of drinking alcoholic beverage (ALQ)",
+      "subject":"Alcohol Use"
+    },
+    {
       "instr":"ALQ_DER",
       "year":"2008_2009",
       "title":"Derived Variables - Alcohol (ALQ_DER)",
@@ -125,6 +175,12 @@
     {
       "instr":"ALQ_DER",
       "year":"2014",
+      "title":"Derived Variables - Alcohol (ALQ_DER)",
+      "subject":"Alcohol Use"
+    },
+    {
+      "instr":"ALQ_DER",
+      "year":"2015",
       "title":"Derived Variables - Alcohol (ALQ_DER)",
       "subject":"Alcohol Use"
     }
@@ -240,6 +296,12 @@
       "title":"Anthropometry & Blood Pressure (WHQ/ANT/BP)",
       "subject":"Anthropometry & Blood pressure"
     },
+     {
+      "instr":"ANT",
+      "year":"2015",
+      "title":"Anthropometry & Blood Pressure (WHQ/ANT/BP)",
+      "subject":"Anthropometry & Blood pressure"
+    },
     {
       "instr":"ANT_DER",
       "year":"2008_2009",
@@ -277,14 +339,32 @@
       "subject":"Anthropometry & Blood Pressure"
     },
     {
+      "instr":"ANT_DER",
+      "year":"2015",
+      "title":"Derived Variables - Anthropometry & Blood Pressure (ANT_DER)",
+      "subject":"Anthropometry & Blood Pressure"
+    },
+    {
       "instr":"PMM",
       "year":"2014",
       "title":"Physical Measurments in Minors (PMM)",
       "subject":"Anthropometry, blood pressure & spirometry testing"
     },
     {
+      "instr":"PMM",
+      "year":"2015",
+      "title":"Physical Measurments in Minors (PMM)",
+      "subject":"Anthropometry, blood pressure & spirometry testing"
+    },
+    {
       "instr":"PMM_DER",
       "year":"2014",
+      "title":"Derived Variables - Physical Measurments in Minors (PMM_DER)",
+      "subject":"Anthropometry, blood pressure & spirometry testing"
+    },
+    {
+      "instr":"PMM_DER",
+      "year":"2015",
       "title":"Derived Variables - Physical Measurments in Minors (PMM_DER)",
       "subject":"Anthropometry, blood pressure & spirometry testing"
     },
@@ -501,6 +581,12 @@
       "year":"2014",
       "title":"Cognitive (COG)",
       "subject":"Cognitive Memory"
+    },
+    {
+      "instr":"COG",
+      "year":"2015",
+      "title":"Cognitive (COG)",
+      "subject":"Cognitive Memory"
     }
   ],
   "Consent":[
@@ -547,6 +633,12 @@
       "subject":"Consent Form"
     },
     {
+      "instr":"CON2",
+      "year":"2015",
+      "title":"Consent (CONS)",
+      "subject":"Consent Form"
+    },
+    {
       "instr":"CONS",
       "year":"2008_2009",
       "title":"Consent (CONS)",
@@ -579,6 +671,12 @@
     {
       "instr":"CONS",
       "year":"2014",
+      "title":"Consent (CONS)",
+      "subject":"Consent Form"
+    },
+    {
+      "instr":"CONS",
+      "year":"2015",
       "title":"Consent (CONS)",
       "subject":"Consent Form"
     },
@@ -629,6 +727,12 @@
     {
       "instr":"FPC",
       "year":"2013",
+      "title":"Contraception (FPC)",
+      "subject":"Contraception Use"
+    },
+    {
+      "instr":"FPC",
+      "year":"2015",
       "title":"Contraception (FPC)",
       "subject":"Contraception Use"
     }
@@ -697,6 +801,12 @@
       "subject":"Demographics"
     },
     {
+      "instr":"DMQ",
+      "year":"2015",
+      "title":"Demographics (DMQ)",
+      "subject":"Demographics"
+    },
+    {
       "instr":"DMQ_DER",
       "year":"2008_2009",
       "title":"Derived Variables - Demographics (DMQ_DER)",
@@ -729,6 +839,12 @@
     {
       "instr":"DMQ_DER",
       "year":"2014",
+      "title":"Derived Variables - Demographics (DMQ_DER)",
+      "subject":"Demographics"
+    },
+    {
+      "instr":"DMQ_DER",
+      "year":"2015",
       "title":"Derived Variables - Demographics (DMQ_DER)",
       "subject":"Demographics"
     }
@@ -777,6 +893,12 @@
       "subject":"Depression"
     },
     {
+      "instr":"PHQ",
+      "year":"2015",
+      "title":"Depression Screener (PHQ-2)",
+      "subject":"Depression"
+    },
+    {
       "instr":"PHQ_DER",
       "year":"2010",
       "title":"Derived Variables - Depression Diagnostic and Severity Measure (PHQ_DER)",
@@ -803,6 +925,12 @@
     {
       "instr":"PHQ_DER",
       "year":"2014",
+      "title":"Derived Variables - Depression Screener (PHQ_DER)",
+      "subject":"Depression"
+    },
+    {
+      "instr":"PHQ_DER",
+      "year":"2015",
       "title":"Derived Variables - Depression Screener (PHQ_DER)",
       "subject":"Depression"
     }
@@ -908,6 +1036,12 @@
       "subject":"Diet"
     },
     {
+      "instr":"DIQ",
+      "year":"2015",
+      "title":"Diet (DIQ)",
+      "subject":"Diet"
+    },
+    {
       "instr":"DIQ_DER",
       "year":"2008_2009",
       "title":"Derived Variables - Diet",
@@ -940,6 +1074,12 @@
     {
       "instr":"DIQ_DER",
       "year":"2014",
+      "title":"Derived Variables - Diet",
+      "subject":"Diet"
+    },
+    {
+      "instr":"DIQ_DER",
+      "year":"2015",
       "title":"Derived Variables - Diet",
       "subject":"Diet"
     },
@@ -1080,8 +1220,20 @@
       "subject":"Food frequency in the past month"
     },
     {
+      "instr":"FOOD",
+      "year":"2015",
+      "title":"Dietary Screener questionnaire",
+      "subject":"Food frequency in the past month"
+    },
+    {
       "instr":"FOOD_DER",
       "year":"2014",
+      "title":"Derived variables - Food",
+      "subject":"Food frequency in the past month"
+    },
+     {
+      "instr":"FOOD_DER",
+      "year":"2015",
       "title":"Derived variables - Food",
       "subject":"Food frequency in the past month"
     },
@@ -1240,6 +1392,12 @@
       "subject":"Food Security"
     },
     {
+      "instr":"FSQ",
+      "year":"2015",
+      "title":"Food Security (FSQ)",
+      "subject":"Food Security"
+    },
+    {
       "instr":"FSQ_Der",
       "year":"2008_2009",
       "title":"Derived Variables - Food Security (FSQ_DER)",
@@ -1272,6 +1430,12 @@
     {
       "instr":"FSQ_DER",
       "year":"2014",
+      "title":"Derived Variables - Food Security (FSQ_DER)",
+      "subject":"Food Security"
+    },
+    {
+      "instr":"FSQ_DER",
+      "year":"2015",
       "title":"Derived Variables - Food Security (FSQ_DER)",
       "subject":"Food Security"
     }
@@ -1388,6 +1552,12 @@
       "year":"2014",
       "title":"Derived Variables - Geography (GEO_DER)",
       "subject":"Geography"
+    },
+    {
+      "instr":"GEO_DER",
+      "year":"2015",
+      "title":"Derived Variables - Geography (GEO_DER)",
+      "subject":"Geography"
     }
   ],
   "Groundwater":[
@@ -1478,8 +1648,20 @@
       "subject":"Health and Functioning"
     },
     {
+      "instr":"HFM",
+      "year":"2015",
+      "title":"Health and Functioning in Minors (HFM)",
+      "subject":"Health and Functioning"
+    },
+    {
       "instr":"HFM_DER",
       "year":"2014",
+      "title":"Derived Variables - Health and Functioning in Minors (HFM_DER)",
+      "subject":"Health and Functioning"
+    },
+    {
+      "instr":"HFM_DER",
+      "year":"2015",
       "title":"Derived Variables - Health and Functioning in Minors (HFM_DER)",
       "subject":"Health and Functioning"
     },
@@ -1490,8 +1672,20 @@
       "subject":"Individual and family history of health conditions"
     },
     {
+      "instr":"HHQ",
+      "year":"2015",
+      "title":"Health History (HHQ)",
+      "subject":"Individual and family history of health conditions"
+    },
+    {
       "instr":"HHQ_DER",
       "year":"2014",
+      "title":"Derived Variables - Health History (HHQ_DER)",
+      "subject":"Individual and family history of health conditions"
+    },
+    {
+      "instr":"HHQ_DER",
+      "year":"2015",
       "title":"Derived Variables - Health History (HHQ_DER)",
       "subject":"Individual and family history of health conditions"
     },
@@ -1700,8 +1894,20 @@
       "subject":"General Health Status, including Physical and Mental Component"
     },
     {
+      "instr":"SF12",
+      "year":"2015",
+      "title":"Your Health (Section A)",
+      "subject":"General Health Status, including Physical and Mental Component"
+    },
+    {
       "instr":"SF12_DER",
       "year":"2014",
+      "title":"Derived Variables - SF12",
+      "subject":"General Health Status, including Physical and Mental Component"
+    },
+    {
+      "instr":"SF12_DER",
+      "year":"2015",
       "title":"Derived Variables - SF12",
       "subject":"General Health Status, including Physical and Mental Component"
     },
@@ -1830,6 +2036,12 @@
       "subject":"Housing Characteristics"
     },
     {
+      "instr":"HOQ",
+      "year":"2015",
+      "title":"Housing Characteristics (HOQ)",
+      "subject":"Housing Characteristics"
+    },
+    {
       "instr":"HOQ_DER",
       "year":"2008_2009",
       "title":"Derived Variables - Housing Characteristics (HOQ_DER)",
@@ -1896,38 +2108,6 @@
       "year":"2014",
       "title":"Derived Variables - Hypertension",
       "subject":"Hypertension diagnosis, awareness, treatment and control"
-    }
-  ],
-  "ID variables":[
-    {
-      "instr":"KEY",
-      "year":"2008_2009",
-      "title":"Key (KEY)",
-      "subject":"Key variables required for almost all analyses"
-    },
-    {
-      "instr":"KEY",
-      "year":"2010",
-      "title":"Key (KEY)",
-      "subject":"Key variables required for almost all analyses"
-    },
-    {
-      "instr":"KEY",
-      "year":"2011",
-      "title":"Key (KEY)",
-      "subject":"Key variables required for almost all analyses"
-    },
-    {
-      "instr":"KEY",
-      "year":"2012",
-      "title":"Key (KEY)",
-      "subject":"Key variables required for almost all analyses"
-    },
-    {
-      "instr":"KEY",
-      "year":"2013",
-      "title":"Key (KEY)",
-      "subject":"Key variables required for almost all analyses"
     }
   ],
   "Military Experience":[
@@ -2006,6 +2186,12 @@
       "subject":"Neighborhood characteristics"
     },
     {
+      "instr":"NBRHD",
+      "year":"2015",
+      "title":"Characteristics of Your Neighborhood (NBRHD)",
+      "subject":"Neighborhood characteristics"
+    },
+    {
       "instr":"QH",
       "year":"2008_2009",
       "title":"Characteristics of Your Neighborhood (QH)",
@@ -2074,6 +2260,12 @@
       "subject":"Insurance Access and Utilization History"
     },
     {
+      "instr":"IUQ",
+      "year":"2015",
+      "title":"Insurance, Access, Utilization (IUQ)",
+      "subject":"Insurance Access and Utilization History"
+    },
+    {
       "instr":"IUQ_DER",
       "year":"2008_2009",
       "title":"Derived Variables - Insurance, Access, Utilization (IUQ_DER)",
@@ -2106,6 +2298,12 @@
     {
       "instr":"IUQ_DER",
       "year":"2014",
+      "title":"Derived Variables - Insurance, Access, Utilization (IUQ_DER)",
+      "subject":"Insurance Access and Utilization History"
+    },
+    {
+      "instr":"IUQ_DER",
+      "year":"2015",
       "title":"Derived Variables - Insurance, Access, Utilization (IUQ_DER)",
       "subject":"Insurance Access and Utilization History"
     }
@@ -2352,6 +2550,12 @@
     {
       "instr":"PAM",
       "year":"2014",
+      "title":"Physical Activity (PAM) for Minors",
+      "subject":"Physical Activity"
+    },
+    {
+      "instr":"PAM",
+      "year":"2015",
       "title":"Physical Activity (PAM) for Minors",
       "subject":"Physical Activity"
     },
@@ -3640,6 +3844,12 @@
       "subject":"Major life events linked to stress"
     },
     {
+      "instr":"LIFE",
+      "year":"2015",
+      "title":"Life Events",
+      "subject":"Major life events linked to stress"
+    },
+    {
       "instr":"QC_DER",
       "year":"2008_2009",
       "title":"Derived Variables - Life events (QC_DER)",
@@ -3667,6 +3877,12 @@
       "instr":"QC_DER",
       "year":"2013",
       "title":"Derived Variables - Life Events (QC_DER)",
+      "subject":"Major life events linked to stress"
+    },
+    {
+      "instr":"LIFE_DER",
+      "year":"2015",
+      "title":"Derived Variables - Life Events",
       "subject":"Major life events linked to stress"
     }
   ],
@@ -3714,6 +3930,12 @@
       "subject":"Verification of subject's age."
     },
     {
+      "instr":"VAQ",
+      "year":"2015",
+      "title":"Verification of Age (VAQ)",
+      "subject":"Verification of subject's age."
+    },
+    {
       "instr":"VAQ_DER",
       "year":"2012",
       "title":"Derived Variables - Verification of Age (VAQ_DER)",
@@ -3730,7 +3952,14 @@
       "year":"2014",
       "title":"Derived Variables - Verification of Age (VAQ_DER)",
       "subject":"Date of Birth"
+    },
+    {
+      "instr":"VAQ_DER",
+      "year":"2015",
+      "title":"Derived Variables - Verification of Age (VAQ_DER)",
+      "subject":"Date of Birth"
     }
+
   ],
   "Walk Score":[
     {
@@ -3832,6 +4061,12 @@
       "subject":"Weight History"
     },
     {
+      "instr":"WHQ",
+      "year":"2015",
+      "title":"Weight History (WHQ)",
+      "subject":"Weight History"
+    },
+    {
       "instr":"WHQ_DER",
       "year":"2008_2009",
       "title":"Derived Variables - Weight History (WHQ_DER)",
@@ -3858,6 +4093,12 @@
     {
       "instr":"WHQ_DER",
       "year":"2013",
+      "title":"Derived Variables - Weight History (WHQ_DER)",
+      "subject":"Weight History"
+    },
+    {
+      "instr":"WHQ_DER",
+      "year":"2014",
       "title":"Derived Variables - Weight History (WHQ_DER)",
       "subject":"Weight History"
     },

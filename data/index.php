@@ -39,12 +39,22 @@
           <h1><a href="/data/contact/">Contact</a></h1>
 
           <p>
-            Not finding what you need? Drop an email to data@show.wisc.edu or use this link to get in touch with our data staff directly.
+            Not finding what you need? Drop an email to <a id="data_addy" href="#">data at show dot wisc dot edu</a> or <a href="/data/contact/">contact a data expert directly</a>.
           </p>
         </div>
       </div>
      </div> 
     </div>
     <?php include( ($include_folder . 'footer.php') ); ?>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        // Email address obfusication
+        $('#data_addy')
+          .click( function() {
+            var a = 'data', b = 'show.wisc.edu';
+            window.location.href = 'mailto:' + a + '@' + b;
+          });
+      });
+    </script>
   </body>
 </html>

@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en" class=" is-copy-enabled">
   <head>
@@ -15,8 +16,6 @@
       <div class="row">
         <div class="col-xs-12">
           <?php
-
-          session_start();
 
           // have i been submitted?
           $submitted = FALSE;

@@ -17,7 +17,6 @@
         <li class=""><a href="/data/">Home</a></li>
         <li class=""><a href="/data/charts">Charts</a></li>
         <li class=""><a href="/data/codebooks">Codebooks</a></li>
-        <li class=""><a href="/data/documents">Documentation</a></li>
         <li class=""><a href="/data/contact">Contact</a></li>
       </ul>
     </div>

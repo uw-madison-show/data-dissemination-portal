@@ -235,7 +235,7 @@
               $(target).append(rr);
             });
           } else {
-            $(target).append(rr); // attache the disabled link
+            //$(target).append(rr); // attache the disabled link
           }
           
 
@@ -257,7 +257,7 @@
               $(target).append(dd);
             })
           } else {
-            $(target).append(dd); // attache the disabled link
+            //$(target).append(dd); // attache the disabled link
           }
 
           // add annotated questionnaire if it exists
@@ -278,7 +278,7 @@
               $(target).append(aa);
             })
           } else {
-            $(target).append(aa); // attache the disabled link
+            //$(target).append(aa); // attache the disabled link
           }
           //     $('<a>').attr('href', '#')
           //             //.attr('id', cb_year)

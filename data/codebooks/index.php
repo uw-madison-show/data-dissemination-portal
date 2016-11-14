@@ -152,6 +152,9 @@
         var derived_pat = new RegExp(/_DER$/i);
         var annotated_pat = new RegExp(/_ANNOTATED\.[pdf|doc|html]/i);
 
+        // kludge to fix the problem with iframe caching
+        var kludge = Date.now();
+
         $.each( codebooks, function(key, this_codebook) {
           // console.log( key );
           // console.log( this_codebook );
@@ -167,7 +170,7 @@
               // TODO fix all the urls so they are relative to /data/codebooks but for the 
               // life of me i can not figure out how to make dev, test, and prod agree on
               // relative paths
-              "src" : "/data/codebooks/instruments/" + this_codebook.instr + "_" + this_codebook.year + ".html", 
+              "src" : "/data/codebooks/instruments/" + this_codebook.instr + "_" + this_codebook.year + ".html?id=" + kludge, 
               "text" : this_codebook.title,
               "title" : "[Derived] " +this_codebook.subject
               });
@@ -179,7 +182,7 @@
             var abbreviation = this_codebook.instr.match(/[a-zA-Z0-9-]*_/);
             abbreviation = abbreviation[0].replace('_', '');
             annotated[this_codebook.year].push({
-              "src" : "/data/codebooks/annotated/" + this_codebook.year + "/" + this_codebook.instr,
+              "src" : "/data/codebooks/annotated/" + this_codebook.year + "/" + this_codebook.instr + "?id=" + kludge,
               "text" : "[Annotated Survey] " + abbreviation,
               "title" : this_codebook.instr
             });
@@ -189,7 +192,7 @@
               raw_cb[this_codebook.year] = [];
             }
             raw_cb[this_codebook.year].push({
-              "src" : "/data/codebooks/instruments/" + this_codebook.instr + "_" + this_codebook.year + ".html",
+              "src" : "/data/codebooks/instruments/" + this_codebook.instr + "_" + this_codebook.year + ".html?id=" + kludge,
               "text" : this_codebook.title,
               "title" : "[Raw] " + this_codebook.subject
             });

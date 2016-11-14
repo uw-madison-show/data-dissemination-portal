@@ -136,7 +136,7 @@
                               'Welcome to SHOW\'s codebooks. We hope you will find them useful in your research. If you have any trouble, please don\'t hesitate to get in touch with any of our data team by sending an email to data@show.wisc.edu. And here is the log in information:'.
                               "\r\n".
                               "\r\n".
-                              'Site: www.showcodebook.org'. "\r\n".
+                              'Site: https://show.wisc.edu/data/codebooks/'. "\r\n".
                               'User: show'. "\r\n".
                               'Password: transformation'. "\r\n".
                               "\r\n".

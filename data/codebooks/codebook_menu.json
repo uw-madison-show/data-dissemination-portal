@@ -1771,13 +1771,13 @@
       "subject":"Food Security"
     },
     {
-      "instr":"FSQ_Der",
+      "instr":"FSQ_DER",
       "year":"2008_2009",
       "title":"Derived Variables - Food Security (FSQ_DER)",
       "subject":"Food Security"
     },
     {
-      "instr":"FSQ_Der",
+      "instr":"FSQ_DER",
       "year":"2010",
       "title":"Derived Variables - Food Security (FSQ_DER)",
       "subject":"Food Security"
@@ -1789,7 +1789,7 @@
       "subject":"Food Security"
     },
     {
-      "instr":"FSQ_Der",
+      "instr":"FSQ_DER",
       "year":"2012",
       "title":"Derived Variables - Food Security (FSQ_DER)",
       "subject":"Food Security"

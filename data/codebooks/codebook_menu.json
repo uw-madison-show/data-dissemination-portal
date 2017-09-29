@@ -1928,6 +1928,12 @@
       "title":"Annotated Questionnaire"
     },
     {
+      "subject":null,
+      "year":"2016",
+      "instr":"DHQ_2016_ANNOTATED.pdf",
+      "title":"Annotated Questionnaire"
+    },
+    {
       "instr":"FOOD",
       "year":"2014",
       "title":"Dietary Screener questionnaire",
@@ -1946,6 +1952,12 @@
       "subject":"Food frequency in the past month"
     },
     {
+      "instr":"DHQ",
+      "year":"2016",
+      "title":"Dietary History questionnaire",
+      "subject":"NCI Diet History Questionnaire II"
+    },
+    {
       "instr":"FOOD_DER",
       "year":"2014",
       "title":"Derived variables - Food",
@@ -1962,6 +1974,12 @@
       "year":"2016",
       "title":"Derived variables - Food",
       "subject":"Food frequency in the past month"
+    },
+    {
+      "instr":"DHQ_DER",
+      "year":"2016",
+      "title":"Derived variables - DHQ",
+      "subject":"NCI Diet History Questionnaire II"
     },
     {
       "instr":"QI",
